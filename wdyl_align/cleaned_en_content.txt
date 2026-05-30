@@ -1,0 +1,3691 @@
+TITLE PAGE
+Study Title:
+A Phase 1, Open-label, Dose-escalating Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of
+ALXN1850 in Adults with Hypophosphatasia
+Short Title:
+Safety and Tolerability, Pharmacokinetic, and Pharmacodynamic Study of ALXN1850 in Participants with Hypophosphatasia (HPP)
+Study Intervention:
+ALXN1850
+Indication:
+Hypophosphatasia
+Brief Description:
+Open-label, dose-escalating study to assess safety, tolerability, pharmacokinetics, pharmacodynamics, and immunogenicity of ALXN1850 in adult participants with hypophosphatasia
+Study Sponsor:
+Alexion Pharmaceuticals, Inc. 121 Seaport Boulevard
+Boston MA 02210
+Study Number:
+ALXN1850-HPP-101
+Study Phase:
+Phase 1
+Study Initiation Date:
+16 August 2021 (first participant first visit)
+Study Completion Date:
+24 August 2022 (last participant last visit)
+Regulatory Agency Identifier Number:
+NCT: NCT04980248
+Report Date:
+Document Version Date
+Final 28 Feb 2023
+This trial was conducted in accordance with the ethical principles of Good Clinical Practice (GCP), according to the International Council for Harmonisation (ICH) Harmonized Tripartite Guideline.
+Alexion’s Responsible Medical Officer:
+Gonzalo De Miguel, MD
+___________________________
+Vice President Therapy Area NF and Bone Metabolism
+SYNOPSIS
+Name of Sponsor/Company:
+Alexion Pharmaceuticals, Inc.
+Name of Study Intervention:
+ALXN1850
+Study Title:
+A Phase 1, Open-label, Dose-escalating Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodynamics of ALXN1850 in Adults with Hypophosphatasia
+Study Number:
+ALXN1850-HPP-101
+Study Phase:
+Phase 1
+Number of Study Center(s) and Countries:
+This study was conducted at 2 centers in the United States; however, 1 center did not enroll participants.
+Publications (if any):
+Not applicable
+Study Period:
+16 August 2021 to 24 Aug 2022
+Methodology:
+This was an open-label, dose-escalating study to assess safety, tolerability, PK, PD, and immunogenicity of ALXN1850 when given IV and SC to adults with HPP.
+Study participants were enrolled into 3 cohorts (ALXN1850 15 mg, 45 mg, and 90 mg) in a sequential fashion. An SRC convened after the first participant in each cohort had completed the first IV dose to assess safety and tolerability, and to endorse initiation of SC study drug administration to the first participant as well as IV and SC study drug administration to the remaining participants in the cohort. Once at least 3 participants in each of the first 2 cohorts
+(15 mg and 45 mg) had received a single IV dose and 3 qw SC doses, the SRC convened again to review safety and tolerability data, and to determine if the final dose escalation (90 mg) could proceed. After the SRC endorsed each dose escalation, the next higher cohort began dosing at the next dosing level. Cohorts 2 and 3 began dosing after the SRC had reviewed all relevant safety, tolerability, and PK data (for Cohort 3 dose escalation only) from participants in Cohort 1 or Cohorts 1 and 2, respectively, and endorsed dose escalation.
+Participants who were positive for ADA at the last assessment of the study were given the option to enroll in the Global HPP Registry to enable further monitoring of their ADA values after the end of the study.
+Number of Participants (Planned and Analyzed):
+Approximately 15 eligible participants (approximately 5 in each Cohorts 1, 2, and 3), were planned to be enrolled to allow for at least 9 participants (3 per cohort) to “complete” the study. A total of 23 participants were screened and provided informed consent, and 15 participants were dosed and included in the safety, PK, PD, and immunogenicity analysis sets.
+Diagnosis and Main Criteria for Inclusion and Exclusion:
+Male and nonpregnant female participants at least 18 years of age with a clinical diagnosis of HPP and in otherwise good general health. All participants provided written informed consent.
+Study Interventions, Dose, Mode of Administration, and Lot Number(s): ALXN1850 SC qw over 3 weeks (a total of 3 doses) at 15, 45, or 90 mg ALXN1850 IV single dose at 15, 45, or 90 mg
+IMP lot number: GCS519454
+Duration of Study Intervention:
+The planned study duration for each participant was up to 22.5 weeks (approximately 5 months) in total. The first participant in each cohort had a duration of up to 155 days (approximately
+5 months). The screening period was up to 56 days, the treatment period was 65 days, and the follow-up period was up to 34 days. Subsequent participants in each cohort had a duration of 148 days (approximately 5 months). The screening period was up to 56 days, the treatment period was 57 days, and the follow-up period was up to 35 days.
+Summary of Results and Conclusions:
+Demography and Baseline Characteristics:
+There were 4 male participants (26.7%) and 11 female participants (73.3%) dosed in the study. The median age was 47.0 years (range 31 to 57 years). All 15 participants were White and not Hispanic or Latino.
+Exposure:
+All participants received one IV dose and 3 SC doses with the exception of 1 participant in Cohort 2 that received only 1 of 3 SC doses and 2 participants in Cohort 3 that received 2 of 3 SC doses.
+Objectives, Endpoints, Statistical Methods and Results
+Listed below are the objectives and endpoints that are described in this report.
+Objectives
+Endpoints
+Statistical Analyses
+Results
+Primary
+Assess the safety and tolerability of ALXN1850 given IV as a single dose and given SC in 3 qw doses
+Incidence of TEAEs and TESAEs
+Number and proportion of participants with at least one TEAE or TESAE.
+Overall, 12 participants (80.0%) experienced any TEAE during the study; 9 participants (60.0%) experienced 13 TEAEs after IV dosing and 12 participants (80.0%) experienced 33 TEAEs after SC dosing. TEAEs were reported for 3 participants (60.0%) in Cohort 1,
+5 participants (100%) in Cohort 2,
+and 4 participants (80.0%) in
+Cohort 3. One TEAE in a participant in Cohort 1 was not included in the TEAEs count due to an incomplete AE start date and therefore the event could not be assigned to treatment with IV or SC administration. While the number of participants with events was not affected, the number of TEAEs and related TEAEs for Cohort 1 and overall does not reflect this event.
+No deaths were reported during the study. One participant (6.7%) from Cohort 3 experienced a TESAE (atrial fibrillation) which was considered by the investigator as not related to study drug. No participants experienced TEAEs leading to withdrawal of study drug.
+A total of 10 participants (66.7%) experienced TEAEs considered related to ALXN1850.
+Treatment-related TEAEs were reported for 3 participants (60.0%) in
+Objectives
+Endpoints
+Statistical Analyses
+Results
+Cohort 1, 5 participants (100%) in
+Cohort 2, and 2 participants (40.0%) in Cohort 3. A participant with multiple occurrences of a TEAE is counted only once at the highest relationship.
+Infusion site reactions
+(10 occurrences, 41 SC injections) were observed for 8/15 participants after receiving ALXN1850 via SC injection. Two participants in Cohort 1 and 3 participants each in Cohort 2 and in Cohort 3 experienced local injection site reactions. No injection associated (systemic) reactions were identified following SC administration of ALXN1850. Following IV
+administration, mild induration at the infusion site was recorded for one participant (Cohort 3) and one participant (Cohort 2) experienced an adverse event of mild headache considered to reflect a potential systemic infusion associated reaction
+upon medical review by the Sponsor.
+Secondary
+Assess the PK of single IV and 3 SC doses of ALXN1850
+ALXN1850 PK (activity) over time profiles and PK parameters
+Dose proportionality of plasma ALXN1850 PK parameters over the dose range tested. A power model was fitted to describe the relationship between Y (Cmax, AUC168, AUCinf, and AUCtau) and X (dose) using the least squares linear regression model. Dose proportionality was also analyzed based on ADA status.
+Following IV and SC doses, the peak and total exposure of ALXN1850 for all participants increased with increasing dose in a greater than dose proportional manner over the dose range of 15 to 90 mg.
+Median estimate of Tmax ranged
+0.72 to 2 hours and from 24 to
+48 hours for post IV and SC administration, respectively.
+Objectives
+Endpoints
+Statistical Analyses
+Results
+For all participants in cohorts following IV dose, mean clearance was 0.04 L/h and the mean volume of distribution was 4.17 L.
+Mean half-life of ALXN1850 was between 72.6 hours and 140 hours following IV and SC administration, respectively.
+For all participants in cohorts following SC dose 3, apparent mean clearnace was 0.16 L/h and the apparent mean volume of distribution was 19.3 L.
+Statistical analysis of trough concentrations on Days 8, 15, and 22 for each cohort demonstrated attainment of steady state on Day 8 as zero was included in the 95% CI
+of the regression slope.
+Assess the absolute bioavailability of ALXN1850 SC
+AUCtau values of the first SC versus IV administration
+Absolute bioavailability of ALXN1850 following SC administration was assessed by comparing AUCtau values of the first SC dose versus AUCinf of the IV dose for the similar dose cohorts.
+Log transformed AUCtau and AUCinf estimates were analyzed using an analysis of variance model with group (IV vs SC) as a factor. The parameter estimates results were exponentiated and the ratio of geometric means and 90% CIs were presented. Analysis was repeated by
+ADA status.
+Absolute bioavailability of ALXN1850 following SC dose ranged from 28.6% to 36.7%.
+Assess the PD effects of single IV and 3 SC doses of ALXN1850
+Absolute change and percent change from baseline in plasma concentrations of PPi and PLP and PLP/PL ratio over time
+Summary statistics were presented for absolute, change from baseline, and percent change from baseline for
+PLP, PLP/PL ratio, and PPi by cohort and relative time to dose for
+The concentrations of PPi, PLP, and PLP/PL ratio decreased following IV dose and over time returned to baseline levels. The magnitude and
+duration of ALXN1850 induced
+Objectives
+Endpoints
+Statistical Analyses
+Results
+all participants, and were further repeated by each ADA status.
+Results were also presented graphically.
+reductions in PPi, PLP, and PLP/PL ratio appear dose dependent. The maximum lowering effects occurred after IV dose in 7 days, and lowering effects were sustained for 3 to 4
+weeks post last SC dose prior to returning to baseline.
+Assess the immunogenicity potential of ALXN1850
+Incidence of ADA and NAb
+The incidence of ADA response categories (negative, pre-existing immunogenicity, treatment-emergent ADA responses, and treatment- boosted ADA response) were summarized as absolute occurrence
+(n) and percentage (%) by cohort. The summary statistics of maximum ADA titer levels were summarized for ADA positive participants by cohort. The ADA titer was summarized by cohort and relative to each dose. The mean and individual ADA titers were presented graphically by cohort over time. NAb positive and NAb negative status were summarized as absolute occurrence (n) and percentage (%) by
+cohort.
+A total of 4 (26.7%) participants had ADA positive status, including
+3 (20.0%) with pre-existing
+immunogenicity and 1 (6.7%) with treatment-emergent ADA response. All ADA positive participants exhibited low titers (range: 10 to 80). No participants had NAb positive results. Treatment-emergent ADA positive response did not have apparent impact on ALXN1850 PK or PD, and were not associated with hypersensitivity, anaphylaxis, or any other immune mediated AE.
+Conclusions:
+ALXN1850 given IV as a single dose and given SC in 3 qw doses had an acceptable safety profile and was well tolerated in adults with HPP.
+No deaths were reported during the study.
+Injection site reactions (10 occurrences) were reported for 8 participants (53.3%) after receiving ALXN1850 via SC injection. No adverse events of hypersensitivity or anaphylactic reaction were reported during the study.
+Following IV and SC doses, the peak and total exposure of ALXN1850 increased with increasing dose in a greater than dose proportional manner over the dose range of 15 to 90 mg. Mean half-life of ALXN1850 was 72.6 hours and 140 hours following IV and SC administration, respectively. Statistical analysis of trough concentrations demonstrated attainment of steady state on Day 8.
+Absolute bioavailability of ALXN1850 following SC dose ranged from 28.6% to 36.7%.
+The concentrations of PPi, PLP, and PLP/PL ratio decreased following IV dose and over time returned to baseline levels. The magnitude and duration of ALXN1850 induced reductions in PPi, PLP, and PLP/PL ratio appear dose dependent. The maximum lowering effects occurred after IV dose in 7 days, and lowering effects were sustained for 3 to 4 weeks post last SC dose prior to returning to baseline.
+Treatment-emergent positive ADA response did not have apparent impact on ALXN1850 PK or PD, and were not associated with hypersensitivity, anaphylaxis, or any other immune mediated adverse event.
+Date and Version of This Report:
+Final: 28 Feb 2023
+TABLE OF CONTENTS
+TITLE PAGE 1
+SYNOPSIS 2
+TABLE OF CONTENTS 9
+APPENDICES 11
+LIST OF ABBREVIATIONS AND DEFINITIONS OF TERMS 18
+ETHICS. 20
+INTRODUCTION 21
+STUDY OBJECTIVES AND ENDPOINTS 22
+INVESTIGATIONAL PLAN 23
+Overview of Study Design 23
+Discussion of Study Design. 25
+Change(s) in Study Conduct 25
+Investigators and Study Administrative Structure 25
+Selection of Study Population 25
+Inclusion/Exclusion Criteria 25
+Removal of Participants from Intervention or Study 26
+Study Intervention 26
+Study Interventions Administered 26
+Measures to Minimize Bias 27
+Study Intervention Compliance 27
+Prior, Concomitant, Dose Modification, and Post-intervention Therapy 27
+Study Assessments and Procedures 27
+Planned Measurements and Timing of Assessments 27
+Appropriateness of Measures 27
+Data Quality Assurance 27
+Study Monitoring. 27
+Staff Training 28
+Standardization of Laboratory Procedures 28
+Investigator Responsibilities 28
+Clinical Data Management 28
+Clinical Quality Assurance Audits 28
+Statistical Analysis 28
+Statistical Analysis Plan 28
+Changes in Planned Analyses Prior to Database Lock 29
+Changes Following Study Database Lock and Post-hoc Analyses 29
+STUDY PARTICIPANTS 30
+Disposition of Participants 30
+Protocol Deviations 32
+Important Deviations 35
+Other Deviations 35
+Deviations Related to COVID-19 35
+Populations Analyzed 35
+Demographic and Other Baseline Characteristics 36
+Demography 36
+Medical History and Concurrent Illnesses 37
+Prior and Concomitant Therapy 38
+Exposure and Study Intervention Compliance 38
+Exposure and Compliance 38
+Missed Doses 38
+Dose Modification 38
+EVALUATION OF RESPONSE TO STUDY INTERVENTION 39
+Safety 39
+Adverse Events 39
+Clinical Laboratory Evaluation 52
+Other Safety Evaluations 53
+Pharmacokinetics 53
+Analysis of Pharmacokinetics 53
+Plasma Pharmacokinetic Parameters of ALXN1850 73
+Pharmacokinetic Statistical Analysis 80
+Pharmacodynamics 83
+Immunogenicity 87
+Exploratory Biomarkers 87
+CONCLUSIONS 89
+REFERENCES 90
+APPENDICES
+14 TABLES, FIGURES, AND GRAPHS REFERRED TO BUT NOT INCLUDED IN THE TEXT
+Table 14.1.1.1 Enrolled Information (All Enrolled Participants)
+Table 14.1.1.2 Analysis Sets (Safety, PK, PD, and Immunogenicity Sets) Table 14.1.1.3.1 Participant Disposition (Safety Set)
+Table 14.1.1.3.2 Participant Disposition (Pharmacokinetic Set) Table 14.1.1.4 Inclusion/ Exclusion Criteria (Safety Set) Table 14.1.2 Protocol Deviations (Safety Set)
+Table 14.1.3 Summary of Demographics and Baseline Characteristics (Safety Set) Table 14.1.4.1 Concomitant Medications by Cohort and Administration Type (Safety Set) Table 14.1.4.2 Study Drug Exposure and Treatment Compliance (Safety Set)
+Table 14.1.4.3 Prior Medications (Safety Set)
+Table 14.2.1.1 Summary of Plasma Concentrations (ug/mL) of ALXN1850 (Pharmacokinetic Set)
+Table 14.2.1.2 Summary of Plasma Concentrations (ug/mL) of ALXN1850 by ADA Status (Pharmacokinetic Set)
+Table 14.2.1.3 Summary of Plasma Concentrations (ug/mL) of ALXN1850 SC Dose (Sensitivity Analysis) (Pharmacokinetic Set)
+Table 14.2.2.1 Summary of Plasma Pharmacokinetic Parameters of ALXN1850 (Sensitivity Analysis) (Pharmacokinetic Set)
+Table 14.2.2.2 Summary of Plasma Pharmacokinetic Parameters of ALXN1850 by ADA Status (Pharmacokinetic Set)
+Table 14.2.2.3 Summary of Plasma Pharmacokinetic Parameters of ALXN1850 by ADA Status (Pharmacokinetic Set)
+Table 14.2.3.1 Statistical Assessment of Dose Proportionality of ALXN1850 (Pharmacokinetic Set)
+Table 14.2.3.2 Statistical Assessment of Steady State of ALXN1850 (Pharmacokinetic Set)
+Table 14.2.3.3 Absolute Bioavailability Assessment of ALXN1850 Following SC Injection (Pharmacokinetic Set)
+Table 14.2.3.4 Statistical Assessment of Dose Proportionality of ALXN1850 (Sensitivity Analysis) (Pharmacokinetic Set)
+Table 14.2.3.5 Absolute Bioavailability Assessment of ALXN1850 Following SC Injection (Sensitivity Analysis) (Pharmacokinetic Set)
+Figure 14.2.1.1 Mean (±SD) Plasma Concentrations of ALXN1850 versus Time by Treatment and Dose (Pharmacokinetic Set)
+Figure 14.2.1.2 Mean (±SD) Plasma Concentrations of ALXN1850 versus Elapsed Time by Cohort (Pharmacokinetic Set)
+Figure 14.2.1.3 Mean (±SD) Trough Plasma Concentrations of ALXN1850 Following SC Dose Administration (Pharmacokinetic Set)
+Figure 14.2.1.4 Box Plot of Trough Plasma Concentrations of ALXN1850 Following SC Dose Administration by Cohort (Pharmacokinetic Set)
+Figure 14.2.1.5 Individual Plasma Concentrations of ALXN1850 versus Time by ADA Status (Safety Set)
+Figure 14.2.1.6 Individual Plasma Trough Concentrations of ALXN1850 Following SC Dose Administration (Pharmacokinetic Set)
+Figure 14.2.1.7 Mean (±SD) Plasma Concentrations of ALXN1850 versus Elapsed Time – Cohorts Overlaid (Pharmacokinetic Set)
+Figure 14.2.1.8 Mean (±SD) Plasma Concentrations of ALXN1850 versus Elapsed Time – Cohorts Overlaid (Pharmacokinetic Set) (Sensitivity Analysis)
+Figure 14.2.2.1 Absolute, Change, and Percent Change from the Baseline in Mean Plasma PLP, PLP/PL Ratio, PA, and PPi Concentration versus Relative Time to Dose by Cohort (Pharmacodynamic Set)
+Figure 14.2.2.2 Sensitivity Analysis of Absolute, Change, and Percent Change from the Baseline in Mean Plasma PLP, PLP/PL Ratio, PA, and PPi Concentration versus Relative Time to Dose by Cohort - Excluded Participant Data After Missed Dose (Pharmacodynamic Set)
+Figure 14.2.2.3 Sensitivity Analysis of Absolute, Change, and Percent Change from the Baseline in Mean Plasma PLP, PLP/PL Ratio, PA, and PPi Concentration versus Relative Time to Dose by Cohort (Pharmacodynamic Set)
+Figure 14.2.2.4 Individual Plasma PLP, PLP/PL Ratio, PA, and PPi concentration versus Relative Time to Dose by Cohort and ADA Status (Pharmacodynamic Set)
+Figure 14.2.3.1 Mean ADA Titer versus Relative Time to Dose by Cohort (Immunogenicity Analysis Set)
+Figure 14.2.3.2 Individual ADA Titer versus Relative Time to Dose by Cohort (Immunogenicity Analysis Set)
+Figure 14.2.4.1 Absolute, Change, and Percent Change from the Baseline in PTH, sCTX, P1NP, and osteocalcin versus Relative Time to Dose by Cohort (Safety Set)
+Table 14.3.1.1 Overview of Treatment-Emergent Adverse Events (Safety Set)
+Table 14.3.1.2 Treatment-Emergent Adverse Events by System Organ Class and Preferred Term (Safety Set)
+Table 14.3.1.3 Treatment-Emergent Adverse Events by System Organ Class and Preferred Term by Relationship to Study Treatment (Safety Set)
+Table 14.3.1.4 Treatment-Emergent Adverse Events by System Organ Class and Preferred Term by Intensity (Safety Set)
+Table 14.3.1.5 Treatment-Emergent Serious Adverse Events by System Organ Class and Preferred Term (Safety Set)
+Table 14.3.1.6 Treatment-Emergent Serious Adverse Events by System Organ Class and Preferred Term by Relationship to Study Treatment (Safety Set)
+Table 14.3.1.7 Injection/Infusion-Site Reactions by System Organ Class and Preferred Term (Safety Set)
+Table 14.3.1.8 Hypersensitivity reactions Including Anaphylaxis by System Organ Class and Preferred Term (Safety Set)
+Table 14.3.1.9 Potential Injection/Infusion Associated Reactions by System Organ Class and Preferred Term (Safety Set)
+Listing 14.3.2.1 Treatment-Emergent Serious Adverse Events (Safety Set)
+Listing 14.3.2.2 Treatment-Emergent Adverse Events Resulting in Withdrawal from the Study (Safety Set)
+Listing 14.3.2.3 Treatment-Emergent Injection/Infusion-Site Reactions (Safety Set) Listing 14.3.2.4 Hypersensitivity Reactions Including Anaphylaxis (Safety Set) Listing 14.3.2.5 Potential Injection/Infusion associated Reactions (Safety Set)
+Table 14.3.4.1.1 Summary of Change from Baseline in Hematology and Coagulation by Relative Time to Dose (Safety Set)
+Table 14.3.4.1.2 Summary of Grade Shift from Baseline by Relative Time to Dose - Hematology and Coagulation (Safety Set)
+Table 14.3.4.1.3 Summary of Grade Shift from Baseline to Worst-Case Relative to Normal Range Post-Baseline - Hematology and Coagulation (Safety Set)
+Table 14.3.4.1.4 Summary of Shift from Baseline by Relative Time to Dose - Hematology and Coagulation (Safety Set)
+Table 14.3.4.1.5 Summary of Shift from Baseline to Worst-Case Relative to Normal Range Post-Baseline - Hematology and Coagulation (Safety Set)
+Table 14.3.4.2.1 Summary of Change from Baseline in Chemistry by Relative Time to Dose (Safety Set)
+Table 14.3.4.2.2 Summary of Grade Shift from Baseline by Relative Time to Dose- Chemistry (Safety Set)
+Table 14.3.4.2.3 Summary of Grade Shift from Baseline to Worst-Case Relative to Normal Range Post-Baseline - Chemistry (Safety Set)
+Table 14.3.4.2.4 Summary of Shift from Baseline by Relative Time to Dose- Chemistry (Safety Set)
+Table 14.3.4.2.5 Summary of Shift from Baseline to Worst-Case Relative to Normal Range Post-Baseline - Chemistry (Safety Set)
+Table 14.3.4.3.1 Summary of Urinalysis Data by Relative Time to Dose (Safety Set)
+Table 14.3.4.4 Summary of Change from Baseline in Vital Signs by Relative Time to Dose (Safety Set)
+Table 14.3.4.5.1 Summary of Change from Baseline in Triplicate 12-lead Electrocardiogram by Relative Time to Dose (Safety Set)
+Table 14.3.4.5.2 Summary of QT and QTCF Interval in Triplicate 12-lead Electrocardiogram by Relative Time to Dose (Safety Set)
+Table 14.3.4.6 Summary of Hypersensitivity Reaction Laboratory Results by Relative Time to Dose (Safety Set)
+Table 14.3.4.7.1 Summary of Change and Percent Change from Baseline in Pharmacodynamic Parameters by Cohort and Relative Time to Dose- All Participants upto 1 week Post-IV Dose (Pharmacodynamic Set)
+Table 14.3.4.7.2 Summary of Change from Baseline in Pharmacodynamic Parameters by ADA Status and Relative Time to Dose- All Participants upto 1 week Post-IV Dose (Pharmacodynamic Set)
+Table 14.3.4.7.3 Summary of Change and Percent Change from Baseline in Pharmacodynamic Parameters by Cohort and Relative Time to Dose- Subsequent Participants Post 1-Week IV Dose (Pharmacodynamic Set)
+Table 14.3.4.7.4 Sensitivity Analysis of Summary of Change and Percent Change from Baseline in Pharmacodynamic Parameters by Cohort and Relative Time to Dose - Subsequent Participants Post 1-Week IV Dose - Excluded Participant Data After Missed Dose (Pharmacodynamic Set)
+Table 14.3.4.7.5 Summary of Change from Baseline in Pharmacodynamic Parameters by ADA Status and Relative Time to Dose- Subsequent Participants Post 1-Week IV Dose (Pharmacodynamic Set)
+Table 14.3.4.8.1 Summary of ALXN1850 ADA Status and NAb Response (Immunogenicity Analysis Set)
+Table 14.3.4.8.2 Summary of ALXN1850 ADA Titer by Relative Time to Dose (Immunogenicity Analysis Set)
+Table 14.3.4.9 Summary of Change from Baseline in Exploratory Parameters by Relative Time to Dose (Safety Set)
+Study Information
+Protocol or Amendment
+Sample Case Report Form
+IEC-IRB Consent Form List
+List Description Investigator Site
+Signatures Investigators
+List Participants with Batches
+Randomization Scheme
+Audit Certificates Report
+Statistical Methods Interim Analysis Plan
+Documentation of Inter-Laboratory Standardization Methods Quality Assurance Procedures
+Publications Based on Study
+Publications Referenced in Report
+Bioanalytical Reports
+Participant Data Listings
+Discontinued Participants
+Protocol Deviations
+Participants Excluded from Efficacy Analysis
+Demographic Data
+Compliance and Drug Concentration Data
+Individual Pharmacokinetic Response Data
+Adverse Event Listings
+Listing of Individual Laboratory Measurements by Participant
+Case Report Forms
+CRFs for Deaths, Other Serious Adverse Events, and Withdrawals for Adverse Events
+Other CRFs Submitted
+LIST OF TABLES
+Table 1: List of Abbreviations and Definitions of Terms 18
+Table 2: Study Intervention(s) Administered 26
+Table 3: Protocol Deviations (Safety Set) 33
+Table 4: Analysis Sets (Safety, Pharmacokinetic, Pharmacodynamic, and
+Immunogenicity Sets) 35
+Table 5: Summary of Demographics and Baseline Characteristics (Safety Set) 36
+Table 6: Overview of Treatment-Emergent Adverse Events (Safety Set) 41
+Table 7: Treatment-Emergent Adverse Events by System Organ Class and Preferred
+Term (Safety Set) 44
+Table 8: Arithmetic Mean (Arithmetic CV%) Plasma Pharmacokinetic Parameters of ALXN1850 (Pharmacokinetic Set) following IV dose 74
+Table 9: Arithmetic Mean (Arithmetic CV%) Plasma Pharmacokinetic Parameters of ALXN1850 (Pharmacokinetic Set) following SC Dose 1 75
+Table 10: Arithmetic Mean (Arithmetic CV%) Plasma Pharmacokinetic Parameters of ALXN1850 (Pharmacokinetic Set) following SC Dose 2 77
+Table 11: Arithmetic Mean (Arithmetic CV%) Plasma Pharmacokinetic Parameters of ALXN1850 (Pharmacokinetic Set) following SC Dose 3 78
+Table 12: Statistical assessment of Dose Proportionality of ALXN1850 Exposures (Pharmacokinetic Set) 81
+Table 13: Absolute Bioavailability Assessment of ALXN1850 following SC Injection (Pharmacokinetic Set) 82
+Table 14: Statistical assessment of Steady State of ALXN1850 (Pharmacokinetic Set) 83
+LIST OF FIGURES
+Figure 1: Study Schema 24
+Figure 2: Participant Disposition (Consolidated Standards of Reporting Trials Diagram) 31
+Figure 3: Mean (±SD) Plasma Concentrations of ALXN1850 Versus Time by Treatment and Dose (Linear and Semilogarithmic Scales) (Pharmacokinetic
+Set) 54
+Figure 4: Mean (±SD) Plasma Concentrations of ALXN1850 Versus Elapsed Time by
+Cohort (Linear and Semilogarithmic Scales) (Pharmacokinetic Set) 63
+Figure 5: Mean (±SD) Plasma Concentrations of ALXN1850 Versus Elapsed Time by Cohorts Overlaid (Linear and Semilogarithmic Scales) (Pharmacokinetic
+Set) 66
+Figure 6: Mean (±SD) Plasma Concentrations of ALXN1850 Versus Elapsed Time by Cohorts Overlaid (Linear and Semilogarithmic Scales) (Pharmacokinetic
+Set) (Sensitivity Analysis) 68
+Figure 7: Individual and Mean Trough Plasma Concentrations of ALXN1850 Following IV and SC Dose Administration (Linear and Semilogarithmic
+Scales) (Pharmacokinetic Set) 70
+Figure 8: Box Plot of Trough Plasma Concentrations of ALXN1850 Following IV and
+SC Dose Administration by Cohort (Pharmacokinetic Set) 71
+Figure 9: Sensitivity Analysis of Absolute and Percent Change from Baseline in Mean (±SD) Plasma PLP Concentration versus Relative Time to Dose by Cohort (Cohorts Overlaid) - Excluded Participant Data After Missed Dose
+(Pharmacodynamic Set) 84
+Figure 10: Sensitivity Analysis of Absolute and Percent Change from Baseline in Mean (±SD) Plasma PLP/PL Ratio Concentration versus Relative Time to Dose by Cohort (Cohorts Overlaid) - Excluded Participant Data After Missed Dose
+(Pharmacodynamic Set) 85
+Figure 11: Sensitivity Analysis of Absolute and Percent Change from Baseline in Mean (±SD) Plasma PPi Concentration versus Relative Time to Dose by Cohort (Cohorts Overlaid) - Excluded Participant Data After Missed Dose
+(Pharmacodynamic Set) 86
+LIST OF ABBREVIATIONS AND DEFINITIONS OF TERMS
+Table 1: List of Abbreviations and Definitions of Terms
+Abbreviation or Term
+Definition/Explanation
+ADA
+antidrug antibodies
+AE
+adverse event
+AUC168
+area under the plasma concentration versus time curve from time 0 to 168 hours
+AUCinf
+area under the plasma concentration versus time curve from time 0 extrapolated to infinity
+AUCt
+area under the plasma concentration versus time curve from time 0 to last quantifiable concentration
+AUCtau
+area under the plasma concentration versus time curve from time 0 to dosing interval
+BLQ
+below limit of quantification
+CI
+confidence interval
+CIOMS
+Council for International Organizations of Medical Sciences
+CL
+total clearance
+CL/F
+apparent total clearance
+Cmax
+maximum observed plasma concentration
+CRF
+case report form
+CRO
+contract research organization
+CV
+coefficient of variation
+ECG
+electrocardiogram
+ERT
+enzyme replacement therapy
+Fc
+fragment crystallizable
+FDA
+Food and Drug Administration
+FIH
+first-in-human
+GCP
+Good Clinical Practice
+HIPAA
+Health Insurance Portability and Accountability Act
+HLT
+high-level term
+HPP
+hypophosphatasia
+ICF
+informed consent form
+ICH
+International Council for Harmonisation of Technical Requirements for Pharmaceuticals for Human Use
+IEC
+Independent Ethics Committee
+Ig
+immunoglobulin
+IMP
+investigational medicinal product
+IQR
+interquartile range
+IRB
+Institutional Review Board
+Abbreviation or Term
+Definition/Explanation
+IV
+intravenous(ly)
+LS
+least squares
+MedDRA
+Medical Dictionary for Regulatory Activities
+NA
+not available
+NAb
+neutralizing antibodies
+P1NP
+N-terminal propeptide of type I procollagen
+PA
+pyridoxic acid
+PD
+pharmacodynamic(s)
+PK
+pharmacokinetic(s)
+PL
+pyridoxal
+PLP
+pyridoxal 5ˈ-phosphate
+PPi
+inorganic pyrophosphate
+PT
+preferred term
+PTH
+parathyroid hormone
+Q
+quartile
+QTcF
+QT interval corrected using Fridericia’s formula
+qw
+every week/weekly
+SAE
+serious adverse event
+SAP
+statistical analysis plan
+SC
+subcutaneous(ly)
+sCTX
+serum C-terminal Telopeptide of Type 1 Collagen
+SD
+standard deviation
+SE
+standard error
+SMQ
+standardized Medical Dictionary for Regulatory Activities queries
+SOC
+system organ class
+SRC
+Safety Review Committee
+t1/2
+terminal elimination half-life
+TEAE
+treatment-emergent adverse events
+TESAE
+treatment-emergent serious adverse event
+Tmax
+time to maximum observed plasma concentration
+TNSALP
+tissue nonspecific alkaline phosphatase
+Vd
+volume of distribution
+Vd/F
+apparent volume of distribution
+ETHICS
+Independent Ethics Committee and/or Institutional Review Board
+The protocol, protocol amendments, administrative change letters, ICF, Investigator Brochure, and other relevant documents (e.g., advertisements) were submitted to an IRB by the investigator and reviewed and approved by the IRB before the study was initiated.
+Any amendments to the protocol required IRB approval before implementation of changes made to the study design, except for changes necessary to eliminate an immediate hazard to study participants.
+Ethical Conduct of the Study
+This study was conducted in accordance with the protocol and with the following:
+Consensus ethical principles derived from international guidelines including the Declaration of Helsinki and CIOMS International Ethical Guidelines
+Applicable ICH GCP Guidelines
+Applicable laws and regulations
+Participant Information and Consent
+The investigator or his/her representative explained the nature of the study to the participant or his/her legally authorized representative and answered all questions regarding the study.
+Participants were informed that their participation was voluntary. Participants or their legally authorized representative were required to sign a statement of informed consent that met the requirements of 21 CFR 50, local regulations, ICH guidelines, HIPAA requirements, where applicable, and the IRB or study center.
+The medical record included a statement that written informed consent was obtained before the participant was enrolled in the study and the date the written consent was obtained. The authorized person obtaining the informed consent also signed the ICF.
+Participants were re-consented to the most current version of the ICF(s) during their participation in the study.
+A copy of the ICF(s) was provided to the participant or the participant’s legally authorized representative.
+INTRODUCTION
+Hypophosphatasia is a rare, inherited, metabolic disease caused by deficient activity of the TNSALP, typically due to loss of function mutation(s) in the ALPL gene. As a direct result of deficient TNSALP, progressive damage to vital organs along with other clinical sequelae may occur, including deformity and softness of bones (rickets-like bone deformities and osteomalacia), fractures and pseudofractures, pain, profound muscle weakness, respiratory failure (primarily in infants), seizures (mainly in infants), impaired renal function, impaired mobility, and dental abnormalities (Berkseth et al 2013; Rockman-Greenberg 2013; Weber et al 2016; Whyte et al 2013). Asfotase alfa (STRENSIQ®) is currently the only approved treatment for patients with pediatric-onset HPP.
+ALXN1850 is an investigational ERT that addresses the underlying cause of HPP by replacing the defective enzyme, thus reversing the mineralization defects of the skeleton and improving systemic manifestations of HPP. ALXN1850 is a human recombinant
+TNSALP-Fc-deca-aspartate fusion protein. It is a soluble glycoprotein comprised of
+2 polypeptide chains of 724 amino acids made from the catalytic domain of human TNSALP (SwissProt, P05186), the human Ig G2/4 Fc domain (SwissProt P01859 and Genebank K01316; to facilitate purification and extend half-life), and a deca aspartate peptide (to target the bone).
+The purpose of this FIH, open-label, dose-escalating study was to assess the safety and tolerability, PK and PD parameters, and immunogenicity of ALXN1850 when given IV and SC to adult participants with HPP. This FIH study was designed to support an efficient and tolerable pharmacologically effective dose in participants with HPP for whom ALXN1850 has been designed to deliver the required enzyme with less frequent SC administration than asfotase alfa, and therefore reduce the burden of treatment for this group of patients.
+STUDY OBJECTIVES AND ENDPOINTS
+Objective
+Endpoints
+Primary
+Assess the safety and tolerability of ALXN1850 given IV as a single dose and given SC in 3 qw doses
+Incidence of TEAEs and TESAEs
+Secondary
+Assess the PK of single IV and 3 SC doses of ALXN1850
+ALXN1850 PK (activity) over time profiles and PK parameters
+Assess the absolute bioavailability of ALXN1850 SC
+AUCtau values of the first SC versus IV administration
+Assess the PD effects of single IV and 3 SC doses of ALXN1850
+Absolute change and percent change from baseline in plasma concentrations of PPi and PLP and PLP/PL ratio over time
+Assess the immunogenicity potential of ALXN1850
+Incidence of ADA and NAb
+Exploratory
+Explore role of ALXN1850 on calcium and bone homeostasis and other PD biomarkers
+Absolute, change, and percent change from baseline in ionized Ca, phosphorus, magnesium, PTH, CTX-1 (sCTX), P1NP, osteocalcin, and PA over time
+INVESTIGATIONAL PLAN
+Overview of Study Design
+This was an open-label, dose-escalating study to assess safety, tolerability, PK, PD, and immunogenicity of ALXN1850 when given IV and SC to adults with HPP.
+Study participants were enrolled into 3 cohorts (ALXN1850 15 mg, 45 mg, and 90 mg) in a sequential fashion. An SRC convened after the first participant in each cohort had completed the first IV dose to assess safety and tolerability, and to endorse initiation of SC study drug administration to the first participant as well as IV and SC study drug administration to the remaining participants in the cohort. Once at least 3 participants in each of the first 2 cohorts
+(15 mg and 45 mg) had received a single IV dose and 3 qw SC doses, the SRC convened again to review safety and tolerability data, and to determine if the final dose escalation (90 mg) could proceed. After the SRC endorsed each dose escalation, the next higher cohort began dosing at the next dosing level. Cohorts 2 and 3 began dosing after the SRC had reviewed all relevant safety, tolerability, and PK data (for Cohort 3 dose escalation only) from participants in Cohort 1 or Cohorts 1 and 2, respectively, and endorsed dose escalation.
+Participants who were positive for ADA at the last assessment of the study were given the option to enroll in the Global HPP Registry to enable further monitoring of their ADA values after the end of the study.
+The study design is depicted below in Figure 1. Additional details are available in the protocol (Appendix 16.1.1 Protocol or Amendment.)
+Clinical Study Report ALXN1850-HPP-101
+28 Feb 2023
+Figure 1: Study Schema
+Abbreviations: D = Day, ED = Early Discontinuation, EoS = End of Study, EoT = End of Treatment, FU = follow-up, IMP = investigational medicinal product, IV = intravenous, NIMP = non-investigational medicinal product, PD = pharmacodynamics, PK = pharmacokinetics, qw = weekly, SC = subcutaneous,
+SRC = Safety Review Committee.
+Page 24 of 2663 Alexion Confidential
+Clinical Study Report ALXN1850-HPP-101
+28 Feb 2023
+Discussion of Study Design
+As this was the first time ALXN1850 was dosed in humans, an open-label dose-escalating design was chosen for initial assessment of the safety, tolerability, PK, and PD of ALXN1850 IV and SC in adults with HPP. The scientific rationale for each aspect of the study design included the following:
+This study was conducted in adult participants with HPP because ALXN1850 was designed as a TNSALP ERT that was expected to lead to improvement in this patient population. Because of the potential for immunogenicity, this study enrolled adults with HPP who were not anticipated to require continued treatment with ERT, based on their signs and symptoms, and the investigator’s clinical assessment of their current condition.
+A single ALXN1850 IV dose provided the reference necessary for assessing absolute bioavailability.
+A weekly SC dosing provided the PK and PD information that supported the intended dose regimen in this patient population.
+Three weekly doses of SC ALXN1850 provided accumulation information for this study drug.
+The qw SC dose range proposed for this study (15 to 90 mg) was expected to cover the therapeutic range in humans.
+An 8-week follow-up provided enough time to assess immunogenicity and possible risks to the participants.
+Change(s) in Study Conduct
+Changes in the conduct of the study that were implemented by protocol amendments (5) and administrative change letters (6) are described in Appendix 16.1.1 Protocol or Amendment.
+Investigators and Study Administrative Structure
+The list of investigators is presented in Appendix 16.1.4 List Description Investigator Site.
+PPD, Inc. served as the CRO for this study and was responsible for project management, clinical monitoring, data management, biostatistics and statistical programming, PK, PD, immunogenicity analysis, and final reporting. PPD was also used as the central laboratory.
+Selection of Study Population
+Inclusion/Exclusion Criteria
+Enrolled in this study were male and nonpregnant female participants at least 18 years of age with a clinical diagnosis of HPP and in otherwise good general health. All participants provided written informed consent. Detailed inclusion and exclusion criteria are provided in protocol Section 5.1 and protocol Section 5.2 (Appendix 16.1.1 Protocol or Amendment).
+Removal of Participants from Intervention or Study
+The specific criteria and procedures for early discontinuation from study intervention(s) or withdrawal from the study are described in protocol Section 7 (Appendix 16.1.1 Protocol or Amendment).
+Study Intervention
+Study Interventions Administered
+The study interventions are outlined in Table 2. The justification for the doses selected is described in protocol Section 4.3 (Appendix 16.1.1 Protocol or Amendment).
+Table 2: Study Intervention(s) Administered
+Intervention Name
+ALXN1850 SC
+ALXN1850 IV
+Type
+Biologic
+Biologic
+Dose Formulation
+ALXN1850 was formulated at pH 7.3 and each vial contained 100 mg of ALXN1850 in 10 mM sodium phosphate, 140 mM proline, 140 mM sucrose, and 0.05% w/v polysorbate
+80. The concentration was 100 mg/mL.
+ALXN1850 was formulated at pH 7.3 and each vial contained 100 mg of ALXN1850 in 10 mM sodium phosphate, 140 mM proline, 140 mM
+sucrose, and 0.05% w/v polysorbate 80. The concentration was 100 mg/mL.
+Unit Dose Strength(s)/Dosage Level(s)
+15, 45, and 90 mg (3 qw doses)
+15, 45, and 90 mg single dose
+Route of Administration
+SC
+IV
+Dosing Instructions
+ALXN1850 was administered via the SC route qw over 3 weeks (a total of 3 doses) at 15, 45, or 90 mg.
+SC doses were administered as a manual SC injection in either the abdomen or thigh at the investigator’s discretion.
+A single dose of ALXN1850 at 15, 45, or 90 mg was administered as an IV infusion per cohort.
+Use
+Experimental
+Experimental
+IMP and NIMP
+IMP
+IMP
+Sourcing
+Provided centrally by Alexion
+Provided centrally by Alexion
+Packaging and Labeling
+Study drug was provided in kits. There was 1 vial per kit. Both kits and vials were labeled according to the protocol and local regulatory requirements.
+Study drug was provided in kits. There was 1 vial per kit. Both kits and vials were labeled according to the protocol
+and local regulatory requirements.
+Abbreviations: IMP = investigational medicinal product, IV = intravenous, NIMP = non-investigational medicinal product, qw = weekly, SC = subcutaneous.
+The manufacturing kit and lot numbers for the study interventions available to be dispensed in this study are provided in Appendix 16.1.6 List Patients with Batches.
+Measures to Minimize Bias Allocation
+The method used to assign/allocate participants to intervention cohorts, including any stratification factors, if applicable, is described in protocol Section 6.3 (Appendix 16.1.1 Protocol or Amendment).
+Blinding
+This was an open-label study.
+Study Intervention Compliance
+The methods used to assess study intervention compliance are described in protocol Section 6.4 (Appendix 16.1.1 Protocol or Amendment).
+Prior, Concomitant, Dose Modification, and Post-intervention Therapy
+The medications allowed or disallowed before and during the study including any exceptions to these requirements, are described in protocol Section 6.5; dose modification guidelines are provided in protocol Section 6.6; and post-intervention therapy is provided in protocol
+Section 6.7 (Appendix 16.1.1 Protocol or Amendment).
+Study Assessments and Procedures
+Planned Measurements and Timing of Assessments
+The specific safety, PK, PD, and immunogenicity assessments, their schedule and measurement/collection methods are provided in the Schedule of Activities (Section 1.3) and described in the Study Assessments and Procedures section (Section 8) of the protocol (Appendix 16.1.1 Protocol or Amendment). The collection and assessment of safety information during the study (evaluation, definitions, recording, and reporting of AEs, SAEs and other reportable safety events) is detailed in the AE reporting section (Section 8.3) of the protocol (Appendix 16.1.1 Protocol or Amendment).
+Appropriateness of Measures
+The endpoints used in this study (e.g., safety, PK, PD, and immunogenicity) were standard, generally reliable, and relevant to the objectives set forth in the protocol (Appendix 16.1.1 Protocol or Amendment).
+Data Quality Assurance
+Study Monitoring
+Study centers were monitored by the CRO. Centers were visited at regular intervals and a Visit Log was maintained. Monitors were responsible for reviewing adherence to the protocol; compliance with GCP; and the completeness, accuracy, and consistency of the data. Direct access to participant medical and laboratory records was permitted to verify entries on the study-specific CRFs.
+Staff Training
+Investigator staff training was provided by the CRO during study initiation and routine monitoring visits. The Sponsor organized investigator and clinical research associate meetings before study start and during the study to provide information on the investigational product, the study rationale and design, responsibilities under ICH, FDA, and GCP guidelines, and training on the detailed study requirements.
+Standardization of Laboratory Procedures
+A local laboratory or Alexion (protocol Section 10.2) analyzed the clinical safety test samples (Appendix 16.1.1 Protocol or Amendment). Where local laboratories were used, their participation in internal and external quality control, quality assurance, and accreditation schemes was evaluated by the study monitors.
+Investigator Responsibilities
+The investigators were responsible for all data entered in the CRFs and documented their review and approval of the data by signing a form verifying the validity and completeness of the data.
+The investigator was responsible for appropriate retention of essential study documents.
+Clinical Data Management
+Case report form data were captured (via data entry by study center personnel) in a database system owned by a CRO. Data quality checks were applied using manual and electronic verification methods. An audit trail to support data query resolution and any modification to the data was maintained.
+Clinical Quality Assurance Audits
+Quality audit assessments were not performed for this study.
+Statistical Analysis
+Statistical Analysis Plan
+All statistical analyses were conducted using statistical analysis system SAS® Version 9.4 or higher (SAS Institute, Inc., Cary, North Carolina) and Phoenix® WinNonlin® Version 8.0 or higher (Certara USA, Inc., Princeton, New Jersey).
+Descriptive statistics for continuous variables included number of participants, number of non-missing values, arithmetic mean, geometric mean (for PK analysis only), SD, percent CV (for PK analysis only), geometric CV (for PK analysis only), median, Q1 and Q3 (for safety
+analysis only), IQR (for safety analysis only), minimum, and maximum, unless otherwise noted. For categorical variables, frequencies and percentages were presented. Descriptive statistics were summarized by cohort and overall and by time point, unless otherwise noted.
+All tables, listings, and figures were presented by cohort, unless otherwise specified. All data listings were sorted by cohort, participant number, and date-time if applicable. No algorithm for imputation of missing data was employed but were analyzed as missing.
+The planned analyses and determination of sample size are described in the final version of the SAP (Appendix 16.1.9 Statistical Methods Interim Analysis Plan).
+Changes in Planned Analyses Prior to Database Lock
+There were no changes in the planned analyses for the study.
+Changes Following Study Database Lock and Post-hoc Analyses
+Changes made post-database lock are described below:
+Injection/infusion site reactions noted on the injection/infusion site evaluation form that were not captured as AEs are included in discussion of injection site reactions.
+Calculation of absolute bioavailability of ALXN1850 following SC administration was modified using AUCtau value of the third SC dose (instead of the first SC dose) versus AUCinf value of the IV administration.
+Given that the primary endpoint of this study is safety and tolerability, all participants who completed end of treatment assessments are considered to have completed the study. This is a change from the definition in the protocol where a participant would be defined as “complete” if all PK/PD sampling was performed within window, all doses were received per the Schedule of Activities, and end of treatment assessments were completed.
+STUDY PARTICIPANTS
+Disposition of Participants
+A total of 23 participants signed ICFs, 15 participants were dosed with at least one dose of study treatment, and all 15 participants (100%) completed the study. Further details on participant exposure to study treatment are presented in Section 4.6.
+Participant disposition is summarized in Figure 2.
+Enrollment information is summarized in Table 14.1.1.1 and participant disposition is summarized for the safety set and the PK set in Table 14.1.1.3.1 and Table 14.1.1.3.2, respectively. Individual enrollment information is presented in Listing 16.2.1.1 and participant disposition data are presented in Listing 16.2.1.2.
+Figure 2: Participant Disposition (Consolidated Standards of Reporting Trials Diagram)
+Allocation
+Allocated to Cohort 3 (n=5)
+Allocated to Cohort 2 (n=5)
+Allocated to Cohort 1 (n=5)
+Participants dosed (n=15)
+Follow-up
+Analysis
+Discontinued from study (n=0) Missed dose(s) (n=2)
+Discontinued from study (n=0) Missed dose(s) (n=1)
+Discontinued from study (n=0) Missed dose(s) (n=0)
+Assessed for eligibility (n=23)
+Excluded (n=8)
+Not meeting eligibility criteria (n=8)
+Enrollment
+Safety Set (n=5) PK Set (n=5) PD Set (n=5)
+Immunogenicity Analysis Set (n=5)
+Safety Set (n=5) PK Set (n=5) PD Set (n=5)
+Immunogenicity Analysis Set (n=5)
+Safety Set (n=5) PK Set (n=5) PD Set (n=5)
+Immunogenicity Analysis Set (n=5)
+Note: Participants who missed doses due to COVID-19 (Listing 16.2.5.2) were described as discontinued from treatment in Table 14.1.1.3.1 and Listing 16.2.1.2. These participants remained in the study as per protocol and completed end of treatment assessments. Overall, across the 3 cohorts, 41 of the planned 45 SC injections were administered.
+Abbreviations: PD = pharmacodynamics; PK = pharmacokinetics. Source: End-of-Text Table 14.1.1.3.1, Listing 16.2.1.2, Listing 16.2.5.2
+Protocol Deviations
+Any departure from the approved protocol was considered a protocol deviation. Protocol deviations are summarized in Table 3 and presented by participant in Listing 16.2.2.3. All 15 participants (100%) had at least 1 protocol deviation.
+A list of potential protocol deviations was generated by the Study Management Team after the protocol was finalized.
+Table 3: Protocol Deviations (Safety Set)
+Cohort 1
+Cohort 2
+Cohort 3
+Total
+(N=5)
+(N=5)
+(N=5)
+(N=15)
+n (%)
+n (%)
+n (%)
+n (%)
+Number of participants with at least one protocol deviation 5 (100)
+5
+(100)
+5
+(100)
+15 (100)
+All Protocol Deviations
+Assessments performed earlier or later than requirements per protocol, including but 4 (80.0) not limited to: ECGs, Vital Signs, etc.(excludes PKs/PDs) Or any other assessments
+5
+(100)
+5
+(100)
+14 (93.3)
+that must be conducted prior or post dose.
+Missing assessments or procedures that affect safety endpoint assessments, including 4 (80.0) but not limited to: adverse events, clinical laboratory tests, vital signs, 12-lead electrocardiogram, missed supine timepoints for ECG extraction, missing standing
+(orthostatic) blood pressures at screening visit, etc.
+5
+(100)
+5
+(100)
+14 (93.3)
+PK/PD assessments performed earlier or later than requirements per protocol.
+4 (80.0)
+1 (20.0)
+1 (20.0)
+6 (40.0)
+The order of assessment was not followed as per protocol: the 12-lead ECG was not
+2 (40.0)
+3 (60.0)
+1 (20.0)
+6 (40.0)
+performed before vital signs assessments and blood sample collection.
+Study Visit was not done due to Confirmed COVID-19 infection
+0
+1 (20.0)
+2 (40.0)
+3 (20.0)
+Subject unable or unwilling to comply with study restrictions
+1 (20.0)
+0
+1 (20.0)
+2 (13.3)
+Data entered in the eCRF not recorded on source documents/Missing source
+0
+1 (20.0)
+0
+1 (6.7)
+documentation
+ICF process not conducted per GCP (e.g., copy of ICF not provided to subject or
+0
+0
+1 (20.0)
+1
+(6.7)
+subject’s caregiver or using outdated ICF)
+PD samples mishandled or or do not meet protocol requirements
+0
+1 (20.0)
+0
+1
+(6.7)
+PK samples not collected
+1 (20.0)
+0
+0
+1
+(6.7)
+Study Visit was not done
+1 (20.0)
+0
+0
+1
+(6.7)
+Study procedure performed that is not outlined in the Institutional Review Broad
+(IRB)/Institutional Ethics Committee (IEC)-approved protocol and protocol
+0
+1 (20.0)
+0
+1
+(6.7)
+amendments
+Major Protocol Deviations
+Missing assessments or procedures that affect safety endpoint assessments, including
+4 (80.0)
+5 (100)
+5 (100)
+14 (93.3)
+but not limited to: adverse events, clinical laboratory tests, vital signs, 12-lead electrocardiogram, missed supine timepoints for ECG extraction, missing standing (orthostatic) blood pressures at screening visit, etc.
+PK/PD assessments performed earlier or later than requirements per protocol.
+4 (80.0)
+1 (20.0)
+1 (20.0)
+6 (40.0)
+Cohort 1 (N=5)
+n (%)
+Cohort 2 (N=5)
+n (%)
+Cohort 3 (N=5)
+n (%)
+Total (N=15)
+n (%)
+Study Visit was not done due to Confirmed COVID-19 infection
+0
+1 (20.0)
+2 (40.0)
+3 (20.0)
+Subject unable or unwilling to comply with study restrictions
+1 (20.0)
+0
+1 (20.0)
+2 (13.3)
+ICF process not conducted per GCP (e.g., copy of ICF not provided to subject or
+subject’s caregiver or using outdated ICF)
+0
+0
+1 (20.0)
+1 (6.7)
+PD samples mishandled or or do not meet protocol requirements
+0
+1 (20.0)
+0
+1
+(6.7)
+PK samples not collected
+1 (20.0)
+0
+0
+1
+(6.7)
+Study Visit was not done
+1 (20.0)
+0
+0
+1
+(6.7)
+Minor Protocol Deviations
+Assessments performed earlier or later than requirements per protocol, including but
+4 (80.0)
+5 (100)
+5 (100)
+14 (93.3)
+not limited to: ECGs, Vital Signs, etc.(excludes PKs/PDs) Or any other assessments that must be conducted prior or post dose.
+The order of assessment was not followed as per protocol: the 12-lead ECG was not
+2 (40.0)
+3 (60.0)
+1 (20.0)
+6 (40.0)
+performed before vital signs assessments and blood sample collection.
+Data entered in the eCRF not recorded on source documents/Missing source
+0
+1 (20.0)
+0
+1 (6.7)
+documentation
+Study procedure performed that is not outlined in the Institutional Review Broad
+0
+1 (20.0)
+0
+1 (6.7)
+(IRB)/Institutional Ethics Committee (IEC)-approved protocol and protocol
+amendments
+Cohort 1: Participants receive 15 mg as a single intravenous dose, followed by 15 mg subcutaneous at 1-week interval for 3 doses. Cohort 2: Participants receive 45 mg as a single intravenous dose, followed by 45 mg subcutaneous at 1-week interval for 3 doses. Cohort 3: Participants receive 90 mg as a single intravenous dose, followed by 90 mg subcutaneous at 1-week interval for 3 doses.
+Percentages are based on the number of participants in the safety set. Percentages for important and not important deviations are based on the number of participants in the safety set.
+Major deviations are important deviations and minor deviations are non-important deviations. Source Data: End-of-Text Table 14.1.2
+Important Deviations
+Important protocol deviations are a subset of protocol deviations that may significantly impact the completeness, accuracy, and/or reliability of the study data or that may significantly affect a subject’s rights, safety, or well-being.
+Important deviations are described as major deviations in Table 3.
+Other Deviations
+All deviations including minor deviations (non-important deviations) are present in Table 3.
+Inclusion criteria and exclusion criteria deviations are presented in Table 14.1.1.4 and Listing 16.2.2.1. Admission criteria not met in not-dosed participants are presented in Listing 16.2.2.2.
+Deviations Related to COVID-19
+Deviations related to COVID-19 included:
+Study Visit was not done due to confirmed COVID-19 infection (3 participants [20.0%])
+The missed Study Visits include missed dosing visits; a listing of participants who missed doses is presented in Listing 16.2.5.2 and discussed in Section 4.6.
+Populations Analyzed
+The number of participants included in each analysis set is summarized in Table 4.
+All 15 participants were included in the safety, PK, PD, and immunogenicity sets, respectively (Table 14.1.1.2 and Listing 16.2.3).
+Table 4: Analysis Sets (Safety, Pharmacokinetic, Pharmacodynamic, and Immunogenicity Sets)
+Cohort 1 (N=5)
+n (%)
+Cohort 2 (N=5)
+n (%)
+Cohort 3 (N=5)
+n (%)
+Total (N=15)
+n (%)
+Safety Set [1] 5 (100) 5 (100) 5 (100) 15 (100)
+Excluded 0 0 0 0
+PK Set [2] 5 (100) 5 (100) 5 (100) 15 (100)
+Excluded 0 0 0 0
+PD Set [3] 5 (100) 5 (100) 5 (100) 15 (100)
+Excluded 0 0 0 0
+Immunogenicity Analysis Set [4]
+5 (100) 5 (100) 5 (100) 15 (100)
+Excluded 0 0 0 0
+Cohort 1 (N=5)
+n (%)
+Cohort 2 (N=5)
+n (%)
+Cohort 3 (N=5)
+n (%)
+Total (N=15)
+n (%)
+Cohort 1: Participants receive 15 mg as a single intravenous dose, followed by 15 mg subcutaneous at 1-week interval for 3 doses.
+Cohort 2: Participants receive 45 mg as a single intravenous dose, followed by 45 mg subcutaneous at 1-week interval for 3 doses.
+Cohort 3: Participants receive 90 mg as a single intravenous dose, followed by 90 mg subcutaneous at 1-week interval for 3 doses.
+Percentages are based on safety set in each cohort.
+The safety set include all participants who receive any amount of study drug.
+The PK analysis set include all treated participants for whom the pharmacokinetic profile of ALXN1850 can be adequately characterized.
+The PD analysis set include all treated participants for whom the pharmacodynamic profile of ALXN1850 can be adequately characterized.
+The Immunogenicity Analysis Set include all treated participants who received any study drug and who after the first dose have at least one reportable result in the antidrug antibody assay.
+Source: End-of-Text Table 14.1.1.2
+Demographic and Other Baseline Characteristics
+Demography
+There were 4 male participants (26.7%) and 11 female participants (73.3%) dosed in the study. The median age was 47.0 years (range 31 to 57 years), and the mean (SD) BMI was
+29.11 (6.05) kg/m2. All 15 participants were White and not Hispanic or Latino.
+Demographic and baseline characteristics data are summarized in Table 14.1.3 and Table 5. Individual demographic and baseline characteristic data are presented in Listing 16.2.4.1.
+Table 5: Summary of Demographics and Baseline Characteristics (Safety Set)
+Cohort 1 (N=5)
+Cohort 2 (N=5)
+Cohort 3 (N=5)
+Total (N=15)
+n (%)
+n (%)
+n (%)
+n (%)
+Sex
+n
+5
+5
+5
+15
+Male
+2 (40.0)
+2 (40.0)
+0
+4
+(26.7)
+Female
+3 (60.0)
+3 (60.0)
+5 (100)
+11
+(73.3)
+Race
+n
+5
+5
+5
+15
+American Indian or
+0
+0
+0
+0
+Alaska Native
+Asian
+0
+0
+0
+0
+Black or African
+0
+0
+0
+0
+American
+Native Hawaiian or Other
+0
+0
+0
+0
+Pacific Islander
+White
+5
+(100)
+5
+(100)
+5
+(100)
+15
+(100)
+Multiple
+0
+0
+0
+0
+Not Reported
+0
+0
+0
+0
+Unknown
+0
+0
+0
+0
+Other
+0
+0
+0
+0
+Ethnicity
+Cohort 1
+Cohort 2
+Cohort 3
+Total
+(N=5)
+(N=5)
+(N=5)
+(N=15)
+n (%)
+n (%)
+n (%)
+n (%)
+n
+5
+5
+5
+15
+Hispanic or Latino
+0
+0
+0
+0
+Not Hispanic or Latino
+5 (100)
+5 (100)
+5 (100)
+15 (100)
+Not Reported
+0
+0
+0
+0
+Unknown
+0
+0
+0
+0
+Age (years)
+n
+5
+5
+5
+15
+Mean (SD)
+44.2 (12.44)
+37.8 (12.52)
+54.6 (9.07)
+45.5 (12.80)
+Median (IQR)
+42.0 (22.0)
+31.0 (17.0)
+57.0 (6.0)
+47.0 (26.0)
+Q1, Q3
+35.0, 57.0
+30.0, 47.0
+53.0, 59.0
+31.0, 57.0
+Min, Max
+30, 57
+26, 55
+40, 64
+26, 64
+Height (cm)
+n
+5
+5
+5
+15
+Mean (SD)
+170.26 (8.174)
+171.46 (13.578)
+166.14 (7.286)
+169.29 (9.617)
+Median (IQR)
+169.00 (8.90)
+171.00 (8.70)
+165.00 (5.10)
+166.90 (11.20)
+Q1, Q3
+163.80, 172.70
+165.30, 174.00
+161.80, 166.90
+162.80, 174.00
+Min, Max
+162.8, 183.0
+155.0, 192.0
+159.0, 178.0
+155.0, 192.0
+Weight (kg) [1]
+n
+5
+5
+5
+15
+Mean (SD)
+87.46 (11.737)
+93.50 (32.203)
+71.22 (16.659)
+84.06 (22.578)
+Median (IQR)
+87.80 (21.00)
+84.40 (50.60)
+66.80 (17.10)
+76.70 (32.50)
+Q1, Q3
+76.70, 97.70
+65.30, 115.90
+58.80, 75.90
+65.30, 97.80
+Min, Max
+74.7, 100.4
+64.5, 137.4
+56.8, 97.8
+56.8, 137.4
+BMI (kg/m^2)
+n
+5
+5
+5
+15
+Mean (SD)
+30.16 (3.171)
+31.32 (7.742)
+25.84 (6.106)
+29.11 (6.050)
+Median (IQR)
+29.20 (4.50)
+35.10 (13.70)
+23.30 (5.50)
+28.60 (11.80)
+Q1, Q3
+28.60, 33.10
+23.60, 37.30
+21.70, 27.20
+23.30, 35.10
+Min, Max
+26.2, 33.7
+22.3, 38.3
+21.1, 35.9
+21.1, 38.3
+IQR = Interquartile range
+Cohort 1: Participants receive 15 mg as a single intravenous dose, followed by 15 mg subcutaneous at 1-week interval for 3 doses.
+Cohort 2: Participants receive 45 mg as a single intravenous dose, followed by 45 mg subcutaneous at 1-week interval for 3 doses.
+Cohort 3: Participants receive 90 mg as a single intravenous dose, followed by 90 mg subcutaneous at 1-week interval for 3 doses.
+Percentages are based on the number of participants in the safety set.
+BMI = Body Mass Index
+[1] The last weight measurement collected before the first dose will be used as baseline for the summary. Source: End-of-Text Table 14.1.3
+Medical History and Concurrent Illnesses
+Medical history findings are presented in Listing 16.2.4.2. All participants had a diagnosis of HPP. Genetic testing for HPP is presented in Listing 16.2.4.6.
+All participants tested negative for alcohol and drugs at screening, with the exception of
+1 participant who was taking prescribed Adderall (amphetamine aspartate; amphetamine sulfate; dexamphetamine saccharate; dexamphetamine sulfate) for attention deficit hyperactivity disorder
+(Listing 16.2.4.3) and tested positive for amphetamine at screening, baseline, Day 7, and Day 21 (Listing 16.2.4.5). The screening 24-hour Holter ECG data are presented in Listing 16.2.8.8.
+Prior and Concomitant Therapy
+All 15 participants (100%) reported taking at least 1 prior medication (Table 14.1.4.3 and Listing 16.2.4.3).
+All 15 participants (100%) reported taking at least 1 concomitant medication (Table 14.1.4.1 and Listing 16.2.4.3). Concomitant medications were taken to treat TEAEs as follows: ibuprofen for headache, Nyquil (dextromethorphan hydrobromide, doxylamine succinate, ephedrine sulfate, ethanol, paracetamol) for nasal congestion, sulfamethoxazole/trimethoprim for urinary tract infection, miconazole nitrate for vaginal yeast infection, ascorbic acid and zinc for coronavirus, and acetylsalicylic acid for atrial fibrillation.
+None of the participants had medical or surgical treatment procedures during the study as reported in the database (Listing 16.2.4.4).
+Exposure and Study Intervention Compliance
+Exposure and Compliance
+A summary of study drug exposure and treatment compliance is presented in Table 14.1.4.2 and individual study drug administration data are presented in Listing 16.2.5.1. All participants received one IV dose. Overall, across the 3 cohorts, 41 of the planned 45 SC injections were administered. Missed doses are described in Section 4.6.2.
+Missed Doses
+A listing of participants who missed doses is presented in Listing 16.2.5.2. Missing doses were reported as follows:
+Cohort 2 – 1 participant missed 2 SC doses
+Cohort 3 – 2 participants missed 1 SC dose
+These participants missed dosing visits due to COVID-19 (Listing 16.2.2.3).
+Dose Modification
+There were no dose modifications reported during the study; all dose levels were given as outlined in the protocol.
+EVALUATION OF RESPONSE TO STUDY INTERVENTION
+Safety
+Adverse Events
+Adverse events are summarized overall and by cohort as well as by treatment; however, the number of participants was small and therefore comparisons between dose levels and treatments must be made with caution. Number of participants (N) is too small to draw conclusions.
+Brief Summary of Adverse Events
+Overall, 12 participants (80.0%) experienced any TEAE during the study; 9 participants (60.0%) experienced 13 TEAEs after IV dosing and 12 participants (80.0%) experienced 33 TEAEs after SC dosing. TEAEs were reported for 3 participants (60.0%) in Cohort 1, 5 participants (100%) in Cohort 2, and 4 participants (80.0%) in Cohort 3. One TEAE in a participant in Cohort 1 was not included in the TEAEs count due to an incomplete AE start date and therefore the event could not be assigned to treatment with IV or SC administration. While the number of participants with events was not affected, the number of TEAEs and related TEAEs for Cohort 1 and overall does not reflect this event.
+No deaths were reported during the study. One participant (6.7%) from Cohort 3 experienced a TESAE (atrial fibrillation) which was considered by the investigator as not related to study drug; a narrative for the event is presented in Section 5.1.1.4. No participants experienced TEAEs leading to withdrawal of study drug.
+A total of 10 participants (66.7%) experienced TEAEs considered related to ALXN1850. Treatment-related TEAEs were reported for 3 participants (60.0%) in Cohort 1, 5 participants
+(100%) in Cohort 2, and 2 participants (40.0%) in Cohort 3. A participant with multiple occurrences of a TEAE is counted only once at the highest relationship.
+Site reactions occurred with 10 SC injection administrations of ALXN1850 for 8 participants with a total of 13 events.
+Five participants reported a total of 9 AEs, and an additional 3 participants had reactions captured on the injection/infusion site evaluation form that were not reported as AEs. In addition, 1 participant with a reported AE had an additional reaction noted on the injection/infusion site evaluation form that was not reported as an AE.
+There was 1 participant who reported an injection site reaction with all 3 SC injections (total of 5 AEs reported); the remaining 7 participants had an injection site reaction only with 1 injection with only 1 participant reporting 2 events at the injection site (total of 8 events of which 4 were reported as AEs).
+Following medical review by the Sponsor, no systemic reactions within the 24-hour period following SC study drug administration. There were no reports consistent with hypersensitivity reactions or anaphylaxis following IV study drug administration. Evaluation of reactions following SC study drug administration is further discussed in Section 5.1.1.6).
+Following IV administration of ALXN1850, mild induration, not reported as an AE, was observed for 1 participant as recorded on the injection/infusion site evaluation form. Following
+medical review by the Sponsor, 1 participant was identified with mild headache, with onset within 24 hours of study drug infusion, that was considered consistent with a possible infusion associated reaction. There were no other reports consistent with hypersensitivity reactions or anaphylaxis following IV study drug administration. Evaluation of these events is further discussed in Section 5.1.1.6.
+An overall summary of TEAEs is presented in Table 6. A summary of all TEAEs by SOC and PT is presented in Table 7. Tabulation does not include reactions noted on the injection/infusion site evaluation form presented in Listing 16.2.8.12 that were not reported as AEs.
+Table 6: Overview of Treatment-Emergent Adverse Events (Safety Set)
+Cohort 1 Cohort 2 Cohort 3 Total
+Overall (N=5)
+IV-15
+mg (N=5)
+SC-15
+mg (N=5)
+Overall (N=5)
+IV-45 SC-45
+mg mg
+(N=5) (N=5)
+Overall (N=5)
+IV-90
+mg (N=5)
+SC-90
+mg (N=5)
+Overall (N=15)
+IV (N=15)
+SC (N=15)
+n (%)
+n (%)
+n (%)
+n (%)
+n (%) n (%)
+n (%)
+n (%)
+n (%)
+n (%)
+n (%)
+n (%)
+[E]
+[E]
+[E]
+[E]
+[E] [E]
+[E]
+[E]
+[E]
+[E]
+[E]
+[E]
+Any TEAE
+3 (60.0)
+2 (40.0)
+3 (60.0)
+5 ( 100)
+5 ( 100) 5 ( 100)
+4 (80.0)
+2 (40.0)
+4 (80.0)
+12 (80.0)
+9 (60.0)
+12 (80.0)
+12
+2
+10
+26
+7 19
+8
+4
+4
+46
+13
+33
+Any TESAE
+0
+0
+0
+0
+0 0
+1 (20.0)
+0
+1 (20.0)
+1 ( 6.7)
+0
+1 ( 6.7)
+1
+1
+1
+1
+Death
+0
+0
+0
+0
+0 0
+0
+0
+0
+0
+0
+0
+TEAE Leading to Withdrawal of Study
+0
+0
+0
+0
+0 0
+0
+0
+0
+0
+0
+0
+Drug
+TESAE Leading to Withdrawal of
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+Study Drug
+TEAE by Relationship
+Related
+3 (60.0)
+2 (40.0)
+3 (60.0)
+5 ( 100)
+5 ( 100) 4 (80.0)
+2 (40.0)
+1 (20.0)
+1 (20.0)
+10 (66.7) 8 (53.3)
+8 (53.3)
+8
+2
+6
+19
+6
+13
+2
+1
+1
+29
+9
+20
+Not Related
+0
+4
+0
+0
+4
+0
+7
+0
+1 1 (20.0)
+2 (40.0)
+1 (20.0)
+3 (60.0)
+2 (13.3)
+1 ( 6.7)
+4 (26.7)
+6
+6
+3
+3
+17
+4
+13
+TESAE by Relationship
+Related
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+Not Related
+0
+0
+0
+0
+0
+0
+1 (20.0)
+0
+1 (20.0)
+1 ( 6.7)
+0
+1 ( 6.7)
+1
+1
+1
+1
+TEAE Leading to Withdrawal of Study
+Drug by Relationship
+Related
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+Not Related
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+Any Injection/ Infusion-Site-Reactions
+2 (40.0)
+0
+2 (40.0)
+2 (40.0)
+0
+2 (40.0)
+1 (20.0)
+0
+1 (20.0)
+5 (33.3)
+0
+5 (33.3)
+2
+2
+6
+6
+1
+1
+9
+9
+Hypersensitivity Including Anaphylaxis
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+Potential Injection/Infusion Associated
+2 (40.0)
+1 (20.0)
+2 (40.0)
+2 (40.0)
+1 (20.0)
+2 (40.0)
+1 (20.0)
+1 (20.0)
+0
+5 (33.3)
+3 (20.0)
+4 (26.7)
+Reactions
+3
+1
+2
+4
+2
+2
+1
+1
+8
+4
+4
+Cohort 1 Cohort 2 Cohort 3 Total
+Overall (N=5)
+IV-15
+mg (N=5)
+SC-15
+mg (N=5)
+Overall (N=5)
+IV-45
+mg (N=5)
+SC-45
+mg (N=5)
+Overall (N=5)
+IV-90
+mg (N=5)
+SC-90
+mg (N=5)
+Overall (N=15)
+IV (N=15)
+SC (N=15)
+n (%)
+n (%)
+n (%)
+n (%)
+n (%)
+n (%)
+n (%)
+n (%)
+n (%)
+n (%)
+n (%)
+n (%)
+[E]
+[E]
+[E]
+[E]
+[E]
+[E]
+[E]
+[E]
+[E]
+[E]
+[E]
+[E]
+IV = Intravenous, SC = Subcutaneous.
+Cohort 1: Participants receive 15 mg as a single IV dose, followed by 15 mg SC at 1-week interval for 3 doses. Cohort 2: Participants receive 45 mg as a single IV dose, followed by 45 mg SC at 1-week interval for 3 doses. Cohort 3: Participants receive 90 mg as a single IV dose, followed by 90 mg SC at 1-week interval for 3 doses. Percentages are based on the number of participants in the safety set.
+Treatment-emergent adverse events (TEAE) are defined as any adverse events (AEs) that begin or worsen on or after the first dose of treatment until the final follow-up visit.
+Treatment-emergent serious adverse events (TESAE) are defined as any serious AEs that begin or worsen on or after the first dose of treatment until the final follow-up visit.
+Coded using MedDRA version 25.0. A participant with multiple occurrences of a TEAE is counted only once at the highest relationship at each level of summarization.
+Percentages are based on the number of participants in the safety set who received the type of administration in each cohort and total. An AE is included under the most recent type of administration being received prior to the start of the adverse event.
+Tabulation does not include reactions noted on the injection/infusion site evaluation form presented in listing 16.2.8.12 that were not reported as AEs.
+One related TEAE of dizziness in a participant in Cohort 1 was not included in this table due to an incomplete AE start date and
+therefore the event could not be assigned to treatment with IV or SC administration. The number of participants with events were not affected. n = number of participants with TEAE; N = number of participants for each treatment; E = number of TEAEs; % = n/N*100.
+Source: End-of-Text Table 14.3.1.1
+Clinical Study Report ALXN1850-HPP-101
+28 Feb 2023
+Analyses of All Adverse Events
+Adverse events are presented by participant in Listing 16.2.7.1.
+Frequency of Treatment-Emergent Adverse Events
+Overall, 46 TEAEs were experienced by 12 participants (80.0%). Twelve TEAEs were reported for 3 participants (60.0%) in Cohort 1; 26 TEAEs were reported for 5 participants (100%) in Cohort 2, and 8 TEAEs were reported for 4 participants (80.0%) in Cohort 3. One TEAE in a participant in Cohort 1 was not included in the TEAEs count due to an incomplete AE start date and therefore the event could not be assigned to treatment with IV or SC administration. While the number of participants with events was not affected, the number of TEAEs and related TEAEs for Cohort 1 and overall does not reflect this event.
+The majority of TEAEs occurred in the SOC of general disorders and administration site conditions. The most frequently reported TEAEs were headache and coronavirus infection (3 participants [20.0%] each), fatigue, injection site bruising, injection site erythema, hyperphosphatemia, anemia, and hematuria (2 participants [13.3%] each).
+Treatment-emergent AEs are presented by SOC and PT in Table 7. Tabulation does not include reactions noted on the injection/infusion site evaluation form presented in Listing 16.2.8.12 that were not reported as AEs.
+Page 43 of 2663 Alexion Confidential
+Table 7: Treatment-Emergent Adverse Events by System Organ Class and Preferred Term (Safety Set)
+Cohort 1 Cohort 2 Cohort 3 Total
+IV-15
+Overall mg
+(N=5) (N=5)
+SC-15
+mg (N=5)
+IV-45
+Overall mg
+(N=5) (N=5)
+SC-45
+mg (N=5)
+IV-90
+Overall mg
+(N=5) (N=5)
+SC-90
+mg (N=5)
+Overall IV (N=15) (N=15)
+SC (N=15)
+n (%) n (%)
+n (%)
+n (%) n (%)
+n (%)
+n (%) n (%)
+n (%)
+n (%) n (%)
+n (%)
+[E]
+[E]
+[E]
+[E]
+[E]
+[E]
+[E]
+[E]
+[E]
+[E]
+[E]
+[E]
+Participants with at least 1 TEAE
+3 (60.0)
+2 (40.0)
+3 (60.0)
+5 ( 100)
+5 ( 100)
+5 ( 100)
+4 (80.0)
+2 (40.0)
+4 (80.0)
+12 (80.0)
+9 (60.0)
+12 (80.0)
+12
+2
+10
+26
+7
+19
+8
+4
+4
+46
+13
+33
+General disorders and administration
+3 (60.0)
+1 (20.0)
+2 (40.0)
+2 (40.0)
+1 (20.0)
+2 (40.0)
+1 (20.0)
+0
+1 (20.0)
+6 (40.0)
+2 (13.3)
+5 (33.3)
+site conditions
+4
+1
+3
+7
+1
+6
+1
+1
+12
+2
+10
+Fatigue
+1 (20.0)
+1 (20.0)
+0
+1 (20.0)
+1 (20.0)
+0
+0
+0
+0
+2 (13.3)
+2 (13.3)
+0
+1
+1
+1
+1
+2
+2
+Injection site bruising
+1 (20.0)
+0
+1 (20.0)
+1 (20.0)
+0
+1 (20.0)
+0
+0
+0
+2 (13.3)
+0
+2 (13.3)
+1
+1
+1
+1
+2
+2
+Injection site erythema
+0
+0
+0
+1 (20.0)
+0
+1 (20.0)
+1 (20.0)
+0
+1 (20.0)
+2 (13.3)
+0
+2 (13.3)
+3
+3
+1
+1
+4
+4
+Injection site haemorrhage
+0
+0
+0
+1 (20.0)
+0
+1 (20.0)
+0
+0
+0
+1 ( 6.7)
+0
+1 ( 6.7)
+1
+1
+1
+1
+Injection site pruritus
+0
+0
+0
+1 (20.0)
+0
+1 (20.0)
+0
+0
+0
+1 ( 6.7)
+0
+1 ( 6.7)
+1
+1
+1
+1
+Injection site reaction
+1 (20.0)
+0
+1 (20.0)
+0
+0
+0
+0
+0
+0
+1 ( 6.7)
+0
+1 ( 6.7)
+1
+1
+1
+1
+Vessel puncture site bruise
+1 (20.0)
+0
+1 (20.0)
+0
+0
+0
+0
+0
+0
+1 ( 6.7)
+0
+1 ( 6.7)
+1
+1
+1
+1
+Musculoskeletal and connective tissue
+0
+0
+0
+3 (60.0)
+1 (20.0)
+2 (40.0)
+1 (20.0)
+1 (20.0)
+0
+4 (26.7)
+2 (13.3)
+2 (13.3)
+disorders
+3
+1
+2
+1
+1
+4
+2
+2
+Arthralgia
+0
+0
+0
+1 (20.0)
+1 (20.0)
+0
+0
+0
+0
+1 ( 6.7)
+1 ( 6.7)
+0
+1
+1
+1
+1
+Muscle spasms
+0
+0
+0
+1 (20.0)
+0
+1 (20.0)
+0
+0
+0
+1 ( 6.7)
+0
+1 ( 6.7)
+1
+1
+1
+1
+Muscle tightness
+0
+0
+0
+0
+0
+0
+1 (20.0)
+1 (20.0)
+0
+1 ( 6.7)
+1 ( 6.7)
+0
+1
+1
+1
+1
+Spinal pain
+0
+0
+0
+1 (20.0)
+0
+1 (20.0)
+0
+0
+0
+1 ( 6.7)
+0
+1 ( 6.7)
+1
+1
+1
+1
+Cohort 1 Cohort 2 Cohort 3 Total
+IV-15
+Overall mg
+(N=5) (N=5)
+SC-15
+mg (N=5)
+IV-45
+Overall mg
+(N=5) (N=5)
+SC-45
+mg (N=5)
+IV-90
+Overall mg
+(N=5) (N=5)
+SC-90
+mg (N=5)
+Overall IV SC (N=15) (N=15) (N=15)
+n (%)
+n (%)
+n (%)
+n (%)
+n (%)
+n (%)
+n (%)
+n (%)
+n (%)
+n (%)
+n (%)
+n (%)
+[E]
+[E]
+[E]
+[E]
+[E]
+[E]
+[E]
+[E]
+[E]
+[E]
+[E]
+[E]
+Nervous system disorders
+2 (40.0)
+0
+2 (40.0)
+2 (40.0)
+2 (40.0)
+1 (20.0)
+0
+0
+0
+4 (26.7)
+2 (13.3)
+3 (20.0)
+2
+2
+3
+2
+1
+5
+2
+3
+Headache
+1 (20.0)
+0
+1 (20.0)
+2 (40.0)
+2 (40.0)
+1 (20.0)
+0
+0
+0
+3 (20.0)
+2 (13.3)
+2 (13.3)
+1
+1
+3
+2
+1
+4
+2
+2
+Dizziness
+1 (20.0)
+0
+1 (20.0)
+0
+0
+0
+0
+0
+0
+1 ( 6.7)
+0
+1 ( 6.7)
+1
+1
+1
+1
+Infections and infestations
+0
+0
+0
+1 (20.0)
+1 (20.0)
+1 (20.0)
+2 (40.0)
+1 (20.0)
+2 (40.0)
+3 (20.0)
+2 (13.3)
+3 (20.0)
+2
+1
+1
+3
+1
+2
+5
+2
+3
+Coronavirus infection
+0
+0
+0
+1 (20.0)
+1 (20.0)
+0
+2 (40.0)
+0
+2 (40.0)
+3 (20.0)
+1 ( 6.7)
+2 (13.3)
+1
+1
+2
+2
+3
+1
+2
+Urinary tract infection
+0
+0
+0
+1 (20.0)
+0
+1 (20.0)
+0
+0
+0
+1 ( 6.7)
+0
+1 ( 6.7)
+1
+1
+1
+1
+Vulvovaginal mycotic infection
+0
+0
+0
+0
+0
+0
+1 (20.0)
+1 (20.0)
+0
+1 ( 6.7)
+1 ( 6.7)
+0
+1
+1
+1
+1
+Metabolism and nutrition disorders
+2 (40.0)
+1 (20.0)
+1 (20.0)
+1 (20.0)
+0
+1 (20.0)
+0
+0
+0
+3 (20.0)
+1 ( 6.7)
+2 (13.3)
+3
+1
+2
+2
+2
+5
+1
+4
+Hyperphosphataemia
+2 (40.0)
+1 (20.0)
+1 (20.0)
+0
+0
+0
+0
+0
+0
+2 (13.3)
+1 ( 6.7)
+1 ( 6.7)
+2
+1
+1
+2
+1
+1
+Decreased appetite
+1 (20.0)
+0
+1 (20.0)
+0
+0
+0
+0
+0
+0
+1 ( 6.7)
+0
+1 ( 6.7)
+1
+1
+1
+1
+Hypoglycaemia
+0
+0
+0
+1 (20.0)
+0
+1 (20.0)
+0
+0
+0
+1 ( 6.7)
+0
+1 ( 6.7)
+2
+2
+2
+2
+Blood and lymphatic system disorders
+1 (20.0)
+0
+1 (20.0)
+1 (20.0)
+0
+1 (20.0)
+0
+0
+0
+2 (13.3)
+0
+2 (13.3)
+1
+1
+1
+1
+2
+2
+Anaemia
+1 (20.0)
+0
+1 (20.0)
+1 (20.0)
+0
+1 (20.0)
+0
+0
+0
+2 (13.3)
+0
+2 (13.3)
+1
+1
+1
+1
+2
+2
+Gastrointestinal disorders
+1 (20.0)
+0
+1 (20.0)
+1 (20.0)
+0
+1 (20.0)
+0
+0
+0
+2 (13.3)
+0
+2 (13.3)
+1
+1
+2
+2
+3
+3
+Abdominal pain
+0
+0
+0
+1 (20.0)
+0
+1 (20.0)
+0
+0
+0
+1 ( 6.7)
+0
+1 ( 6.7)
+2
+2
+2
+2
+Cohort 1 Cohort 2 Cohort 3 Total
+Overall (N=5)
+IV-15
+mg (N=5)
+SC-15
+mg (N=5)
+Overall (N=5)
+IV-45
+mg (N=5)
+SC-45
+mg (N=5)
+Overall (N=5)
+IV-90
+mg (N=5)
+SC-90
+mg (N=5)
+Overall (N=15)
+IV (N=15)
+SC (N=15)
+n (%)
+n (%)
+n (%)
+n (%)
+n (%)
+n (%)
+n (%)
+n (%)
+n (%)
+n (%)
+n (%)
+n (%)
+[E]
+[E]
+[E]
+[E]
+[E]
+[E]
+[E]
+[E]
+[E]
+[E]
+[E]
+[E]
+Nausea 1 (20.0)
+0
+1 (20.0)
+0
+0
+0
+0
+0
+0
+1 ( 6.7)
+0
+1 ( 6.7)
+1
+1
+1
+1
+Investigations 1 (20.0)
+0
+1 (20.0)
+0
+0
+0
+1 (20.0)
+1 (20.0)
+0
+2 (13.3)
+1 ( 6.7)
+1 ( 6.7)
+1
+1
+1
+1
+2
+1
+1
+Blood phosphorus increased 0
+0
+0
+0
+0
+0
+1 (20.0)
+1 (20.0)
+0
+1 ( 6.7)
+1 ( 6.7)
+0
+1
+1
+1
+1
+Gamma-glutamyltransferase 1 (20.0)
+0
+1 (20.0)
+0
+0
+0
+0
+0
+0
+1 ( 6.7)
+0
+1 ( 6.7)
+increased 1
+1
+1
+1
+Renal and urinary disorders 0
+0
+0
+2 (40.0)
+2 (40.0)
+1 (20.0)
+0
+0
+0
+2 (13.3)
+2 (13.3)
+1 ( 6.7)
+3
+2
+1
+3
+2
+1
+Haematuria 0
+0
+0
+2 (40.0)
+1 (20.0)
+1 (20.0)
+0
+0
+0
+2 (13.3)
+1 ( 6.7)
+1 ( 6.7)
+2
+1
+1
+2
+1
+1
+Hyperphosphaturia 0
+0
+0
+1 (20.0)
+1 (20.0)
+0
+0
+0
+0
+1 ( 6.7)
+1 ( 6.7)
+0
+1
+1
+1
+1
+Cardiac disorders 0
+0
+0
+0
+0
+0
+1 (20.0)
+0
+1 (20.0)
+1 ( 6.7)
+0
+1 ( 6.7)
+1
+1
+1
+1
+Atrial fibrillation 0
+0
+0
+0
+0
+0
+1 (20.0)
+0
+1 (20.0)
+1 ( 6.7)
+0
+1 ( 6.7)
+1
+1
+1
+1
+Eye disorders 0
+0
+0
+1 (20.0)
+0
+1 (20.0)
+0
+0
+0
+1 ( 6.7)
+0
+1 ( 6.7)
+1
+1
+1
+1
+Dry eye 0
+0
+0
+1 (20.0)
+0
+1 (20.0)
+0
+0
+0
+1 ( 6.7)
+0
+1 ( 6.7)
+1
+1
+1
+1
+Reproductive system and breast 0
+0
+0
+0
+0
+0
+1 (20.0)
+1 (20.0)
+0
+1 ( 6.7)
+1 ( 6.7)
+0
+disorders
+1
+1
+1
+1
+Breast discomfort 0
+0
+0
+0
+0
+0
+1 (20.0)
+1 (20.0)
+0
+1 ( 6.7)
+1 ( 6.7)
+0
+1
+1
+1
+1
+Respiratory, thoracic and mediastinal 0
+0
+0
+1 (20.0)
+0
+1 (20.0)
+0
+0
+0
+1 ( 6.7)
+0
+1 ( 6.7)
+disorders
+1
+1
+1
+1
+Cohort 1 Cohort 2 Cohort 3 Total
+Overall (N=5)
+IV-15
+mg (N=5)
+SC-15
+mg (N=5)
+Overall (N=5)
+IV-45
+mg (N=5)
+SC-45
+mg (N=5)
+Overall (N=5)
+IV-90
+mg (N=5)
+SC-90
+mg (N=5)
+Overall (N=15)
+IV (N=15)
+SC (N=15)
+n (%)
+n (%)
+n (%)
+n (%)
+n (%)
+n (%)
+n (%)
+n (%)
+n (%)
+n (%)
+n (%)
+n (%)
+[E]
+[E]
+[E]
+[E]
+[E]
+[E]
+[E]
+[E]
+[E]
+[E]
+[E]
+[E]
+Nasal congestion 0
+0
+0
+1 (20.0)
+0
+1 (20.0)
+0
+0
+0
+1 ( 6.7)
+0
+1 ( 6.7)
+1
+1
+1
+1
+Vascular disorders 0
+0
+0
+1 (20.0)
+0
+1 (20.0)
+0
+0
+0
+1 ( 6.7)
+0
+1 ( 6.7)
+1
+1
+1
+1
+Hypertension 0
+0
+0
+1 (20.0)
+0
+1 (20.0)
+0
+0
+0
+1 ( 6.7)
+0
+1 ( 6.7)
+1
+1
+1
+1
+IV = Intravenous, SC = Subcutaneous.
+Cohort 1: Participants receive 15 mg as a single IV dose, followed by 15 mg SC at 1-week interval for 3 doses. Cohort 2: Participants receive 45 mg as a single IV dose, followed by 45 mg SC at 1-week interval for 3 doses. Cohort 3: Participants receive 90 mg as a single IV dose, followed by 90 mg SC at 1-week interval for 3 doses.
+Treatment-emergent adverse events (TEAE) are defined as any adverse events (AEs) that begin or worsen on or after the first dose of treatment until the final follow-up visit.
+Coded using MedDRA version 25.0. A participant with multiple occurrences of a TEAE is counted only once at each level of summarization.
+Percentages are based on the number of participants in the safety set who received the type of administration in each cohort and total.
+An AE is included under the most recent type of administration being received prior to the start of the adverse event.
+Tabulation does not include reactions noted on the injection/infusion site evaluation form presented in listing 16.2.8.12 that were not reported as AEs.
+One related TEAE of dizziness in a participant in Cohort 1 was not included in this table due to an incomplete AE start date and
+therefore the event could not be assigned to treatment with IV or SC administration. The number of participants with events were not affected. n = number of participants with TEAE; N = number of participants for each treatment; E = number of TEAEs; % = n/N*100.
+Source: End-of-Text Table 14.3.1.2
+Treatment-Emergent Adverse Events by Intensity
+The majority of TEAEs were reported as grade 1 or grade 2 events. One participant (6.7%) in Cohort 2 and 1 participant (6.7%) in Cohort 3 experienced grade 3 TEAEs (hypertension and atrial fibrillation, respectively). There were no grade 4 TEAEs reported.
+The number and percentage of participants with TEAEs are presented by SOC, PT, and intensity in Table 14.3.1.4.
+Treatment-Emergent Adverse Events by Relationship
+A total of 10 participants (66.7%) experienced 29 TEAEs considered by the investigator to be related to study drug. Treatment-related TEAEs were reported for 3 participants (60.0%) in Cohort 1, 5 participants (100%) in Cohort 2, and 2 participants (40.0%) in Cohort 3.
+Treatment-related TEAEs reported for more than 1 participant overall included headache (3 participants) and fatigue, injection site bruising, injection site erythema, and hematuria
+(2 participants each). A participant with multiple occurrences of a TEAE is counted only once at the highest relationship. One TEAE in a participant in Cohort 1 was not included in the TEAEs count due to an incomplete AE start date and therefore the event could not be assigned to treatment with IV or SC administration. While the number of participants with events was not affected, the number of TEAEs and related TEAEs for Cohort 1 and overall does not reflect this event.
+The number and percentage of participants with TEAEs are presented by SOC, PT, and relationship to study drug in Table 14.3.1.3.
+Deaths
+No deaths were reported during the study.
+Treatment-Emergent Serious Adverse Events
+One TESAE was reported for a participant in Cohort 3 (Table 14.3.1.5, Table 14.3.1.6, and Listing 14.3.2.1).
+Participant 01500017 (Cohort 3), a 57-year-old White female with hypophosphatasia, received a 90 mg ALXN1850 IV dose on Day 1 and 90 mg ALXN1850 SC dose on Day 8, 15, and 22. The participant had no other relevant medical history.
+On Day 50, 28 days after the last dose of study drug, the participant experienced a TESAE of grade 3 atrial fibrillation that resulted in hospitalization. It was reported that just before arrival to the emergency room, the participant got out of bed quickly, felt nauseated with sudden syncope, collapsed with severe intensity, and lost consciousness. The participant experienced chills, weakness, and sacral pain. The participant had orthostatic hypotension upon emergency room admission and also had slightly elevated creatinine. On the same day, the participant was hospitalized for observation and an ECG showed atrial fibrillation with a rapid ventricular response. A repeat ECG showed a normal sinus rhythm. An echocardiogram showed normal systolic function, ejection fraction of 60%, trace mitral regurgitation, and trace tricuspid valve regurgitation.
+On Day 51, ECG showed an ejection fraction of 60% with trace mitral regurgitation with no other significant abnormality. The event was considered resolved on Day 51 and the participant was discharged from the hospital. The participant was given acetylsalicylic acid for the event of atrial fibrillation. The investigator considered the TESAE not related to the study drug.
+Discontinuations and/or Dose Modifications Due to Treatment-Emergent Adverse Events
+There were no discontinuations or dose modification due to TEAEs (Listing 14.3.2.2).
+Adverse Events of Special Interest
+Adverse events of interest included localized injection/infusion site reactions and injection/infusion associated reactions.
+Injection/Infusion Site Reactions
+Injection/infusion site reactions included AEs localized to the site of study drug administration coded to PTs under the high-level terms (HLTs) of injection site reactions or infusion site reactions, occurring at any time during study participation. Note: The site reactions related to study drug also include events related to the administration of study drug (e.g., injection site bruising). Additionally, clinical signs and symptoms captured on the injection/infusion site evaluation form and not reported separately as AEs are also included in the overall presentation of injection/infusion site reactions.
+Injection/infusion site reactions reported as AEs are summarized in Table 14.3.1.7 and are presented by participant in Listing 14.3.2.3. Five participants reported 9 TEAEs following SC administration. This includes 1 participant who reported a total of 5 TEAEs for 3 injections. Evaluation of injection/infusion site reactions is presented by participant in Listing 16.2.8.12. Four clinical observations of erythema (Participants 01500006, 01500009, 01500018, and 1500020) following SC administration were captured on the injection/infusion site evaluation form (see Listing 16.2.8.12) but were not reported as AEs. These clinical observations do not appear in the AE summary tables and listing for injection reactions but are included below in the overall presentation of injection site reactions.
+There were no participants with reported TEAEs following IV infusion. One participant was noted to have mild induration at the IV infusion site captured on the injection/infusion site evaluation form.
+Overall, across the 3 cohorts, a total of 8/15 participants experienced local site reactions during 10 SC injections; 5 participants with injection site related AEs (Table 14.3.1.7 and
+Listing 14.3.2.3) and 3 additional participants with reactions following SC injection (not reported as an AE) on the injection/infusion site evaluation form (Listing 16.2.8.12). Localized reactions at the SC injection site were reported for 2 participants in Cohort 1, 3 participants in Cohort 2, and 3 participants in Cohort 3. One participant (01500011) experienced reactions with each SC injection, the remaining 7 participants each experienced a reaction during only 1 SC administration; 3 participants after the first injection, 2 participants after the second injection, and 2 participants after the third injection. Overall, there were 10 occurrences of injection site reactions over 41 SC injections. There were a total of 15 participants who were planned to
+receive 3 SC injections each for a total of 45 SC injections; overall there were 41 SC injections administered since 1 participant in Cohort 2 missed 2 SC injections and 2 participants in Cohort 3 missed 1 SC injection each.
+In addition to injection site erythema, local reactions reported as AEs included injection site bruising, injection site hemorrhage, injection site pruritis, and injection site reaction.
+Details regarding participants with events are summarized below.
+Participant 01500002 (Cohort 1), a 57-year-old White male, received a 15 mg ALXN1850 IV dose on Day 1 and 15 mg ALXN1850 SC dose on Day 8, 15, and 22. On Day 14, 6 days after the first SC dose of study drug, the participant experienced a TEAE of grade 1 injection site bruising. The event was considered resolved on
+Day 21. The investigator considered the TEAE to be related to the study drug. The participant was ADA negative throughout the study.
+Participant 01500014 (Cohort 1), a 42-year-old White male, received a 15 mg ALXN1850 IV dose on Day 1 and 15 mg ALXN1850 SC dose on Day 8, 15, and 22. On Day 25, 3 days after the final SC dose of study drug, the participant experienced a TEAE of grade 1 injection site reaction (soreness, swelling, and redness). The event was considered resolved on Day 29. The investigator considered the TEAE to be related to the study drug. The participant was ADA negative throughout the study.
+Participant 01500006 (Cohort 2), a 31-year-old White female, received a 45 mg ALXN1850 IV dose on Day 1 and a single 45 mg ALXN1850 SC dose on Day 29. Mild erythema was noted 30 minutes after SC injection and was still present 12 hours post-injection, but no longer present at 24 hours post-injection. Erythema was not reported as an AE. The participant was ADA negative throughout the study.
+Participant 01500009 (Cohort 2), a 47-year-old White female, received a 45 mg ALXN1850 IV dose on Day 1 and 45 mg ALXN1850 SC dose on Day 8, 15, and 22. On Day 8, mild erythema was noted 15 minutes after the first SC injection of study drug and was still present 1-hour post-injection, but no longer present at 24 hours post-injection. Erythema was not reported as an AE. On Day 10, 2 days after the first SC dose of study drug, the participant experienced a TEAE of grade 1 injection site bruising. The event was considered resolved on Day 14. The investigator considered the TEAE to be related to the study drug. The participant was ADA negative throughout the study.
+Participant 01500011 (Cohort 2), a 55-year-old White female, received a 45 mg ALXN1850 IV dose on Day 1 and 45 mg ALXN1850 SC dose on Day 8, 15, and 22. On Day 8, the same day as the first SC dose of study drug, the participant experienced a TEAE of grade 2 injection site erythema. The investigator considered the TEAE related to the study drug. The event was considered resolved on the same day on
+Day 8. On Day 15, the same day as the second SC dose of study drug, the participant experienced TEAEs of grade 1 injection site pruritis and grade 2 injection site erythema. The investigator considered the TEAEs related to the study drug. The events were considered resolved on the same day on Day 15. On Day 22 and Day 23, the same day and 1 day after the final SC dose of study drug, the participant
+experienced TEAEs of grade 1 injection site erythema and grade 1 injection site hemorrhage, respectively. The events were considered resolved on Day 22 and
+Day 24. The investigator considered the TEAEs to be related to the study drug. The participant was ADA negative throughout the study.
+Participant 01500018 (Cohort 3), a 40-year-old White female, received a 90 mg ALXN1850 IV dose on Day 1 and 90 mg ALXN1850 SC dose on Day 15 and 29. On Day 29, mild erythema was noted 15 minutes after the second SC injection with no further erythema documented on the injection/infusion site evaluation form. Erythema was not reported as an AE. The participant was ADA negative throughout the study.
+Participant 01500019 (Cohort 3), a 59-year-old White female, received a 90 mg ALXN1850 IV dose on Day 1 and 90 mg ALXN1850 SC dose on Day 8, 15, and 22. On Day 28, 6 days after the final SC dose of study drug, the participant experienced a TEAE of grade 1 injection site erythema. The event was considered resolved on
+Day 41. The investigator considered the TEAE to be related to the study drug. The participant was ADA positive at baseline (titer 40) and remained ADA positive throughout the study (Day 8 titer 40, Day 22 titer 40, Day 29 titer 80, and Day 78 EOS titer 10). Neutralizing antibodies were negative throughout.
+Participant 01500020 (Cohort 3), a 64-year-old White female, received a 90 mg ALXN1850 IV dose on Day 1 and 90 mg ALXN1850 SC dose on Day 8 and 15. On Day 15 mild erythema was noted at 15 and 30 minutes after the second SC injection and was still present 2 hours post-injection. Erythema was not reported as an AE. The participant was ADA positive at baseline (titer 20) and was subsequently ADA negative throughout the study. Neutralizing antibodies were negative at baseline.
+There was 1 participant who experienced an infusion site reactions following IV administration.
+Participant 01500018 (Cohort 3), a 40-year-old White female, received a 90 mg ALXN1850 IV dose on Day 1 and 90 mg ALXN1850 SC dose on Day 15 and 29. On Day 1, approximately 12 hours after study drug administration, the investigator noted on the injection/infusion site evaluation form mild localized induration at the infusion site (Listing 16.2.8.12). This participant also had mild erythema following the third SC injection (described above) and was ADA negative throughout the study.
+Injection/Infusion Associated Reactions
+PTs under the Broad SMQ of hypersensitivity and Broad SMQ of anaphylactic reactions, were included to assess for hypersensitivity/anaphylactic reactions (Table 14.3.1.8, Table 14.3.4.6, Listing 14.3.2.4, and Listing 16.2.8.13). No participant had a hypersensitivity reaction or anaphylaxis.
+In addition, potential injection/infusion associated reactions, including systemic AEs (e.g., fever, chills, flushing, alterations in heart rate and blood pressure, dyspnea, nausea, vomiting, diarrhea, and generalized skin rashes) which occurred within 24 hours of drug administration that were assessed by the investigator to be related to the study drug are summarized in Table 14.3.1.9 and presented by participant in Listing 14.3.2.5. These AEs underwent a medical review by the Sponsor to determine which events were consistent with a potential injection/infusion associated
+reaction. Following medical review, no participant was considered to have experienced an injection associated reaction following SC administration of ALXN1850. One participant experienced a mild headache within 24 hours of IV administration considered consistent with an infusion associated reaction and is summarized below.
+Participant 01500008 (Cohort 2), a 30-year-old White male, received a 45 mg ALXN1850 IV dose on Day 1 and 45 mg ALXN1850 SC dose on Day 8, 15, and 22. On Day 1, approximately 2 hours following start of IV dose, the participant experienced a TEAE of grade 1 headache. The participant had a medical history of ongoing paranasal sinus discomfort and headache. The event was considered resolved on the same day. The investigator considered the TEAE to be related to the study drug. The participant was ADA negative throughout the study.
+Clinical Laboratory Evaluation
+Hematology, chemistry, coagulation, urinalysis, and other laboratory results are presented by participant in Listing 16.2.8.1, Listing 16.2.8.2, Listing 16.2.8.3, Listing 16.2.8.4, and
+Listing 16.2.8.5, respectively.
+Note: The exploratory biomarkers of ionized calcium, phosphorus, and magnesium are further discussed in Section 5.5.
+Laboratory Values over Time
+Summaries of change from baseline in hematology and coagulation, chemistry, and urinalysis by relative time to dose are presented in Table 14.3.4.1.1, Table 14.3.4.2.1, and Table 14.3.4.3.1, respectively. Mean postdose values over time were generally similar to baseline across clinical laboratory parameters.
+Summary of Changes by Participant
+Shift from baseline by relative time to dose and shift from baseline to worst-case relative to normal range post-baseline for hematology and coagulation (by grade and by category) are presented in Table 14.3.4.1.2 through Table 14.3.4.1.5.
+Shift from baseline by relative time to dose and shift from baseline to worst-case relative to normal range post-baseline for chemistry (by grade and by category) are presented in Table 14.3.4.2.2 through Table 14.3.4.2.5.
+Clinically Meaningful Laboratory Abnormalities
+The TEAEs related to laboratory abnormalities included events of anemia (2 participants), hyperphosphatemia (2 participants), hypoglycemia (1 participant), blood phosphorus increased (1 participant), and gamma-glutamyltransferase increased (1 participant) (Table 14.3.1.2 and Listing 16.2.7.1). One event of anemia, 1 event of hyperphosphatemia, and the event of gamma- glutamyltransferase increased were considered by the investigator as related to study drug. One event of anemia, 1 event of hyperphosphatemia, and the event of blood phosphorus increased were considered by the investigator as not related to study drug. One participant had 2 events of hypoglycemia; 1 event was considered by the investigator as related to study drug and 1 event
+was considered by the investigator as not related to study drug. All events were considered resolved, with the exception of 1 event of anemia which was ongoing.
+Other Safety Evaluations
+Vital Signs
+Summaries of change from baseline in vital signs by relative time to dose are presented in Table 14.3.4.4. Mean postdose values were generally similar to baseline.
+Individual vital sign data (blood pressure, pulse rate, and temperature) are presented in Listing 16.2.8.6. One participant (Cohort 2) had a TEAE of grade 3 hypertension which was
+considered by the investigator as not related to study drug and was resolved (Listing 16.2.7.1).
+Electrocardiograms (ECGs)
+Triplicate 12-lead ECG changes from baseline by relative time to dose are summarized in Table 14.3.4.5.1. Mean postdose values were generally similar to baseline.
+Although there were abnormal ECG findings identified, none of the abnormalities were considered clinically significant by the investigator (Listing 16.2.8.7). One participant experienced a TESAE of atrial fibrillation, which is described in Section 5.1.1.4.
+Triplicate 12-lead ECG QT and QTcF intervals are summarized by relative time to dose in Table 14.3.4.5.2.
+Physical Examination Findings
+No physical examination findings were reported as TEAEs and abnormal results were not clinically significant (Listing 16.2.8.9).
+Other Observations Related to Safety
+Individual ophthalmological examination and renal ultrasound results are presented in Listing 16.2.8.10 and Listing 16.2.8.11, respectively.
+Immunogenicity assessment results are provided in Section 5.4.
+Pharmacokinetics
+Analysis of Pharmacokinetics
+Individual PK results are presented in Listing 16.2.6.1 and Listing 16.2.6.2.
+Plasma Concentration-Time Profiles of ALXN1850
+Mean (±SD) plasma concentrations of ALXN1850 versus nominal time profiles from the last dose are presented by treatment (IV and SC) and dose number for the first and subsequent participants with cohort overlaid on both linear and semilogarithmic scales in Figure 3.
+Figure 3: Mean (±SD) Plasma Concentrations of ALXN1850 Versus Time by Treatment and Dose (Linear and Semilogarithmic Scales) (Pharmacokinetic Set)
+IV = intravenous; SC = Subcutaneous
+Cohort 1: Participants received 15 mg as a single IV dose, followed by 15 mg SC at 1 week interval for 3 doses; Cohort 2: Participants received 45 mg as a single IV dose, followed by 45 mg SC at 1 week interval for 3 doses; Cohort 3: Participants received 90 mg as a single IV dose, followed by 90 mg SC at 1 week interval for 3 doses. Source: End-of-Text Figure 14.2.1.1.
+Following single dose IV administration of ALXN1850 to adults with HPP, the mean plasma concentration versus nominal time profiles for the first participant and subsequent participants in each cohort (15, 45, and 90 mg dose) were stable and followed a similarly parallel trend without clearly discernible distribution phase. Time to attain peak plasma concentration of ALXN1850 (the median estimate) was noted at 2.00, 0.60, and 0.72 hours for Cohorts 1, 2, and 3, respectively, relative to the 0.5-hour IV infusion duration. Thereafter, concentrations declined gradually reaching close to below the limit of quantification by 336 hours (the last sample collected) for the first participants while, for the subsequent participants, the last sample after IV infusion was collected at 168 hours without reaching hour-336.
+Following 3 SC doses (administered post IV dose) at 1-week intervals, the mean plasma concentration versus nominal time profiles for the first and the subsequent participants in each cohort (15, 45, and 90 mg dose) were also stable and generally followed a similarly parallel trend. Time to attain peak plasma concentration of ALXN1850 (the median estimate) following the SC dose 1 for Cohorts 1, 2, and 3 for all the participants was around 48 hours. The corresponding values following SC doses 2 and 3 were around 24 hours and between 36 and
+48 hours, respectively. The last sample after SC dose 1 and SC dose 2 was collected at 168 hours post SC doses and concentrations are much higher than the limit of quantification.
+Mean (±SD) plasma concentrations of ALXN1850 versus elapsed time from the first dose on linear and semilogarithmic scales by cohort and by participant type (cohorts overlaid) are presented in Figure 4 and Figure 5, respectively. Mean (±SD) plasma concentrations of ALXN1850 versus elapsed time from the first dose on linear and semilogarithmic scales by participant type (cohorts overlaid) excluding subjects following missed doses (sensitivity analysis) is presented in Figure 6.
+Figure 4: Mean (±SD) Plasma Concentrations of ALXN1850 Versus Elapsed Time by Cohort (Linear and Semilogarithmic Scales) (Pharmacokinetic Set)
+IV = intravenous; SC = Subcutaneous
+Cohort 1: Participants receive 15 mg as a single IV dose, followed by 15 mg SC at 1 week interval for 3 doses; Cohort 2: Participants receive 45 mg as a single IV dose, followed by 45 mg SC at 1 week interval for 3 doses; Cohort 3: Participants receive 90 mg as a single IV dose, followed by 90 mg SC at 1 week interval for 3 doses. Source: End-of-Text Figure 14.2.1.2
+Figure 5: Mean (±SD) Plasma Concentrations of ALXN1850 Versus Elapsed Time by Cohorts Overlaid (Linear and Semilogarithmic Scales) (Pharmacokinetic Set)
+IV = intravenous; SC = Subcutaneous
+Cohort 1: Participants receive 15 mg as a single IV dose, followed by 15 mg SC at 1 week interval for 3 doses; Cohort 2: Participants receive 45 mg as a single IV dose, followed by 45 mg SC at 1 week interval for 3 doses; Cohort 3: Participants receive 90 mg as a single IV dose, followed by 90 mg SC at 1 week interval for 3 doses. Source: End-of-Text Figure 14.2.1.7
+Figure 6: Mean (±SD) Plasma Concentrations of ALXN1850 Versus Elapsed Time by Cohorts Overlaid (Linear and Semilogarithmic Scales) (Pharmacokinetic Set) (Sensitivity Analysis)
+IV = intravenous; SC = Subcutaneous
+Cohort 1: Participants receive 15 mg as a single IV dose, followed by 15 mg SC at 1 week interval for 3 doses; Cohort 2: Participants receive 45 mg as a single IV dose, followed by 45 mg SC at 1 week interval for 3 doses; Cohort 3: Participants receive 90 mg as a single IV dose, followed by 90 mg SC at 1 week interval for 3 doses.
+Data available from subjects following missed doses (subject 01500006 missed SC dose 1; subject 01500018 missed SC dose 2; subject 01500020 missed SC dose 3) were excluded from analysis.
+Source: End-of-Text Figure 14.2.1.8
+In each cohort (15, 45, and 90 mg dose), the mean plasma concentration of ALXN1850 versus nominal time (elapsed time from the first dose in days) profiles for the first and the subsequent participants were in general stable and followed a similar trend. It was noted that the mean concentrations increased with increasing dose (i.e., Cohort 3>Cohort 2>Cohort 1). The exclusion of ALXN1850 concentration-time data from those who had missed doses (sensitivity analysis) have shown consistent PK profiles.
+Individual and mean trough plasma concentrations of ALXN1850 following IV and SC dose administration and the box plot of trough plasma concentrations by cohort are presented (on linear and semilogarithmic scales) in Figure 7 and Figure 8, respectively.
+Figure 7: Individual and Mean Trough Plasma Concentrations of ALXN1850 Following IV and SC Dose Administration (Linear and Semilogarithmic Scales) (Pharmacokinetic Set)
+Linear Scale
+10
+Ctrough Concentration (ug/mL)
+8
+6
+4
+2
+0
+1 8 15 22 29
+Day
+Semi-Logarithmic Scale
+10
+Ctrough Concentration (ug/m L)
+1
+0.1
+1 8 15 22 29
+Day
+Cohort 1
+Cohort 2
+Cohort 3
+IV = intravenous; SC = Subcutaneous
+Cohort 1: Participants receive 15 mg as a single IV dose, followed by 15 mg SC at 1 week interval for 3 doses; Cohort 2: Participants receive 45 mg as a single IV dose, followed by 45 mg SC at 1 week interval for 3 doses; Cohort 3: Participants receive 90 mg as a single IV dose, followed by 90 mg SC at 1 week interval for 3 doses. Source: End-of-Text Figure 14.2.1.3
+Figure 8: Box Plot of Trough Plasma Concentrations of ALXN1850 Following IV and SC Dose Administration by Cohort (Pharmacokinetic Set)
+Cohort 1
+1.0
+0.8
+Trough Concentration (ug/m L)
+0.6
+0.4
+0.2
+0.0
+8 15 22
+Day
+Cohort 2
+4
+3
+Trough Concentration (ug/m L)
+2
+1
+0
+8 15 22
+Day
+Cohort 3
+8
+6
+Trough Concentration (ug/m L)
+4
+2
+0
+8 15 22
+Day
+IV = intravenous; SC = Subcutaneous
+Cohort 1: Participants receive 15 mg as a single IV dose, followed by 15 mg SC at 1 week interval for 3 doses; Cohort 2: Participants receive 45 mg as a single IV dose, followed by 45 mg SC at 1 week interval for 3 doses; Cohort 3: Participants receive 90 mg as a single IV dose, followed by 90 mg SC at 1 week interval for 3 doses. The bottom and top box lines represent the lower and upper quartiles, Q1 and Q3 respectively, with the median represented by the middle box line. Top and bottom whiskers present the maximum and minimum values respectively.
+Source: End-of-Text Figure 14.2.1.4
+Following a single IV and 2 SC dose administrations for subsequent participants at 1-week intervals on Days 1, 8, and 15, the mean trough plasma concentrations on Days 8, 15, and 22 noted were similar for each cohort indicating attainment of steady state. A box plot of trough plasma concentration of ALXN1850 following IV and 2 SC dose administration by cohort also shows that steady state has been achieved.
+Plasma Pharmacokinetic Parameters of ALXN1850
+Plasma PK parameters of ALXN1850 upon administration of IV dose followed by 3 SC doses in adults with HPP are summarized for the IV dose in Table 8, SC dose 1 in Table 9, SC dose 2 in Table 10, and SC dose 3 in Table 11.
+Individual plasma ALXN1850 concentration versus time by ADA status is presented in Figure 14.2.1.5.
+One participant (Cohort 1, 01500003) exhibited treatment-emergent ADA responses on Days 51, 65, and 85, and 3 participants (Cohort 1, 01500004; Cohort 3, 01500019 and 01500020) exhibited pre-existing immunoreactivity; however, no participants tested positive for NAb. The presence of ADA was apparently not associated with any impact on the PK of ALXN1850.
+Table 8: Arithmetic Mean (Arithmetic CV%) Plasma Pharmacokinetic Parameters of ALXN1850 (Pharmacokinetic Set) following IV dose
+Dose Administration
+Dose Number
+First/Subsequent/All Participants
+Parameter (unit)
+Cohort 1 (N=5)
+Cohort 2 (N=5)
+Cohort 3 (N=5)
+IV
+1
+All Participants
+Cmax (ug/mL)
+5.48
+13.8
+33.5
+(28.2)
+(21.9)
+(27.9)
+Tmax (h) (a)
+2.00
+0.60
+0.72
+(0.63,
+(0.53,
+(0.67,
+2.02)
+1.95)
+0.83)
+AUC168
+338
+856
+2070
+(h*ug/mL)
+(32.0)
+(21.2)
+(27.0)
+AUCinf
+427
+1030
+2550
+(h*ug/mL)
+(33.3)
+(22.8)
+(29.9)
+t1/2 (h)
+78.0
+66.7
+73.1
+(15.8)
+(10.4)
+(32.2)
+CL (L/h)
+0.0389
+0.0460
+0.0383
+(40.0)
+(28.4)
+(34.6)
+Vd (L)
+4.29
+4.33
+3.97
+(44.1)
+(16.1)
+(42.9)
+IV
+1
+First Participant
+AUCt
+422
+863
+2030 [1]
+(h*ug/mL)
+[1]
+[1]
+IV
+1
+Subsequent Participant
+AUCt
+339
+851
+2190
+(h*ug/mL)
+(36.8)
+(24.6)
+(24.6)
+[4]
+[4]
+[4]
+Note:
+n = N unless otherwise stated []. Terminal elimination phase dependent parameters (AUCinf, CL/F, and Vz/F) were not estimated where terminal elimination phase was not clearly defined. AUCinf, CL/F, and Vz/F are not included in summary statistics when AUCextrap>20%.
+a For Tmax, the median (minimum, maximum) values are presented.
+Abbreviations: AUCinf = area under the plasma concentration versus time curve from time 0 extrapolated to infinity; AUC168 = area under the plasma concentration versus time curve from time 0 to 168 hours; AUCt = area under the plasma concentration versus time curve from time 0 to last quantifiable concentration; CL = total clearance;
+Cmax = maximum observed plasma concentration; CV = coefficient of variation; N = number of participants; t1/2 = terminal elimination half-life; Tmax = time to maximum observed plasma concentration; Vd = volume of distribution. Source: End-of-Text Table 14.2.2.1.
+Table 9: Arithmetic Mean (Arithmetic CV%) Plasma Pharmacokinetic Parameters of ALXN1850 (Pharmacokinetic Set) following SC Dose 1
+Dose Administration
+Dose Number
+First/Subsequent/All Participants
+Parameter (unit)
+Cohort 1 (N=5)
+Cohort 2 (N=5)
+*Cohort 2
+(N=5)
+Cohort 3 (N=5)
+3.59
+1
+All Participants
+0.925
+3.28
+(55.8)
+9.12
+SC
+Cmax (ug/mL)
+(33.5)
+(56.9)
+[4]
+(32.4)
+1.82
+1.82
+0.660
+(27.8)
+(27.8)
+4.17
+Ctrough (ug/mL)
+(47.0)
+[4]
+[4]
+(53.3)
+Tmax (h) (a)
+48.03
+48.03
+47.98 (0,
+48.33
+(4.00,
+(0,
+71.17)
+(47.70,
+168.00)
+71.17)
+[4]
+72.32)
+AUCtau (h*ug/mL)
+122
+431
+471
+(54.0)
+1200
+(34.3)
+(55.0)
+[4]
+(37.6)
+CL/F (L/h)
+0.254
+0.164
+[1]
+[1]
+NA
+NA
+SC
+1
+First Participant
+AUCt
+(h*ug/mL)
+59.0 [1]
+628 [1]
+NA
+577 [1]
+SC
+1
+Subsequent
+1.05
+3.59
+3.59
+8.97
+Participant
+(15.1)
+(55.8)
+(55.8)
+(37.8)
+Cmax (ug/mL)
+[4]
+[4]
+[4]
+[4]
+Ctrough
+0.763
+(31.6)
+1.82
+(27.8)
+1.82
+(27.8)
+4.83
+(40.0)
+(ug/mL)
+[4]
+[4]
+[4]
+[4]
+Tmax (h) (a)
+47.98
+47.98
+47.98 (0,
+48.38
+(4.00,
+(0,
+71.17)
+(47.70,
+48.15)
+71.17)
+[4]
+72.32)
+[4]
+[4]
+[4]
+AUCtau
+137
+471
+471
+1200
+(h*ug/mL)
+(19.1)
+(54.0)
+(54.0)
+(37.6)
+[4]
+[4]
+[4]
+[4]
+AUCt
+137
+471
+471
+1200
+(h*ug/mL)
+(19.1)
+(54.0)
+(54.0)
+(37.6)
+[4]
+[4]
+[4]
+[4]
+Note:
+n = N unless otherwise stated []. Terminal elimination phase dependent parameters (AUCinf, CL/F, and Vz/F) were not estimated where terminal elimination phase was not clearly defined. AUCinf, CL/F, and Vz/F are not included in summary statistics when AUCextrap>20%.
+* Data from subject 01500006 (First Participant) following missed SC dose 1 was excluded from analysis.
+a For Tmax, the median (minimum, maximum) values are presented.
+Abbreviations: AUCtau = area under the plasma concentration versus time curve from time 0 to dosing interval; AUCt = area under the plasma concentration versus time curve from time 0 to last quantifiable concentration; CL/F
+= apparent total clearance; Cmax = maximum observed plasma concentration; Ctrough = trough (predose) concentration observed at the start of the dosing interval; CV = coefficient of variation; N = number of participants; NA = not available; Tmax = time to maximum observed plasma concentration
+Source: End-of-Text Tables 14.2.2.1 and 14.2.2.3
+Table 10: Arithmetic Mean (Arithmetic CV%) Plasma Pharmacokinetic Parameters of ALXN1850 (Pharmacokinetic Set) following SC Dose 2
+Dose Administration
+Dose Number
+First/Subsequent/All Participants
+Parameter (unit)
+Cohort 1 (N=5)
+Cohort 2 (N=5)
+Cohort 3 (N=5)
+*Cohort 3
+(N=5)
+2.90
+7.27
+SC
+2
+All Participants
+Cmax (ug/mL)
+0.887
+(41.4)
+(65.0)
+[4]
+6.93
+(40.8)
+(43.3)
+[4]
+5.09
+Ctrough
+0.565
+2.06
+4.48
+(40.5)
+(ug/mL)
+(29.5)
+(56.3)
+(50.3)
+[4]
+Tmax (h) (a)
+24.00
+24.07
+24.02
+(23.88,
+24.13
+(23.82,
+(4.17,
+24.22)
+(23.82,
+24.15)
+167.02)
+[4]
+48.23)
+[4]
+AUCtau
+123
+421
+979
+1020
+(h*ug/mL)
+(42.1)
+(63.6)
+(47.8)
+(55.6)
+[4]
+[3]
+SC
+2
+First Participant
+AUCt
+(h*ug/mL)
+172 [1]
+-NAb
+2250
+[1]
+NA
+SC
+2
+Subsequent
+0.767
+2.90
+7.27
+7.27
+Participant
+(37.5)
+(65.0)
+(43.3)
+(43.3)
+Cmax (ug/mL)
+[4]
+[4]
+[4]
+[4]
+0.599
+2.06
+5.09
+5.09
+Ctrough
+(28.6)
+(56.3)
+(40.5)
+(40.5)
+(ug/mL)
+[4]
+[4]
+[4]
+[4]
+Tmax (h) (a)
+23.98
+24.00
+24.07
+24.07
+(4.17,
+(23.88,
+(23.82,
+(23.82,
+167.02)
+24.22)
+24.15)
+24.15)
+[4]
+[4]
+[4]
+[4]
+AUCtau
+110
+421
+1020
+1020
+(h*ug/mL)
+(45.7)
+(63.6)
+(55.6)
+(55.6)
+[4]
+[4]
+[3]
+[3]
+AUCt
+111
+421
+804
+804
+(h*ug/mL)
+(45.6)
+(63.6)
+(78.2)
+(78.2)
+[4]
+[4]
+[4]
+[4]
+Note:
+n = N unless otherwise stated []. Terminal elimination phase dependent parameters (AUCinf, CL/F, and Vz/F) were not estimated where terminal elimination phase was not clearly defined. AUCinf, CL/F, and Vz/F are not included in summary statistics when AUCextrap>20%.
+* Data from subject 01500018 (First Participant) following missed SC dose 2 was excluded from analysis.
+a For Tmax, the median (minimum, maximum) values are presented.
+b First participant (01500006) SC dose 2 was held due to COVID positive.
+Abbreviations: AUCtau = area under the plasma concentration versus time curve from time 0 to dosing interval; AUCt = area under the plasma concentration versus time curve from time 0 to last quantifiable concentration; Cmax = maximum observed plasma concentration; Ctrough = trough (predose) concentration observed at the start of the dosing interval; CV = coefficient of variation; N = number of participants; NA = not available; Tmax = time to maximum observed plasma concentration.
+Source: End-of-Text Table 14.2.2.1 and 14.2.2.3
+Table 11: Arithmetic Mean (Arithmetic CV%) Plasma Pharmacokinetic Parameters of ALXN1850 (Pharmacokinetic Set) following SC Dose 3
+Dose Administration
+Dose Number
+First/Subsequent/All Participants
+Parameter (unit)
+Cohort 1 (N=5)
+Cohort 2 (N=5)
+Cohort 3 (N=5)
+*Cohort 3
+(N=5)
+SC
+3
+All Participants
+Cmax
+0.969
+3.07
+7.92
+9.95
+(ug/mL)
+(45.9)
+(75.7)
+(85.3)
+(66.4)
+[4]
+[4]
+[3]
+Ctrough
+0.668
+2.15
+5.33
+5.33
+(ug/mL)
+(54.6)
+(62.0)
+(60.0)
+(60.0)
+[4]
+[3]
+[3]
+Tmax (h) (a)
+47.98
+35.95
+48.33
+48.25
+(0.00,
+(23.92,
+(48.17,
+(48.17,
+48.08)
+48.33)
+168.00)
+48.40)
+[4]
+[4]
+[3]
+AUCtau
+131
+463
+1130
+1340
+(h*ug/mL)
+(45.3)
+(73.7)
+(73.1)
+(65.2)
+[4]
+[4]
+[3]
+t1/2 (h)
+NA
+136
+135
+135
+(5.65)
+(2.93)
+(2.93)
+[2]
+[2]
+[2]
+CL/F (L/h)
+0.162
+0.153
+0.116
+0.116
+(86.1)
+(68.5)
+(99.3)
+(99.3)
+[4]
+[3]
+[3]
+Vd/F (L)
+NA
+27.1
+9.69
+9.69
+(87.1)
+(13.0)
+(13.0)
+[2]
+[2]
+[2]
+R
+1.17
+0.911
+0.883
+1.05
+(54.1)
+(31.3)
+(49.3)
+(33.5)
+[4]
+[4]
+[3]
+F
+36.6
+41.8
+41.1
+49.4
+(58.4)
+(55.6)
+(65.9)
+(53.2)
+[4]
+[4]
+[4]
+[3]
+SC
+3
+First Participant
+AUCt
+(h*ug/mL)
+110 [1]
+-NAb
+-NAc
+NA
+SC
+3
+Subsequent
+0.962
+3.07
+7.92
+9.95
+Participant
+Cmax
+(53.4)
+(75.7)
+(85.3)
+(66.4)
+(ug/mL)
+[4]
+[4]
+[4]
+[3]
+0.586
+2.15
+5.33
+5.33
+Ctrough
+(62.0)
+(62.0)
+(60.0)
+(60.0)
+(ug/mL)
+[4]
+[4]
+[3]
+[3]
+Tmax (h) (a)
+47.99
+35.95
+48.33
+48.25
+(47.95,
+(23.92,
+(48.17,
+(48.17,
+48.08)
+48.33)
+168.00)
+48.40)
+[4]
+[4]
+[4]
+[3]
+Dose Administration
+Dose Number
+First/Subsequent/All Participants
+Parameter (unit)
+Cohort 1 (N=5)
+Cohort 2 (N=5)
+Cohort 3 (N=5)
+*Cohort 3
+(N=5)
+AUCtau
+133
+463
+1130
+1340
+(h*ug/mL)
+(51.5)
+(73.7)
+(73.1)
+(65.2)
+[4]
+[4]
+[4]
+[3]
+AUCt
+170
+942
+2140
+2690
+(h*ug/mL)
+(68.0)
+(71.2)
+(85.2)
+(66.6)
+[4]
+[4]
+[4]
+[3]
+t1/2 (h)
+NA
+136
+135
+135
+(5.65)
+(2.93)
+(2.93)
+[2]
+[2]
+[2]
+CL/F (L/h)
+0.172
+0.153
+0.116
+0.116
+(92.2)
+(68.5)
+(99.3)
+(99.3)
+[4]
+[4]
+[3]
+[3]
+Vd/F (L)
+NA
+27.1
+9.69
+9.69
+(87.1)
+(13.0)
+(13.0)
+[2]
+[2]
+[2]
+R
+0.934
+0.911
+0.883
+1.05
+(43.8)
+(31.3)
+(49.3)
+(33.5)
+[4]
+[4]
+[4]
+[3]
+F
+36.6
+41.8
+41.1
+49.4
+(58.4)
+(55.6)
+(65.9)
+(53.2)
+[4]
+[4]
+[4]
+[3]
+Note:
+n = N unless otherwise stated []. Terminal elimination phase dependent parameters (AUCinf, CL/F, and Vz/F) were not estimated where terminal elimination phase was not clearly defined. AUCinf, CL/F, and Vz/F are not included in summary statistics when AUCextrap>20%.
+* Data from subject 01500020 (Subsequent Participant) following missed SC dose 3 was excluded from analysis.
+a For Tmax, the median (minimum, maximum) values are presented.
+b First participant (01500006) SC dose 3 was held due to COVID positive.
+c First participant (01500018) SC dose 3 was held due to COVID positive.
+F = AUCtau (SC dose 3)/AUCinf (IV)); R (subcutaneous accumulation ratio) = AUCtau (SC Dose 3)/AUCtau (SC Dose 1)
+Abbreviations: AUCtau = area under the plasma concentration versus time curve from time 0 to dosing interval; AUCt = area under the plasma concentration versus time curve from time 0 to last quantifiable concentration; CL/F
+= apparent total clearance; Cmax = maximum observed plasma concentration; Ctrough = trough (predose) concentration observed at the start of the dosing interval; CV = coefficient of variation; N = number of participants; NA = not available; t1/2 = terminal elimination half-life; Tmax = time to maximum observed plasma concentration; Vd/F= apparent volume of distribution.
+Source: End-of-Text Table 14.2.2.1 and 14.2.2.3
+Following IV and SC doses, in general, the peak and total exposure of ALXN1850 for all participants (first and subsequent combined) increased with increasing dose from 15 mg to 90 mg.
+From the study results, ADA apparently did not have impact on the PK parameters of ALXN1850; however, the number of participants that have treatment-emergent ADA response is limited (N = 1) and there was no detectible NAb positivity.
+Following IV dose, for all participants (first and subsequent combined), the arithmetic mean Cmax (peak plasma exposure) of ALXN1850 was 5.48, 13.8, and 33.5 µg/mL and the arithmetic mean AUCinf (total plasma exposure) was 427, 1030, and 2550 h*µg/mL for Cohorts 1, 2, and 3, respectively. For the first participant, AUCt (total plasma exposure) of ALXN1850 was 422, 863, and 2030 h*µg/mL and for the subsequent participants, the arithmetic mean AUCt (total plasma exposure) was 339, 851, and 2190 h*µg/mL for Cohorts 1, 2, and 3, respectively.
+Mean clearance for all participants (first and subsequent combined) in cohorts following IV dose was 0.04 L/h and the mean volume of distribution was 4.17 L.
+Mean half-life of ALXN1850 in all participants (first and subsequent combined) was 72.6 hours.
+Following SC dose 1, for all participants (first and subsequent combined), the arithmetic mean Cmax (peak plasma exposure) of ALXN1850 was 0.925, 3.28, and 9.12 µg/mL and the arithmetic mean AUCtau (total plasma exposure) was 122, 431, and 1200 h*µg/mL for Cohorts 1, 2, and 3, respectively. For the first participant, AUCt (total plasma exposure) of ALXN1850 was 59.0, 628, and 577 h*µg/mL whereas for the subsequent participants, the arithmetic mean AUCt (total plasma exposure) was 137, 471, and 1200 h*µg/mL for Cohorts 1, 2, and 3, respectively.
+Following SC dose 2, for all participants (first and subsequent combined), the arithmetic mean Cmax (peak plasma exposure) of ALXN1850 was 0.887, 2.90, and 6.93 µg/mL and the arithmetic mean AUCtau (total plasma exposure) was 123, 421, and 979 h*µg/mL for Cohorts 1, 2, and 3, respectively.
+Following SC dose 3, for all participants (first and subsequent combined), the arithmetic mean Cmax (peak plasma exposure) of ALXN1850 was 0.969, 3.07, and 7.92 µg/mL and the arithmetic mean AUCtau (total plasma exposure) was 131, 463, and 1130 h*µg/mL for Cohorts 1, 2, and 3, respectively.
+Mean apparent clearance for all participants (first and subsequent combined) in cohorts following SC dose 3 was 0.16 L/h and the mean apparent volume of distribution was 19.3 L.
+Half-life of ALXN1850 in all participants (first and subsequent combined) was around 140 hours.
+No accumulation of ALXN1850 plasma exposure was observed with accumulation ratios ranging from 0.883 to 1.05.
+Pharmacokinetic Statistical Analysis
+Dose Proportionality of ALXN1850 Exposures
+The statistical analysis assessing dose proportionality of ALXN1850 using the power model is presented in Table 12.
+Table 12: Statistical assessment of Dose Proportionality of ALXN1850 Exposures (Pharmacokinetic Set)
+Dose Range
+Dose Route
+Dose Number
+First/ Subsequent/
+All Participants
+N
+PK
+Parameter (units)
+Intercept
+Estimated Slope
+SE of the Slope
+90%
+CI of the Slope
+Dose Proportionality Criteria
+15 mg
+– 90
+mg
+IV
+1
+All
+Participants
+15
+Cmax (ug/mL)
+-1.07
+0.995
+0.0975
+(0.822,
+1.17)
+(0.875, 1.12)
+15
+AUC168
+(h*ug/mL)
+3.02
+1.00
+0.100
+(0.826,
+1.18)
+(0.875, 1.12)
+13
+AUCinf (h*ug/mL)
+3.29
+0.984
+0.124
+(0.761,
+1.21)
+(0.875, 1.12)
+SC
+1
+Subsequent
+12
+Cmax (ug/mL)
+-3.11
+1.15
+0.170
+0.841,
+1.46
+(0.875, 1.12)
+12
+AUCtau (h*ug/mL)
+1.72
+1.16
+0.169
+0.856,
+1.47
+(0.875, 1.12)
+SC
+2
+Subsequent
+12
+Cmax (ug/mL)
+-3.68
+1.22
+0.231
+(0.802,
+1.64)
+(0.875, 1.12)
+11
+AUCtau (h*ug/mL)
+1.33
+1.20
+0.263
+(0.718,
+1.68)
+(0.875, 1.12)
+SC
+3
+Subsequent
+12
+Cmax (ug/mL)
+-3.09
+1.06
+0.331
+(0.456,
+1.66)
+(0.875, 1.12)
+12
+AUCtau (h*ug/mL)
+1.60
+1.14
+0.300
+(0.599,
+1.69)
+(0.875, 1.12)
+*11
+*Cmax (ug/mL)
+-3.59
+1.22
+0.333
+(0.611,
+1.83)
+(0.875, 1.12)
+*11
+*AUCtau (h*ug/mL)
+1.36
+1.23
+0.326
+(0.627,
+1.82)
+(0.875, 1.12)
+The power model, ln(parameter) = ln(intercept) + slope*ln(dose), was used to estimate the slope and corresponding 90% confidence interval. Dose proportionality was concluded when the 90% confidence interval of the slope (beta) lies entirely within [(1+ln(0.8)/ln(r),1+ln(1.25)/ln(r))], where r is the dose range (highest dose/lowest dose).
+Abbreviations: AUCtau = area under the plasma concentration versus time curve from time 0 to dosing interval; AUCinf = area under the plasma concentration versus time curve from time 0 to infinity; AUC168 = area under the plasma concentration versus time curve from time 0 to 168 hours; CI = confidence interval; Cmax = maximum observed plasma concentration; IV = intravenous; SC = subcutaneous; N = number of participants; SE = standard error.
+* Data from subject 01500020 (missed SC dose 3) was excluded from analysis. Source: End-of-Text Table 14.2.3.1 and 14.2.3.4
+Dose proportionality was assessed across dose range of 15 to 90 mg via a power model using log of PK parameters (Cmax and AUC) as a response variable and log of dose as a fixed effect.
+Following IV administration and also following each SC administration, based on statistical assessment of dose proportionality for ALXN1850 exposure over the dose range (15 to 90 mg), the 90% CI of the slope was not contained within the criteria for dose proportionality (0.875,
+1.12) for Cmax and AUC parameters. ALXN1850 exposure increased in a greater than dose proportional manner from 15 to 90 mg.
+Absolute Bioavailability Assessment of ALXN1850
+Absolute bioavailability of ALXN1850 following SC administration was assessed by comparing AUCtau values of the third SC dose versus AUCinf of the IV dose for the same dose cohorts.
+Log-transformed AUCtau and AUCinf estimates were analyzed using an analysis of variance model with group (IV versus SC) as a factor. Absolute bioavailability assessment of ALXN1850 following SC injection among subsequent participants is presented in Table 13.
+Table 13: Absolute Bioavailability Assessment of ALXN1850 following SC Injection (Pharmacokinetic Set)
+Geometric LS Mean
+Ratio of Geometric LS Mean
+ALXN1850
+Dose (unit)
+Parameter (unit)
+Comparison (Test/Reference)
+Test (N)
+Reference (N)
+Estimate
+Lower 90% CI
+Upper 90% CI
+15 mg
+AUCtau (h*ug/mL) from SC Dose 3 and AUCinf (h*ug/mL) from IV dose
+SC / IV
+112 (4)
+392 (3)
+0.286
+0.105
+0.782
+45 mg
+AUCtau (h*ug/mL) from SC Dose 3 and AUCinf (h*ug/mL) from IV dose
+SC / IV
+367 (4)
+1000 (4)
+0.367
+0.180
+0.748
+90 mg
+AUCtau (h*ug/mL) from SC Dose 3 and AUCinf (h*ug/mL) from IV dose
+SC / IV
+881 (4)
+3030 (3)
+0.291
+0.0988
+0.857
+*SC / IV
+1070 (3)
+2920 (3)
+0.368
+0.0908
+1.49
+Abbreviations: AUCtau = area under the plasma concentration versus time curve from time 0 to dosing interval; AUCinf = area under the plasma concentration versus time curve from time 0 to infinity; CI = confidence interval; IV
+= Intravenous; LS = least squares; N = number of participants; SC = Subcutaneous. Only subsequent participants data was used.
+* Data from subject 01500020 (missed SC dose 3) was excluded from analysis. Source: End-of-Text Table 14.2.3.3 and 14.2.3.5
+The absolute bioavailability of ALXN1850 following SC dose assessed comparing AUCtau of the SC dose 3 versus the AUCinf of IV dose was 28.6%, 36.7%, and 29.1% for Cohorts 1, 2, and 3, respectively. For Cohort 3 the absolute bioavailability was 36.8% when data from 1 participant were excluded from analysis due to missed third dose.
+Assessment of Steady State of ALXN1850
+The statistical analysis assessing steady state of ALXN1850 among subsequent participants is presented in Table 14.
+Table 14: Statistical assessment of Steady State of ALXN1850 (Pharmacokinetic Set)
+Cohort
+Visit
+N
+Cohort 1
+Day 8, Day 15,
+and Day 22
+4
+Cohort 2
+Day 8, Day 15,
+and Day 22
+4
+Cohort 3
+Day 8, Day 15,
+and Day 22
+4
+Intercept
+Slope
+95% CI of the Slope
+Steady State Reached
+0.839
+-0.0126
+(-0.0149, 0.0166)
+Yes
+1.65
+0.0239
+(-0.0386, 0.0863)
+Yes
+4.50
+0.0398
+(-0.0376, 0.117)
+Yes
+Cohort 1: Participants receive 15 mg as a single IV dose, followed by 15 mg SC at 1 week interval for 3 doses; Cohort 2: Participants receive 45 mg as a single IV dose, followed by 45 mg SC at 1 week interval for 3 doses; Cohort 3: Participants receive 90 mg as a single IV dose, followed by 90 mg SC at 1 week interval for 3 doses. Abbreviation: CI = confidence interval; N = number of participants
+Source: End-of-Text Figure 14.2.3.2
+Attainment of steady state was assessed via linear mixed models using a random subject effect for assessing the relationship between trough concentrations and time among subsequent participants of each cohort. This approach involved an examination of trough concentrations versus time by conducting linear regression and calculating a 95% CI around the slope estimate, and a first instance where 0 was included in the 95% CI indicating that steady state was achieved. Following IV and SC administration, statistical analysis of trough concentrations on Days 8, 15, and 22 for each cohort demonstrated attainment of steady state on Day 8 for all three cohorts as zero was included in the 95% CI of the regression slope.
+Pharmacodynamics
+Although the PA data are presented in the tables, figures, and listings with the PD parameters, PA results are discussed under the exploratory biomarkers section (Section 5.5), to align with the Study Objectives and Endpoints (Section 2).
+The PD parameters included PLP, PLP/PL ratio, and PPi. Summaries of absolute, change, and percent change from baseline for all participants up to 1 week post IV dose and for subsequent participants post IV dose (SC doses) for PD parameters are presented in Table 14.3.4.7.1 and Table 14.3.4.7.3, respectively. Absolute, change, and percent change from baseline in mean plasma concentration versus relative time to dose using IV portion of first participants up to
+1 week post-IV dose and SC dose of subsequent participants is presented in Figure 14.2.2.1.
+Mean (±SD) plasma PLP, PLP/PL ratio, and PPi, versus time profiles by cohort (cohorts overlaid) are presented in Figure 9, Figure 10, and Figure 11, respectively. For PPi, PLP, and PLP/PL endpoints, maximum PD-lowering effects occurred after IV infusion in 7 days and returned to &lt; 50% baseline levels prior to start of SC administration. Individual (as well as mean) plasma concentrations decreased after each SC administration and PD-lowering effects were sustained for 3 to 4 weeks after the last SC dose prior to gradually returning to baseline by the end of study on Day 78 or 8 weeks. The magnitude and duration of ALXN1850 induced reductions in PPi, PLP, and PLP/PL appear dose dependent. Compare to PLP mean profiles, PLP/PL ratio mean profiles show apparent lower variability. Note, for the PPi PD endpoint, about 40% of sample concentrations were BLQ (0.75 µM) and the impact of BLQ samples were
+not captured in descriptive statistics. The decrease of PPi mean changes and duration of mean changes appears dose dependent although Figure 11 mean profiles did not capture true trends due to the high percentage of samples in with concentrations &lt;BLQ.
+Figure 9: Sensitivity Analysis of Absolute and Percent Change from Baseline in Mean (±SD) Plasma PLP Concentration versus Relative Time to Dose by Cohort (Cohorts Overlaid) - Excluded Participant Data After Missed Dose (Pharmacodynamic Set)
+78
+57
+43
+29
+24
+23
+22
+16
+15
+12
+10
+89
+5
+23
+11.01
+Concentration (ng/mL)
+IV portion includes first subjects up to 168hr post IV dose. SC dose includes subsequent participants. Excluded participant records after a missed dose.
+Baseline is represented as Day 1. End of infusion day is calculated as day 1+0.25 hour (time window for sampling)/24 hours=Day 1.01
+Source: End-of-Text Figure 14.2.2.2
+Figure 10: Sensitivity Analysis of Absolute and Percent Change from Baseline in Mean (±SD) Plasma PLP/PL Ratio Concentration versus Relative Time to Dose by Cohort (Cohorts Overlaid) - Excluded Participant Data After Missed Dose (Pharmacodynamic Set)
+78
+57
+43
+29
+24
+23
+22
+16
+15
+12
+10
+89
+5
+23
+11.01
+Concentration (RATIO)
+IV portion includes first subjects up to 168hr post IV dose. SC dose includes subsequent participants. Excluded participant records after a missed dose.
+Baseline is represented as Day 1. End of infusion day is calculated as day 1+0.25 hour (time window for sampling)/24 hours=Day 1.01
+Source: End-of-Text Figure 14.2.2.2
+Figure 11: Sensitivity Analysis of Absolute and Percent Change from Baseline in Mean (±SD) Plasma PPi Concentration versus Relative Time to Dose by Cohort (Cohorts Overlaid) - Excluded Participant Data After Missed Dose (Pharmacodynamic Set)
+78
+57
+43
+29
+24
+23
+22
+16
+15
+12
+10
+89
+5
+23
+11.01
+Concentration (uM)
+IV portion includes first subjects up to 168hr post IV dose. SC dose includes subsequent participants. Excluded participant records after a missed dose.
+Baseline is represented as Day 1. End of infusion day is calculated as day 1+0.25 hour (time window for sampling)/24 hours=Day 1.01
+Source: End-of-Text Figure 14.2.2.2
+A sensitivity analysis of change and percent change from baseline by cohort and relative time to dose for subsequent participants post IV dose for PD parameters is presented in Table 14.3.4.7.4. Sensitivity analyses of absolute, change, and percent change from baseline in mean plasma concentration versus relative time to dose using IV portion of first participants up to 1 week
+post-IV dose and SC dose of subsequent participants, with excluded participant who missed dose and using all data of first participants are presented in Figure 14.2.2.2 and Figure 14.2.2.3, respectively.
+Summaries of change and percent change from baseline for all participants up to 1 week post IV dose and for subsequent participants post IV dose for PD parameters by ADA status are presented in Table 14.3.4.7.2 and Table 14.3.4.7.5, respectively. Individual plasma concentration versus relative time to dose by ADA status is presented in Figure 14.2.2.4. Presence of ADA was not associated with any impact on PD.
+Individual PD results are listed in Listing 16.2.9.1.
+Immunogenicity
+A summary of ALXN1850 ADA status and NAb response is presented in Table 14.3.4.8.1 and ADA titer by relative time to dose is presented in Table 14.3.4.8.2. Mean ADA titer versus relative time to dose and individual ADA titer versus relative time to dose are presented by cohort in Figure 14.2.3.1 and Figure 14.2.3.2, respectively. A total of 4 (26.7%) participants had ADA positive status, including 3 (20.0%) with pre-existing immunogenicity and 1 (6.7%) with treatment-emergent ADA response. All ADA positive participants exhibited low titers (range: 10 to 80). No participants had NAb positive results. Treatment-emergent positive ADA response did not have apparent impact on ALXN1850 PK or PD, and were not associated with hypersensitivity, anaphylaxis, or any other immune mediated AE. No participants in the 45 mg and 90 mg dose groups exhibited treatment-emergent ADA responses, suggesting higher doses may result in lower incidence of immunogenicity.
+Individual ADA status, NAb response, and maximum ADA titer are presented for all participants and for ADA positive participants only in Listing 16.2.9.2.1 and Listing 16.2.9.2.2, respectively. (Note: Only samples that were ADA positive have an NAb result included in Listing 16.2.9.2.1; all participants were NAb negative [Listing 16.2.9.2.3].)
+Cross-reactive immunological material assay data are presented in Listing 16.2.8.14.
+Exploratory Biomarkers
+Exploratory biomarkers included PTH, sCTX, P1NP, osteocalcin, ionized calcium, phosphorus, magnesium, and PA. A summary of changes from baseline in exploratory biomarkers PTH, sCTX, P1NP, and osteocalcin is presented in Table 14.3.4.9 and individual results are presented in Listing 16.2.9.3. Absolute values and change and percent change from baseline in PTH, sCTX, P1NP, and osteocalcin are presented in Figure 14.2.4.1. The results for the exploratory parameters of ionized calcium, phosphorus (as phosphate), and magnesium are presented with the clinical laboratory chemistry results (Table 14.3.4.2.1, Table 14.3.4.2.4, Table 14.3.4.2.5, and Listing 16.2.8.2). Summaries of change and percent change from baseline for all participants up to 1 week post IV dose and for subsequent participants post IV dose (SC doses) for PA are presented in Table 14.3.4.7.1 and Table 14.3.4.7.3, respectively. Absolute, change, and percent change from baseline in mean plasma PA concentration versus relative time to dose using IV portion of first participants up to 1 week post-IV dose and SC dose of subsequent participants is
+presented in Figure 14.2.2.1. Overall, PA results remain similar to baseline over time. Individual PA results are listed in Listing 16.2.9.1.
+Overall, no clinically meaningful trends in change from baseline over time were noted for the exploratory biomarkers. As discussed in Section 5.1.2.3, hyperphosphatemia was reported for 2 participants (both in Cohort 1) and blood phosphorus increased for 1 participant (Cohort 3);
+these events were considered resolved and only one event of hyperphosphatemia was considered by the investigator as related to study drug.
+CONCLUSIONS
+ALXN1850 given IV as a single dose and given SC in 3 qw doses had an acceptable safety profile and was well tolerated in adults with HPP.
+No deaths were reported during the study.
+Injection site reactions (10 occurrences) were reported for 8 participants (53.3%) after receiving ALXN1850 via SC injection. No adverse events of hypersensitivity or anaphylactic reaction were reported during the study.
+Following IV and SC doses, the peak and total exposure of ALXN1850 increased with increasing dose in a greater than dose proportional manner over the dose range of 15 to 90 mg. Mean half-life of ALXN1850 was 72.6 hours and 140 hours following IV and SC administration, respectively. Statistical analysis of trough concentrations demonstrated attainment of steady state on Day 8.
+Absolute bioavailability of ALXN1850 following SC dose ranged from 28.6% to 36.7%.
+The concentrations of PPi, PLP, and PLP/PL ratio decreased following IV dose and over time returned to baseline levels. The magnitude and duration of ALXN1850 induced reductions in PPi, PLP, and PLP/PL ratio appear dose dependent. The maximum lowering effects occurred after IV dose in 7 days, and lowering effects were sustained for 3 to 4 weeks post last SC dose prior to returning to baseline.
+Treatment-emergent positive ADA response did not have apparent any impact on ALXN1850 PK or PD, and were not associated with hypersensitivity, anaphylaxis, or any other immune mediated adverse event.
+REFERENCES
+Berkseth KE, Tebben PJ, Drake MT, Hefferan TE, Jewison DE, Wermers RA. Clinical spectrum of hypophosphatasia diagnosed in adults. Bone. 2013;54(1):21-27.
+Rockman-Greenberg C. Hypophosphatasia. Pediatric endocrinology reviews : PER. 2013;10 Suppl 2:380-388.
+Weber TJ, Sawyer EK, Moseley S, Odrljin T, Kishnani PS. Burden of disease in adult patients with hypophosphatasia: Results from two patient-reported surveys. Metabolism: clinical and experimental. 2016;65(10):1522-1530.
+Whyte M. Hypophosphatasia. In Thakker RV, Whyte MP, Eisman J, Igarashi T, editors Genetics of Bone Biology and Skeletal Disease San Diego, CA: Elsevier (Academic Press). 2013:337- 360.
