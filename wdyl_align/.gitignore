@@ -1,0 +1,9 @@
+# pycharm project settings
+../.idea/
+
+# Distribution / packaging
+.Python
+env/
+venv/
+.venv/
+build/
