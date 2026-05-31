@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documents Alignment Tool</title>
+    <style>
+        /* CSS变量定义 */
+        :root {
+            --apple-blue: #007AFF;
+            --apple-gray: #F5F5F7;
+            --text-primary: #1D1D1F;
+            --text-secondary: #86868B;
+            --border-color: #D2D2D7;
+            --card-bg: rgba(255, 255, 255, 0.8);
+        }
+
+        /* 页面基础样式 */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #fbfbfd;
+            /* 添加一个柔和的背景渐变，模拟 macOS 桌面 */
+            background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            color: var(--text-primary);
+        }
+
+        /* 容器样式 */
+        .container {
+            background-color: var(--card-bg);
+            backdrop-filter: blur(20px); /* 毛玻璃效果 */
+            -webkit-backdrop-filter: blur(20px);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 480px;
+            border: 1px solid rgba(255, 255, 255, 0.5);
+        }
+
+        /* 标题样式 */
+        h2 {
+            text-align: center;
+            font-weight: 600;
+            margin-top: 0;
+            margin-bottom: 30px;
+            font-size: 22px;
+            letter-spacing: -0.5px;
+        }
+
+        /* 表单组样式 */
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        /* 标签样式 */
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: var(--text-secondary);
+            font-size: 13px;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        /* 输入框样式 */
+        input[type="text"],
+        input[type="file"] {
+            width: 100%;
+            padding: 12px 15px;
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            box-sizing: border-box;
+            font-size: 15px;
+            background-color: rgba(255, 255, 255, 0.9);
+            transition: all 0.2s ease;
+            color: var(--text-primary);
+        }
+
+        input[type="text"]:focus {
+            outline: none;
+            border-color: var(--apple-blue);
+            box-shadow: 0 0 0 4px rgba(0, 122, 255, 0.15); /* Apple 风格的聚焦光晕 */
+        }
+
+        input[type="file"] {
+            padding: 10px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+
+        /* 文件选择按钮样式 */
+        input[type="file"]::file-selector-button {
+            border: none;
+            background: var(--apple-gray);
+            padding: 8px 12px;
+            border-radius: 8px;
+            color: var(--text-primary);
+            cursor: pointer;
+            margin-right: 10px;
+            font-weight: 500;
+            transition: background 0.2s;
+        }
+        
+        input[type="file"]::file-selector-button:hover {
+            background: #e5e5ea;
+        }
+
+        /* 输入框加按钮布局 */
+        .input-with-btn {
+            display: flex;
+            gap: 10px;
+        }
+
+        .input-with-btn input {
+            flex: 1;
+        }
+
+        /* 辅助按钮样式 (Secondary Button) */
+        #btn_t1 {
+            background-color: var(--apple-gray);
+            color: var(--text-primary);
+            border: none;
+            border-radius: 12px;
+            padding: 0 20px;
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            white-space: nowrap;
+        }
+
+        #btn_t1:hover {
+            background-color: #e5e5ea;
+        }
+
+        #btn_t1:active {
+            transform: scale(0.96);
+        }
+
+        /* 表单行布局 */
+        .form-row {
+            display: flex;
+            gap: 15px;
+        }
+
+        .form-row .form-group {
+            flex: 1;
+        }
+
+        /* 主要按钮样式 (Primary Button) */
+        input[type="submit"] {
+            width: 100%;
+            padding: 14px;
+            background-color: var(--apple-blue);
+            color: white;
+            border: none;
+            border-radius: 12px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            margin-top: 10px;
+            box-shadow: 0 2px 10px rgba(0, 122, 255, 0.2);
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0062cc;
+            box-shadow: 0 4px 12px rgba(0, 122, 255, 0.3);
+        }
+
+        input[type="submit"]:active {
+            transform: scale(0.98);
+        }
+
+        /* 提示文本样式 */
+        .hint {
+            font-size: 12px;
+            color: var(--text-secondary);
+            margin-top: 6px;
+            margin-left: 2px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Section to display files to align -->
+    <h2>Documents Alignment Tool</h2>
+    <form id="alignForm" action="/align_documents" method="post" enctype="multipart/form-data">
+        <div class="form-group">
+            <label for="english_file">English Document</label>
+            <input type="file" name="english_file" id="english_file" accept=".txt,.doc,.docx,.pdf" required />
+        </div>
+        <div class="form-group">
+            <label for="chinese_file">Chinese Document</label>
+            <input type="file" name="chinese_file" id="chinese_file" accept=".txt,.doc,.docx,.pdf" required />
+        </div>
+        <div class="form-group" style="margin-top: 30px;">
+            <input type="submit" value="Align Files" id="alignButton" />
+        </div>
+    </form>
+
+    <!-- Section to display aligned files -->
+    <div id="resultsSection" style="display: none; margin-top: 30px;">
+        <h3>Aligned Files</h3>
+        <div id="alignedFilesList"></div>
+    </div>
+
+</div>
+
+<script type="text/javascript">
+    // 处理对齐表单提交事件
+    document.getElementById("alignForm").addEventListener('submit', async function(e) {
+        e.preventDefault(); // 阻止默认表单提交行为
+        
+        const formData = new FormData(this);
+        const submitButton = document.getElementById('alignButton');
+        
+        // 禁用按钮并显示加载状态
+        submitButton.disabled = true;
+        submitButton.value = 'Processing...';
+        
+        try {
+            const response = await fetch('/align_documents', {
+                method: 'POST',
+                body: formData
+            });
+            
+            if (response.ok) {
+                const result = await response.json();
+                displayAlignedFiles(result.files);
+            } else {
+                console.error('Alignment failed:', await response.text());
+                alert('Alignment failed. Please check the console for details.');
+            }
+        } catch (error) {
+            console.error('Error during alignment:', error);
+            alert('An error occurred during alignment. Please check the console for details.');
+        } finally {
+            // 重新启用按钮并重置文本
+            submitButton.disabled = false;
+            submitButton.value = 'Align Files';
+        }
+    });
+    
+    // 显示对齐文件的函数（带下载按钮）
+    function displayAlignedFiles(files) {
+        const resultsSection = document.getElementById('resultsSection');
+        const fileList = document.getElementById('alignedFilesList');
+        
+        // 清除之前的结果
+        fileList.innerHTML = '';
+        
+        if (files && files.length > 0) {
+            // 创建表格以显示文件和下载按钮
+            const table = document.createElement('table');
+            table.style.width = '100%';
+            table.style.borderCollapse = 'collapse';
+            table.style.marginTop = '15px';
+            
+            // 添加表头
+            const headerRow = document.createElement('tr');
+            headerRow.innerHTML = `
+                <th style="text-align: left; padding: 10px; border-bottom: 1px solid var(--border-color);">File Name</th>
+                <th style="text-align: center; padding: 10px; border-bottom: 1px solid var(--border-color);">Size</th>
+                <th style="text-align: right; padding: 10px; border-bottom: 1px solid var(--border-color);">Actions</th>
+            `;
+            table.appendChild(headerRow);
+            
+            // 为每个文件添加一行
+            files.forEach(file => {
+                const row = document.createElement('tr');
+                
+                // 格式化文件大小
+                const formattedSize = formatFileSize(file.size || 0);
+                
+                row.innerHTML = `
+                    <td style="padding: 10px; border-bottom: 1px solid var(--border-color);">
+                        <span title="${file.name}">${truncateFileName(file.name, 30)}</span>
+                    </td>
+                    <td style="padding: 10px; border-bottom: 1px solid var(--border-color); text-align: center;">
+                        ${formattedSize}
+                    </td>
+                    <td style="padding: 10px; border-bottom: 1px solid var(--border-color); text-align: right;">
+                        <button onclick="downloadFile('${file.download_url}', '${file.name}')" 
+                                style="background-color: var(--apple-blue); color: white; border: none; 
+                                       border-radius: 8px; padding: 8px 16px; font-size: 14px; cursor: pointer;">
+                            Download
+                        </button>
+                    </td>
+                `;
+                
+                table.appendChild(row);
+            });
+            
+            fileList.appendChild(table);
+            resultsSection.style.display = 'block';
+        } else {
+            fileList.innerHTML = '<p>No aligned files were generated.</p>';
+            resultsSection.style.display = 'block';
+        }
+    }
+    
+    // 格式化文件大小的帮助函数
+    function formatFileSize(bytes) {
+        if (bytes === 0) return '0 Bytes';
+        
+        const k = 1024;
+        const sizes = ['Bytes', 'KB', 'MB', 'GB'];
+        const i = Math.floor(Math.log(bytes) / Math.log(k));
+        
+        return parseFloat((bytes / Math.pow(k, i)).toFixed(2)) + ' ' + sizes[i];
+    }
+    
+    // 截断长文件名的帮助函数
+    function truncateFileName(name, maxLength) {
+        if (name.length <= maxLength) return name;
+        return name.substring(0, maxLength - 3) + '...';
+    }
+    
+    // 触发文件下载的函数
+    function downloadFile(downloadUrl, fileName) {
+        const link = document.createElement('a');
+        link.href = downloadUrl;
+        link.download = fileName;
+        link.style.display = 'none';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    }
+    
+    // btn_t1 的脚本（如果仍需要）
+    const btnT1 = document.getElementById("btn_t1");
+    if(btnT1) {
+        btnT1.addEventListener('click', function () {
+            // 生成更简洁的 ID
+            const randomPart = Math.random().toString(36).slice(2, 8) + Math.random().toString(36).slice(2, 8);
+            const input = document.getElementById("extract_xliff_trans_id");
+            if(input) {
+                input.value = "new_" + randomPart;
+                
+                // 添加一个简单的闪烁动画反馈
+                input.style.backgroundColor = "#e8f2ff";
+                setTimeout(() => {
+                    input.style.backgroundColor = "rgba(255, 255, 255, 0.9)";
+                }, 300);
+            }
+        });
+    }
+</script>
+</body>
+</html>

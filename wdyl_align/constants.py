@@ -1,3 +1,8 @@
+# coding: utf-8
+
+import os
+
+
 LANG_MAPPING = {'zh': '中文',
                 'en': '英文',
                 'ko': '韩语',
@@ -12,3 +17,6 @@ LANG_MAPPING = {'zh': '中文',
                 'de': '德语',
                 'ar': '阿拉伯语',
                 'th': '泰语',}
+
+
+INTERMEDIATE_FILES_BASE_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "intermediate_files")

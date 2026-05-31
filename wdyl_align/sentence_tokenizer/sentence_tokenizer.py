@@ -38,24 +38,25 @@ try:
 except LookupError:
     nltk.download('punkt')
 
-# # 加载spaCy英文模型
+
+## 加载spaCy英文模型
 # nlp_en = spacy.load("en_core_web_sm")
 # 使用封装好的函数来加载英文模型
 nlp_en = load_spacy_model("en_core_web_sm")
 
 
-# 1. 英文断句：使用 spaCy（工业级，准确度高，速度快）
+# 英文断句：使用 spaCy（工业级，准确度高，速度快）
 def split_english_spacy(text):
     doc = nlp_en(text)
     return [sent.text.strip() for sent in doc.sents]
 
 
-# 2. 英文断句：使用 NLTK（学术常用，简单易用）
+# 英文断句：使用 NLTK（学术常用，简单易用）
 def split_english_nltk(text):
     return sent_tokenize(text)
 
 
-# 3. 中文断句：使用 正则表达式（最常用，兼容性好）
+# 中文断句：使用 正则表达式（最常用，兼容性好）
 def split_chinese_regex(text):
     # 匹配中文常见的句子结束标点：。！？；以及英文的.!?
     pattern = r'([。！？；.!?]["”’]?)'
@@ -65,7 +66,7 @@ def split_chinese_regex(text):
     return sentences
 
 
-# 4. 中文断句：使用 jieba + 标点判断（结合分词，逻辑更严密）
+# 中文断句：使用 jieba + 标点判断（结合分词，逻辑更严密）
 def split_chinese_jieba(text):
     punctuations = set("。！？；.!?")
     sentences = []
