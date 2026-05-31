@@ -5,6 +5,7 @@ import jieba
 import spacy
 import nltk
 from nltk.tokenize import sent_tokenize
+from wdyl_logger.wdyl_logger import logger
 
 
 def load_spacy_model(model_name: str):
@@ -14,21 +15,21 @@ def load_spacy_model(model_name: str):
     try:
         # 尝试直接加载模型
         nlp = spacy.load(model_name)
-        print(f"✅ 成功加载模型: {model_name}")
+        logger.info(f"✅ 成功加载模型: {model_name}")
         return nlp
     except OSError:
         # 捕获到模型不存在的错误 (OSError: [E050])
-        print(f"⚠️ 未找到模型 '{model_name}'，正在尝试自动下载...")
+        logger.info(f"⚠️ 未找到模型 '{model_name}'，正在尝试自动下载...")
         try:
             # 使用当前 Python 解释器执行下载命令
             subprocess.check_call([sys.executable, "-m", "spacy", "download", model_name])
-            print(f"✅ 模型 '{model_name}' 下载并安装成功！")
+            logger.info(f"✅ 模型 '{model_name}' 下载并安装成功！")
 
             # 下载完成后，重新加载模型
             nlp = spacy.load(model_name)
             return nlp
         except Exception as e:
-            print(f"❌ 自动下载模型失败，请检查网络连接或手动执行命令: python -m spacy download {model_name}")
+            logger.info(f"❌ 自动下载模型失败，请检查网络连接或手动执行命令: python -m spacy download {model_name}")
             raise e
 
 
@@ -88,12 +89,12 @@ def split_chinese_jieba(text):
 if __name__ == "__main__":
     # 测试英文文本
     en_text = "Hello world! This is a test sentence. Is Python great for NLP tasks? Yes, it is."
-    print("--- 英文断句测试 ---")
-    print("spaCy结果:", split_english_spacy(en_text))
-    print("NLTK结果: ", split_english_nltk(en_text))
+    logger.info("--- 英文断句测试 ---")
+    logger.info("spaCy结果:", split_english_spacy(en_text))
+    logger.info("NLTK结果: ", split_english_nltk(en_text))
 
     # 测试中文文本
     cn_text = "你好，世界！这是一个测试文本。Python在处理自然语言时非常方便，你觉得呢？"
-    print("\n--- 中文断句测试 ---")
-    print("正则表达式结果:", split_chinese_regex(cn_text))
-    print("jieba分词结果:  ", split_chinese_jieba(cn_text))
+    logger.info("\n--- 中文断句测试 ---")
+    logger.info("正则表达式结果:", split_chinese_regex(cn_text))
+    logger.info("jieba分词结果:  ", split_chinese_jieba(cn_text))

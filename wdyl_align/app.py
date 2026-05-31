@@ -7,20 +7,27 @@ from werkzeug.utils import secure_filename
 import uuid
 from datetime import datetime
 import re
+from extraction.extract_from_docx import extract_docx_content
+
+from utils import return_data
+from wdyl_logger.wdyl_logger import logger
 
 app = Flask(__name__)
 
 # Configure upload folder
 UPLOAD_FOLDER = 'uploads'
-ALLOWED_EXTENSIONS = {'txt', 'docx', 'pdf', 'doc', 'rtf'}
+ALLOWED_EXTENSIONS = {'docx',}
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
+
 
 # Create uploads directory if it doesn't exist
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
+
 def allowed_file(filename):
     return '.' in filename and \
            filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
+
 
 def simple_align_documents(english_text, chinese_text):
     """
@@ -58,6 +65,7 @@ def simple_align_documents(english_text, chinese_text):
             })
     
     return aligned_pairs
+
 
 def create_aligned_file(aligned_data, output_format='txt'):
     """
@@ -101,117 +109,120 @@ def align_documents():
     """
     Endpoint to handle document alignment.
     """
-    try:
-        # Check if the post request has the file parts
-        if 'english_file' not in request.files or 'chinese_file' not in request.files:
-            return jsonify({'error': 'Both English and Chinese files are required'}), 400
-        
-        english_file = request.files['english_file']
-        chinese_file = request.files['chinese_file']
-        
-        if english_file.filename == '' or chinese_file.filename == '':
-            return jsonify({'error': 'Both files must be selected'}), 400
-        
-        if not (allowed_file(english_file.filename) and allowed_file(chinese_file.filename)):
-            return jsonify({'error': 'Invalid file types. Allowed: txt, docx, pdf, doc, rtf'}), 400
-        
-        # Save uploaded files temporarily
-        english_filename = secure_filename(english_file.filename)
-        chinese_filename = secure_filename(chinese_file.filename)
-        
-        english_filepath = os.path.join(app.config['UPLOAD_FOLDER'], f"eng_{uuid.uuid4()}_{english_filename}")
-        chinese_filepath = os.path.join(app.config['UPLOAD_FOLDER'], f"chn_{uuid.uuid4()}_{chinese_filename}")
-        
-        english_file.save(english_filepath)
-        chinese_file.save(chinese_filepath)
-        
-        # Read the content of the files
-        def read_file_content(filepath):
-            ext = filepath.rsplit('.', 1)[1].lower()
-            if ext == 'txt':
-                with open(filepath, 'r', encoding='utf-8') as f:
-                    return f.read()
-            elif ext in ['docx']:
-                try:
-                    from docx import Document
-                    doc = Document(filepath)
-                    full_text = []
-                    for para in doc.paragraphs:
-                        full_text.append(para.text)
-                    return '\n'.join(full_text)
-                except ImportError:
-                    return "Document file detected but docx module not installed"
-            elif ext in ['pdf']:
-                try:
-                    import PyPDF2
-                    with open(filepath, 'rb') as f:
-                        reader = PyPDF2.PdfReader(f)
-                        text = ""
-                        for page in reader.pages:
-                            text += page.extract_text() + "\n"
-                        return text
-                except ImportError:
-                    return "PDF file detected but PyPDF2 module not installed"
-            elif ext in ['doc', 'rtf']:
-                # For simplicity, treat as text files
-                with open(filepath, 'r', encoding='utf-8', errors='ignore') as f:
-                    return f.read()
-            else:
-                with open(filepath, 'r', encoding='utf-8') as f:
-                    return f.read()
-        
-        english_content = read_file_content(english_filepath)
-        chinese_content = read_file_content(chinese_filepath)
-        
-        # Perform alignment
-        aligned_data = simple_align_documents(english_content, chinese_content)
-        
-        # Generate aligned files in different formats
-        output_files = []
-        
-        # Create TXT format
-        txt_content = create_aligned_file(aligned_data, 'txt')
-        txt_filename = f"aligned_{os.path.splitext(english_filename)[0]}_{os.path.splitext(chinese_filename)[0]}.txt"
-        txt_filepath = os.path.join(app.config['UPLOAD_FOLDER'], txt_filename)
-        
-        with open(txt_filepath, 'w', encoding='utf-8') as f:
-            f.write(txt_content)
-        
-        output_files.append({
-            'name': txt_filename,
-            'size': os.path.getsize(txt_filepath),
-            'download_url': f'/download/{txt_filename}',
-            'format': 'txt'
-        })
-        
-        # Create CSV format
-        csv_content = create_aligned_file(aligned_data, 'csv')
-        csv_filename = f"aligned_{os.path.splitext(english_filename)[0]}_{os.path.splitext(chinese_filename)[0]}.csv"
-        csv_filepath = os.path.join(app.config['UPLOAD_FOLDER'], csv_filename)
-        
-        with open(csv_filepath, 'w', encoding='utf-8') as f:
-            f.write(csv_content)
-        
-        output_files.append({
-            'name': csv_filename,
-            'size': os.path.getsize(csv_filepath),
-            'download_url': f'/download/{csv_filename}',
-            'format': 'csv'
-        })
-        
-        # Clean up temporary uploaded files
-        os.remove(english_filepath)
-        os.remove(chinese_filepath)
-        
-        return jsonify({
-            'success': True,
-            'message': 'Documents aligned successfully',
-            'files': output_files
-        })
-        
-    except Exception as e:
-        print(f"Error in align_documents: {str(e)}")
-        return jsonify({'error': f'Internal server error: {str(e)}'}), 500
+    logger.info("Received POST request to alignalign_documents endpoint")
+
+    # try:
+    #     # Check if the post request has the file parts
+    #     if 'english_file' not in request.files or 'chinese_file' not in request.files:
+    #         return return_data(errcode=400, msg="upload files error", data="error: Both English and Chinese files are required")
+    #
+    #     english_file = request.files['english_file']
+    #     chinese_file = request.files['chinese_file']
+    #
+    #     if english_file.filename == '' or chinese_file.filename == '':
+    #         return jsonify({'error': 'Both files must be selected'}), 400
+    #
+    #     if not (allowed_file(english_file.filename) and allowed_file(chinese_file.filename)):
+    #         return jsonify({'error': 'Invalid file types. Allowed: txt, docx, pdf, doc, rtf'}), 400
+    #
+    #     # Save uploaded files temporarily
+    #     english_filename = secure_filename(english_file.filename)
+    #     chinese_filename = secure_filename(chinese_file.filename)
+    #
+    #     english_filepath = os.path.join(app.config['UPLOAD_FOLDER'], f"eng_{uuid.uuid4()}_{english_filename}")
+    #     chinese_filepath = os.path.join(app.config['UPLOAD_FOLDER'], f"chn_{uuid.uuid4()}_{chinese_filename}")
+    #
+    #     english_file.save(english_filepath)
+    #     chinese_file.save(chinese_filepath)
+    #
+    #     # Read the content of the files
+    #     def read_file_content(filepath):
+    #         ext = filepath.rsplit('.', 1)[1].lower()
+    #         if ext == 'txt':
+    #             with open(filepath, 'r', encoding='utf-8') as f:
+    #                 return f.read()
+    #         elif ext in ['docx']:
+    #             try:
+    #                 from docx import Document
+    #                 doc = Document(filepath)
+    #                 full_text = []
+    #                 for para in doc.paragraphs:
+    #                     full_text.append(para.text)
+    #                 return '\n'.join(full_text)
+    #             except ImportError:
+    #                 return "Document file detected but docx module not installed"
+    #         elif ext in ['pdf']:
+    #             try:
+    #                 import PyPDF2
+    #                 with open(filepath, 'rb') as f:
+    #                     reader = PyPDF2.PdfReader(f)
+    #                     text = ""
+    #                     for page in reader.pages:
+    #                         text += page.extract_text() + "\n"
+    #                     return text
+    #             except ImportError:
+    #                 return "PDF file detected but PyPDF2 module not installed"
+    #         elif ext in ['doc', 'rtf']:
+    #             # For simplicity, treat as text files
+    #             with open(filepath, 'r', encoding='utf-8', errors='ignore') as f:
+    #                 return f.read()
+    #         else:
+    #             with open(filepath, 'r', encoding='utf-8') as f:
+    #                 return f.read()
+    #
+    #     english_content = read_file_content(english_filepath)
+    #     chinese_content = read_file_content(chinese_filepath)
+    #
+    #     # Perform alignment
+    #     aligned_data = simple_align_documents(english_content, chinese_content)
+    #
+    #     # Generate aligned files in different formats
+    #     output_files = []
+    #
+    #     # Create TXT format
+    #     txt_content = create_aligned_file(aligned_data, 'txt')
+    #     txt_filename = f"aligned_{os.path.splitext(english_filename)[0]}_{os.path.splitext(chinese_filename)[0]}.txt"
+    #     txt_filepath = os.path.join(app.config['UPLOAD_FOLDER'], txt_filename)
+    #
+    #     with open(txt_filepath, 'w', encoding='utf-8') as f:
+    #         f.write(txt_content)
+    #
+    #     output_files.append({
+    #         'name': txt_filename,
+    #         'size': os.path.getsize(txt_filepath),
+    #         'download_url': f'/download/{txt_filename}',
+    #         'format': 'txt'
+    #     })
+    #
+    #     # Create CSV format
+    #     csv_content = create_aligned_file(aligned_data, 'csv')
+    #     csv_filename = f"aligned_{os.path.splitext(english_filename)[0]}_{os.path.splitext(chinese_filename)[0]}.csv"
+    #     csv_filepath = os.path.join(app.config['UPLOAD_FOLDER'], csv_filename)
+    #
+    #     with open(csv_filepath, 'w', encoding='utf-8') as f:
+    #         f.write(csv_content)
+    #
+    #     output_files.append({
+    #         'name': csv_filename,
+    #         'size': os.path.getsize(csv_filepath),
+    #         'download_url': f'/download/{csv_filename}',
+    #         'format': 'csv'
+    #     })
+    #
+    #     # Clean up temporary uploaded files
+    #     os.remove(english_filepath)
+    #     os.remove(chinese_filepath)
+    #
+    #     return jsonify({
+    #         'success': True,
+    #         'message': 'Documents aligned successfully',
+    #         'files': output_files
+    #     })
+    #
+    # except Exception as e:
+    #     print(f"Error in align_documents: {str(e)}")
+    #     return jsonify({'error': f'Internal server error: {str(e)}'}), 500
+
 
 @app.route('/download/<filename>')
 def download_file(filename):
