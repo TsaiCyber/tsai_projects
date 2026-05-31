@@ -1,3 +1,5 @@
+# coding: utf-8
+
 from flask import Flask, request, jsonify, send_file, render_template_string
 import os
 import tempfile
