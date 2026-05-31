@@ -1,4 +1,6 @@
 sentencebreak.py
-    修复uniseg库中由于使用xrange导致在python3环境运行出错的问题。将uniseg库中的sentencebreak.py中xrange改为range
+    修复uniseg库中由于使用xrange导致在python3环境运行出错的问题。
+    将uniseg库中的sentencebreak.py中xrange改为range
 db.py
-    修复uniseg库中由于sqlite3多线程访问问题。将uniseg库中的db.py中sqlite3.connect(_dbpath)改为sqlite3.connect(_dbpath, check_same_thread=False)
+    修复uniseg库中由于sqlite3多线程访问问题。
+    将uniseg库中的db.py中sqlite3.connect(_dbpath)改为sqlite3.connect(_dbpath, check_same_thread=False)

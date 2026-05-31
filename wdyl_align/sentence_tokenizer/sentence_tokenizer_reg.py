@@ -1,6 +1,7 @@
+# coding: utf-8
 import re
 import json
-from apps.sentence_tokenizer.config import get_specific_config
+from sentence_tokenizer.config import get_specific_config
 
 import logging
 logger = logging.getLogger('ACT')
@@ -74,6 +75,7 @@ RE_NOT_SPLIT_PATTERN_ZH = re.compile(not_split_zh)
 RE_NOT_SPLIT_PATTERN_EN = re.compile(not_split_en)
 RE_SPLIT_PATTERN_ZH = split_zh
 RE_SPLIT_PATTERN_EN = split_en
+
 # logger.info('zh not split pattern:')
 # logger.info(RE_NOT_SPLIT_PATTERN_ZH)
 # logger.info('en not split pattern:')

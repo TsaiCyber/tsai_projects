@@ -15,15 +15,6 @@ from wdyl_logger.wdyl_logger import logger
 from translate_batch.translate_batch import get_translated_result
 
 
-# 定义重试策略
-retry = Retry(
-    total=3,  # 总重试次数（含首次共4次）
-    backoff_factor=1,  # 指数退避：0s,1s,2s,4s...
-    status_forcelist=[500,502,503,504,429],  # 这些状态码触发重试
-    allowed_methods=["POST"],  # 允许重试 POST（谨慎！）
-)
-
-
 def extract_docx_content(file_path):
     """
     提取 .docx 文件中的所有文本内容
