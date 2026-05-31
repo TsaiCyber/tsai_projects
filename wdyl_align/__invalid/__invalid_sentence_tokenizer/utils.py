@@ -3,7 +3,7 @@ import re
 import string
 import jieba
 from uniseg.sentencebreak import sentence_boundaries
-from __invalid_sentence_tokenizer.sentence_tokenizer_reg \
+from __invalid.__invalid_sentence_tokenizer.sentence_tokenizer_reg \
     import RE_NOT_SPLIT_PATTERN_ZH, RE_NOT_SPLIT_PATTERN_EN, RE_SPLIT_PATTERN_ZH, RE_SPLIT_PATTERN_EN
 
 

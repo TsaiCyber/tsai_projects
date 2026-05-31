@@ -1,6 +1,6 @@
 # coding: utf-8
 from utils import return_data
-from __invalid_sentence_tokenizer.utils import \
+from __invalid.__invalid_sentence_tokenizer.utils import \
     tokenizing, tokenizing_length_limit, tokenizing_word_limit
 import logging
 from constants import LANG_MAPPING

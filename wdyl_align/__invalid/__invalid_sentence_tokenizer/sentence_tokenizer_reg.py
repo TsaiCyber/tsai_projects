@@ -1,7 +1,7 @@
 # coding: utf-8
 import re
 import json
-from __invalid_sentence_tokenizer.config import get_specific_config
+from __invalid.__invalid_sentence_tokenizer.config import get_specific_config
 
 import logging
 logger = logging.getLogger('ACT')

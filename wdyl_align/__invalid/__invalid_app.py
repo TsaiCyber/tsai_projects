@@ -25,7 +25,7 @@ def sentence_tokenizer(sentence: str, lang: str):
 
 @route('/corpus_align')
 def corpus_align():
-    return static_file("corpus_align.html", ".\\")
+    return static_file("../corpus_align.html", ".\\")
 
 
 def main():
