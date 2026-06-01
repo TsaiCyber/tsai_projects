@@ -7,12 +7,12 @@ from werkzeug.utils import secure_filename
 import uuid
 from datetime import datetime
 import re
-from extraction.extract_from_docx import extract_docx_content, save_content_to_file
+from extraction.extract_from_docx import extract_docx_content, save_content_to_file, define_save_files_base_name_and_path
 from sentence_tokenizer.sentence_tokenizer import split_sentences_batch
 
 from utils import return_data
 from wdyl_logger.wdyl_logger import logger
-from constants import INTERMEDIATE_FILES_BASE_DIR, ALLOWED_EXTENSIONS
+from constants import INTERMEDIATE_FILES_BASE_DIR, ALLOWED_FILE_EXTENSIONS
 
 app = Flask(__name__)
 
@@ -23,74 +23,74 @@ os.makedirs(INTERMEDIATE_FILES_BASE_DIR, exist_ok=True)
 
 def allowed_file(filename):
     return '.' in filename and \
-           filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
+           filename.rsplit('.', 1)[1].lower() in ALLOWED_FILE_EXTENSIONS
 
 
-def simple_align_documents(english_text, chinese_text):
-    """
-    A simple algorithm to align English and Chinese documents.
-    This is a basic implementation - in a real application, you'd use
-    more sophisticated NLP techniques for alignment.
-    """
-    # Split documents into paragraphs/sentences
-    eng_paragraphs = [p.strip() for p in english_text.split('\n') if p.strip()]
-    chn_paragraphs = [p.strip() for p in chinese_text.split('\n') if p.strip()]
-    
-    # Simple alignment - pair paragraphs sequentially
-    # In a real app, you'd implement more sophisticated alignment logic
-    aligned_pairs = []
-    min_len = min(len(eng_paragraphs), len(chn_paragraphs))
-    
-    for i in range(min_len):
-        aligned_pairs.append({
-            'english': eng_paragraphs[i],
-            'chinese': chn_paragraphs[i]
-        })
-    
-    # Handle remaining paragraphs if one document is longer
-    if len(eng_paragraphs) > len(chn_paragraphs):
-        for i in range(min_len, len(eng_paragraphs)):
-            aligned_pairs.append({
-                'english': eng_paragraphs[i],
-                'chinese': ''
-            })
-    elif len(chn_paragraphs) > len(eng_paragraphs):
-        for i in range(min_len, len(chn_paragraphs)):
-            aligned_pairs.append({
-                'english': '',
-                'chinese': chn_paragraphs[i]
-            })
-    
-    return aligned_pairs
-
-
-def create_aligned_file(aligned_data, output_format='txt'):
-    """
-    Create an aligned document in the specified format.
-    """
-    if output_format == 'txt':
-        content = "ENGLISH\tCHINESE\n"
-        content += "="*50 + "\n"
-        
-        for pair in aligned_data:
-            eng_line = pair['english'].replace('\t', ' ').replace('\n', ' ')[:200]
-            chn_line = pair['chinese'].replace('\t', ' ').replace('\n', ' ')[:200]
-            content += f"{eng_line}\t{chn_line}\n"
-    
-    elif output_format == 'csv':
-        content = "English Text,Chinese Text\n"
-        for pair in aligned_data:
-            eng_escaped = pair['english'].replace('"', '""')
-            chn_escaped = pair['chinese'].replace('"', '""')
-            content += f'"{eng_escaped}","{chn_escaped}"\n'
-    
-    else:  # Default to txt
-        content = "ENGLISH\tCHINESE\n"
-        content += "="*50 + "\n"
-        for pair in aligned_data:
-            content += f"{pair['english']}\n{pair['chinese']}\n\n"
-    
-    return content
+# def simple_align_documents(english_text, chinese_text):
+#     """
+#     A simple algorithm to align English and Chinese documents.
+#     This is a basic implementation - in a real application, you'd use
+#     more sophisticated NLP techniques for alignment.
+#     """
+#     # Split documents into paragraphs/sentences
+#     eng_paragraphs = [p.strip() for p in english_text.split('\n') if p.strip()]
+#     chn_paragraphs = [p.strip() for p in chinese_text.split('\n') if p.strip()]
+#
+#     # Simple alignment - pair paragraphs sequentially
+#     # In a real app, you'd implement more sophisticated alignment logic
+#     aligned_pairs = []
+#     min_len = min(len(eng_paragraphs), len(chn_paragraphs))
+#
+#     for i in range(min_len):
+#         aligned_pairs.append({
+#             'english': eng_paragraphs[i],
+#             'chinese': chn_paragraphs[i]
+#         })
+#
+#     # Handle remaining paragraphs if one document is longer
+#     if len(eng_paragraphs) > len(chn_paragraphs):
+#         for i in range(min_len, len(eng_paragraphs)):
+#             aligned_pairs.append({
+#                 'english': eng_paragraphs[i],
+#                 'chinese': ''
+#             })
+#     elif len(chn_paragraphs) > len(eng_paragraphs):
+#         for i in range(min_len, len(chn_paragraphs)):
+#             aligned_pairs.append({
+#                 'english': '',
+#                 'chinese': chn_paragraphs[i]
+#             })
+#
+#     return aligned_pairs
+#
+#
+# def create_aligned_file(aligned_data, output_format='txt'):
+#     """
+#     Create an aligned document in the specified format.
+#     """
+#     if output_format == 'txt':
+#         content = "ENGLISH\tCHINESE\n"
+#         content += "="*50 + "\n"
+#
+#         for pair in aligned_data:
+#             eng_line = pair['english'].replace('\t', ' ').replace('\n', ' ')[:200]
+#             chn_line = pair['chinese'].replace('\t', ' ').replace('\n', ' ')[:200]
+#             content += f"{eng_line}\t{chn_line}\n"
+#
+#     elif output_format == 'csv':
+#         content = "English Text,Chinese Text\n"
+#         for pair in aligned_data:
+#             eng_escaped = pair['english'].replace('"', '""')
+#             chn_escaped = pair['chinese'].replace('"', '""')
+#             content += f'"{eng_escaped}","{chn_escaped}"\n'
+#
+#     else:  # Default to txt
+#         content = "ENGLISH\tCHINESE\n"
+#         content += "="*50 + "\n"
+#         for pair in aligned_data:
+#             content += f"{pair['english']}\n{pair['chinese']}\n\n"
+#
+#     return content
 
 
 @app.route('/')
@@ -131,35 +131,31 @@ def align_documents():
                 msg="upload files error",
                 data="ERROR: Invalid file types. Allowed: .docx")
 
-        # Save uploaded files temporarily
         english_filename = secure_filename(english_file.filename)
         chinese_filename = secure_filename(chinese_file.filename)
-        english_filename_base = os.path.splitext(english_filename)[0]
-        chinese_filename_base = os.path.splitext(chinese_filename)[0]
 
         align_work_session_uuid = uuid.uuid4()
 
-        english_file_path = os.path.abspath(
-            os.path.join(INTERMEDIATE_FILES_BASE_DIR, f"{align_work_session_uuid}_en_{english_filename}"))
-        chinese_file_path = os.path.abspath(
-            os.path.join(INTERMEDIATE_FILES_BASE_DIR, f"{align_work_session_uuid}_zh_{chinese_filename}"))
-        english_txt_file_path = os.path.abspath(
-            os.path.join(INTERMEDIATE_FILES_BASE_DIR, f"{align_work_session_uuid}_en_{english_filename_base}.txt"))
-        english_translated_txt_file_path = os.path.abspath(
-            os.path.join(INTERMEDIATE_FILES_BASE_DIR, f"{align_work_session_uuid}_en_translated_{english_filename_base}.txt"))
-        chinese_txt_file_path = os.path.abspath(
-            os.path.join(INTERMEDIATE_FILES_BASE_DIR, f"{align_work_session_uuid}_zh_{chinese_filename_base}.txt"))
+        english_file_path, chinese_file_path, \
+            english_txt_file_path, english_translated_txt_file_path, \
+            chinese_txt_file_path, chinese_translated_txt_file_path = \
+            define_save_files_base_name_and_path(
+                align_work_session_uuid, english_filename, chinese_filename)
 
+        # 保存文件到本地中间文件目录
         english_file.save(english_file_path)
         chinese_file.save(chinese_file_path)
 
-        english_text_list = extract_docx_content(english_file_path)
-        chinese_text_list = extract_docx_content(chinese_file_path)
+        # 抽取文件内容
+        english_text_list = extract_docx_content(english_file_path, file_language='en')
+        chinese_text_list = extract_docx_content(chinese_file_path, file_language='zh')
 
+        # 对文档内容进行分句
         english_tokenized_sentences_list = split_sentences_batch(english_text_list, lang='en')
         chinese_tokenized_sentences_list = split_sentences_batch(chinese_text_list, lang='zh')
 
-        save_content_to_file(english_text_list, english_txt_file_path, english_translated_txt_file_path)
+        # 保存提取的内容到新文件
+        # save_content_to_file(english_text_list, english_txt_file_path, english_translated_txt_file_path)
         # save_content_to_file(chinese_text_list, chinese_txt_file_path)
 
         logger.info('11111111111111111')

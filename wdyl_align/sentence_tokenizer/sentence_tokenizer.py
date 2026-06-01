@@ -87,11 +87,10 @@ def split_chinese_jieba(text):
 
 
 def split_sentences_batch(sentences: list = [], lang='en'):
-    logger.info(f"split_sentences_batch")
+    # logger.info(f"split_sentences_batch")
     try:
-        if sentences == []:
+        if not sentences:
             raise Exception("Input sentences list is empty.")
-
         split_sentences = []
         if lang == 'en':
             for s in sentences:
@@ -105,7 +104,6 @@ def split_sentences_batch(sentences: list = [], lang='en'):
     except Exception as e:
         logger.error(f"Error in split_sentences_batch: {e}")
         return []
-
 
 
 if __name__ == "__main__":

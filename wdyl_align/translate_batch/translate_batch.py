@@ -3,6 +3,7 @@ from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 import json
 
+from constants import BASE_PROTOCOL, BASE_HOST_DOMAIN, BASE_HOST_PORT, TRANSLATION_API
 from wdyl_logger.wdyl_logger import logger
 
 
