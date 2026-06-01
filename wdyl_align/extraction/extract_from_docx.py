@@ -78,7 +78,7 @@ def extract_docx_content(file_path:str, file_language:str='en'):
         for paragraph in document.paragraphs:
             temp = paragraph.text.strip()
             if temp and not ignored_sentence(temp, file_language) and temp not in all_content:
-                logger.info(temp)
+                # logger.info(temp)
                 all_content.append(temp)
 
         # 提取表格内容
@@ -90,7 +90,7 @@ def extract_docx_content(file_path:str, file_language:str='en'):
                         cell_content = extract_paragraphs_from_cell(cell)
                         temp = cell_content.strip()
                         if temp and not ignored_sentence(temp, file_language) and temp not in all_content:
-                            logger.info(temp)
+                            # logger.info(temp)
                             all_content.append(temp)
 
         return all_content

@@ -158,10 +158,22 @@ def align_documents():
         # save_content_to_file(english_text_list, english_txt_file_path, english_translated_txt_file_path)
         # save_content_to_file(chinese_text_list, chinese_txt_file_path)
 
-        logger.info('11111111111111111')
+        # logger.info('11111111111111111')
+        # for en in english_text_list:
+        #     logger.info(en)
+        # for zh in chinese_text_list:
+        #     logger.info(zh)
+
+        # logger.info('22222222222222222')
+        # for english_tokenized_sentence in english_tokenized_sentences_list:
+        #     logger.info(english_tokenized_sentence)
+        # for chinese_tokenized_sentence in chinese_tokenized_sentences_list:
+        #     logger.info(chinese_tokenized_sentence)
+
+        logger.info('3333333333333333')
         logger.info(len(english_text_list))
         logger.info(len(chinese_text_list))
-        logger.info('22222222222222222')
+        logger.info('44444444444444444')
         logger.info(len(english_tokenized_sentences_list))
         logger.info(len(chinese_tokenized_sentences_list))
 

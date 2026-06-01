@@ -69,7 +69,8 @@ def split_chinese_regex(text):
 
 # 中文断句：使用 jieba + 标点判断（结合分词，逻辑更严密）
 def split_chinese_jieba(text):
-    punctuations = set("。！？；.!?")
+    # punctuations = set("。！？；.!?")
+    punctuations = set("。！？；")
     sentences = []
     current_sentence = ""
 
@@ -94,9 +95,15 @@ def split_sentences_batch(sentences: list = [], lang='en'):
         split_sentences = []
         if lang == 'en':
             for s in sentences:
+                # if len(split_english_spacy(s)) > 1:
+                #     logger.info(s)
+                #     logger.info(split_english_spacy(s))
                 split_sentences += split_english_spacy(s)
         elif lang == 'zh':
             for s in sentences:
+                # if len(split_chinese_jieba(s)) > 1:
+                #     logger.info(s)
+                #     logger.info(split_chinese_jieba(s))
                 split_sentences += split_chinese_jieba(s)
         else:
             raise ValueError(f"Unsupported language: {lang}")
