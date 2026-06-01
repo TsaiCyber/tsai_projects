@@ -159,8 +159,8 @@ def align_documents():
         english_tokenized_sentences_list = split_sentences_batch(english_text_list, lang='en')
         chinese_tokenized_sentences_list = split_sentences_batch(chinese_text_list, lang='zh')
 
-        save_content_to_file(english_text_list, english_txt_file_path,english_translated_txt_file_path)
-        save_content_to_file(chinese_text_list, chinese_txt_file_path)
+        save_content_to_file(english_text_list, english_txt_file_path, english_translated_txt_file_path)
+        # save_content_to_file(chinese_text_list, chinese_txt_file_path)
 
         logger.info('11111111111111111')
         logger.info(len(english_text_list))
