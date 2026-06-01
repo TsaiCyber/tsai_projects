@@ -69,7 +69,7 @@ def extract_docx_content_simple(file_path):
         return []
 
 
-def save_content_to_file(content_list, output_filename, output_translated_filename):
+def save_content_to_file(content_list, output_filename, output_translated_filename=None):
     """
     将提取的内容保存到文件
     """

@@ -86,6 +86,28 @@ def split_chinese_jieba(text):
     return sentences
 
 
+def split_sentences_batch(sentences: list = [], lang='en'):
+    logger.info(f"split_sentences_batch")
+    try:
+        if sentences == []:
+            raise Exception("Input sentences list is empty.")
+
+        split_sentences = []
+        if lang == 'en':
+            for s in sentences:
+                split_sentences += split_english_spacy(s)
+        elif lang == 'zh':
+            for s in sentences:
+                split_sentences += split_chinese_jieba(s)
+        else:
+            raise ValueError(f"Unsupported language: {lang}")
+        return split_sentences
+    except Exception as e:
+        logger.error(f"Error in split_sentences_batch: {e}")
+        return []
+
+
+
 if __name__ == "__main__":
     # 测试英文文本
     en_text = "Hello world! This is a test sentence. Is Python great for NLP tasks? Yes, it is."

@@ -7,21 +7,18 @@ from werkzeug.utils import secure_filename
 import uuid
 from datetime import datetime
 import re
-from extraction.extract_from_docx import extract_docx_content
+from extraction.extract_from_docx import extract_docx_content, save_content_to_file
+from sentence_tokenizer.sentence_tokenizer import split_sentences_batch
 
 from utils import return_data
 from wdyl_logger.wdyl_logger import logger
+from constants import INTERMEDIATE_FILES_BASE_DIR, ALLOWED_EXTENSIONS
 
 app = Flask(__name__)
 
-# Configure upload folder
-UPLOAD_FOLDER = 'uploads'
-ALLOWED_EXTENSIONS = {'docx',}
-app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
-
 
 # Create uploads directory if it doesn't exist
-os.makedirs(UPLOAD_FOLDER, exist_ok=True)
+os.makedirs(INTERMEDIATE_FILES_BASE_DIR, exist_ok=True)
 
 
 def allowed_file(filename):
@@ -109,7 +106,72 @@ def align_documents():
     """
     Endpoint to handle document alignment.
     """
-    logger.info("Received POST request to alignalign_documents endpoint")
+    logger.info("Received POST request to align_documents endpoint")
+
+    try:
+        # Check if the post request has the file parts
+        if 'english_file' not in request.files or 'chinese_file' not in request.files:
+            return return_data(
+                errcode=500,
+                msg="upload files error",
+                data="ERROR: Both English and Chinese files are required")
+
+        english_file = request.files['english_file']
+        chinese_file = request.files['chinese_file']
+
+        if english_file.filename == '' or chinese_file.filename == '':
+            return return_data(
+                errcode=500,
+                msg="upload files error",
+                data="ERROR: Both files must be selected")
+
+        if not (allowed_file(english_file.filename) and allowed_file(chinese_file.filename)):
+            return return_data(
+                errcode=500,
+                msg="upload files error",
+                data="ERROR: Invalid file types. Allowed: .docx")
+
+        # Save uploaded files temporarily
+        english_filename = secure_filename(english_file.filename)
+        chinese_filename = secure_filename(chinese_file.filename)
+        english_filename_base = os.path.splitext(english_filename)[0]
+        chinese_filename_base = os.path.splitext(chinese_filename)[0]
+
+        align_work_session_uuid = uuid.uuid4()
+
+        english_file_path = os.path.abspath(
+            os.path.join(INTERMEDIATE_FILES_BASE_DIR, f"{align_work_session_uuid}_en_{english_filename}"))
+        chinese_file_path = os.path.abspath(
+            os.path.join(INTERMEDIATE_FILES_BASE_DIR, f"{align_work_session_uuid}_zh_{chinese_filename}"))
+        english_txt_file_path = os.path.abspath(
+            os.path.join(INTERMEDIATE_FILES_BASE_DIR, f"{align_work_session_uuid}_en_{english_filename_base}.txt"))
+        english_translated_txt_file_path = os.path.abspath(
+            os.path.join(INTERMEDIATE_FILES_BASE_DIR, f"{align_work_session_uuid}_en_translated_{english_filename_base}.txt"))
+        chinese_txt_file_path = os.path.abspath(
+            os.path.join(INTERMEDIATE_FILES_BASE_DIR, f"{align_work_session_uuid}_zh_{chinese_filename_base}.txt"))
+
+        english_file.save(english_file_path)
+        chinese_file.save(chinese_file_path)
+
+        english_text_list = extract_docx_content(english_file_path)
+        chinese_text_list = extract_docx_content(chinese_file_path)
+
+        english_tokenized_sentences_list = split_sentences_batch(english_text_list, lang='en')
+        chinese_tokenized_sentences_list = split_sentences_batch(chinese_text_list, lang='zh')
+
+        save_content_to_file(english_text_list, english_txt_file_path,english_translated_txt_file_path)
+        save_content_to_file(chinese_text_list, chinese_txt_file_path)
+
+        logger.info('11111111111111111')
+        logger.info(len(english_text_list))
+        logger.info(len(chinese_text_list))
+        logger.info('22222222222222222')
+        logger.info(len(english_tokenized_sentences_list))
+        logger.info(len(chinese_tokenized_sentences_list))
+
+    except Exception as e:
+        print(f"Error in align_documents: {str(e)}")
+        return jsonify({'error': f'Internal server error: {str(e)}'}), 500
 
     # try:
     #     # Check if the post request has the file parts
@@ -129,8 +191,8 @@ def align_documents():
     #     english_filename = secure_filename(english_file.filename)
     #     chinese_filename = secure_filename(chinese_file.filename)
     #
-    #     english_filepath = os.path.join(app.config['UPLOAD_FOLDER'], f"eng_{uuid.uuid4()}_{english_filename}")
-    #     chinese_filepath = os.path.join(app.config['UPLOAD_FOLDER'], f"chn_{uuid.uuid4()}_{chinese_filename}")
+    #     english_filepath = os.path.join(INTERMEDIATE_FILES_BASE_DIR, f"eng_{uuid.uuid4()}_{english_filename}")
+    #     chinese_filepath = os.path.join(INTERMEDIATE_FILES_BASE_DIR, f"chn_{uuid.uuid4()}_{chinese_filename}")
     #
     #     english_file.save(english_filepath)
     #     chinese_file.save(chinese_filepath)
@@ -182,7 +244,7 @@ def align_documents():
     #     # Create TXT format
     #     txt_content = create_aligned_file(aligned_data, 'txt')
     #     txt_filename = f"aligned_{os.path.splitext(english_filename)[0]}_{os.path.splitext(chinese_filename)[0]}.txt"
-    #     txt_filepath = os.path.join(app.config['UPLOAD_FOLDER'], txt_filename)
+    #     txt_filepath = os.path.join(INTERMEDIATE_FILES_BASE_DIR, txt_filename)
     #
     #     with open(txt_filepath, 'w', encoding='utf-8') as f:
     #         f.write(txt_content)
@@ -197,7 +259,7 @@ def align_documents():
     #     # Create CSV format
     #     csv_content = create_aligned_file(aligned_data, 'csv')
     #     csv_filename = f"aligned_{os.path.splitext(english_filename)[0]}_{os.path.splitext(chinese_filename)[0]}.csv"
-    #     csv_filepath = os.path.join(app.config['UPLOAD_FOLDER'], csv_filename)
+    #     csv_filepath = os.path.join(INTERMEDIATE_FILES_BASE_DIR, csv_filename)
     #
     #     with open(csv_filepath, 'w', encoding='utf-8') as f:
     #         f.write(csv_content)
@@ -230,7 +292,7 @@ def download_file(filename):
     Endpoint to download aligned files.
     """
     try:
-        filepath = os.path.join(app.config['UPLOAD_FOLDER'], secure_filename(filename))
+        filepath = os.path.join(INTERMEDIATE_FILES_BASE_DIR, secure_filename(filename))
         if os.path.exists(filepath):
             return send_file(filepath, as_attachment=True)
         else:
