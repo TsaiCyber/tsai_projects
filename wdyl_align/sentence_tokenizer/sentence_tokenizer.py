@@ -1,0 +1,152 @@
+# coding: utf-8
+
+import subprocess
+import sys
+import re
+import jieba
+import spacy
+import nltk
+from nltk.tokenize import sent_tokenize
+
+from wdyl_logger.wdyl_logger import logger
+
+
+def load_spacy_model(model_name: str):
+    """
+    智能加载 spaCy 模型，如果模型不存在则自动下载
+    """
+    try:
+        # 尝试直接加载模型
+        nlp = spacy.load(model_name)
+        logger.info(f"✅ 成功加载模型: {model_name}")
+        return nlp
+    except OSError:
+        # 捕获到模型不存在的错误 (OSError: [E050])
+        logger.info(f"⚠️ 未找到模型 '{model_name}'，正在尝试自动下载...")
+        try:
+            # 使用当前 Python 解释器执行下载命令
+            subprocess.check_call([sys.executable, "-m", "spacy", "download", model_name])
+            logger.info(f"✅ 模型 '{model_name}' 下载并安装成功！")
+
+            # 下载完成后，重新加载模型
+            nlp = spacy.load(model_name)
+            return nlp
+        except Exception as e:
+            logger.info(f"❌ 自动下载模型失败，请检查网络连接或手动执行命令: python -m spacy download {model_name}")
+            raise e
+
+
+# 全局变量用于存储已加载的模型
+_nltk_punkt_loaded = False
+_nlp_models = {}
+
+
+def _ensure_nltk_punkt():
+    """
+    确保NLTK punkt数据包已加载
+    """
+    global _nltk_punkt_loaded
+    if not _nltk_punkt_loaded:
+        try:
+            nltk.data.find('tokenizers/punkt')
+        except LookupError:
+            logger.info("⚠️ 未找到NLTK punkt数据包，正在下载...")
+            nltk.download('punkt')
+            logger.info("✅ NLTK punkt数据包下载完成")
+        _nltk_punkt_loaded = True
+
+
+def _get_spacy_model(model_name: str):
+    """
+    获取指定的spaCy模型，如果尚未加载则加载它
+    """
+    global _nlp_models
+    if model_name not in _nlp_models:
+        _nlp_models[model_name] = load_spacy_model(model_name)
+    return _nlp_models[model_name]
+
+
+# 预加载英文模型
+nlp_en = _get_spacy_model("en_core_web_sm")
+
+
+# 英文断句：使用 spaCy（工业级，准确度高，速度快）
+def split_english_spacy(text):
+    doc = nlp_en(text)
+    return [sent.text.strip() for sent in doc.sents]
+
+
+# 英文断句：使用 NLTK（学术常用，简单易用）
+def split_english_nltk(text):
+    _ensure_nltk_punkt()  # 确保punkt数据包已加载
+    return sent_tokenize(text)
+
+
+# 中文断句：使用 正则表达式（最常用，兼容性好）
+def split_chinese_regex(text):
+    # 匹配中文常见的句子结束标点：。！？；以及英文的.!?
+    pattern = r'([。！？；.!?]["”’]?)'
+    # 在结束标点后插入特殊分隔符
+    processed_text = re.sub(pattern, r'\1<SEP>', text)
+    sentences = [s.strip() for s in processed_text.split('<SEP>') if s.strip()]
+    return sentences
+
+
+# 中文断句：使用 jieba + 标点判断（结合分词，逻辑更严密）
+def split_chinese_jieba(text):
+    # punctuations = set("。！？；.!?")
+    punctuations = set("。！？；")
+    sentences = []
+    current_sentence = ""
+
+    # jieba.cut 会将文本切分成词，我们遍历这些词
+    for word in jieba.cut(text):
+        current_sentence += word
+        # 如果词的最后一个字符是标点符号，认为是一个句子的结束
+        if word[-1] in punctuations:
+            sentences.append(current_sentence.strip())
+            current_sentence = ""
+
+    if current_sentence.strip():
+        sentences.append(current_sentence.strip())
+    return sentences
+
+
+def split_sentences_batch(sentences: list = [], lang='en'):
+    logger.info(f"split_sentences_batch : {lang}")
+    try:
+        if not sentences:
+            raise Exception("Input sentences list is empty.")
+        split_sentences = []
+        if lang == 'en':
+            for en_s in sentences:
+                # if len(split_english_spacy(s)) > 1:
+                #     logger.info(s)
+                #     logger.info(split_english_spacy(s))
+                split_sentences += split_english_spacy(en_s)
+        elif lang == 'zh':
+            for zh_s in sentences:
+                # if len(split_chinese_jieba(s)) > 1:
+                #     logger.info(s)
+                #     logger.info(split_chinese_jieba(s))
+                split_sentences += split_chinese_jieba(zh_s)
+        else:
+            raise ValueError(f"Unsupported language: {lang}")
+        return split_sentences
+    except Exception as e:
+        logger.error(f"Error in split_sentences_batch: {e}")
+        return []
+
+
+if __name__ == "__main__":
+    # 测试英文文本
+    en_text = "Hello world! This is a test sentence. Is Python great for NLP tasks? Yes, it is."
+    logger.info("--- 英文断句测试 ---")
+    logger.info("spaCy结果:", split_english_spacy(en_text))
+    logger.info("NLTK结果: ", split_english_nltk(en_text))
+
+    # 测试中文文本
+    cn_text = "你好，世界！这是一个测试文本。Python在处理自然语言时非常方便，你觉得呢？"
+    logger.info("\n--- 中文断句测试 ---")
+    logger.info("正则表达式结果:", split_chinese_regex(cn_text))
+    logger.info("jieba分词结果:  ", split_chinese_jieba(cn_text))

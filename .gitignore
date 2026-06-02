@@ -1,0 +1,17 @@
+# pycharm project settings
+.idea/
+.vscode/
+
+# Distribution / packaging
+.Python
+env/
+venv/
+.venv/
+build/
+
+# 忽略 Python 的缓存文件
+__pycache__/
+*.pyc
+
+# 项目测试文件
+wdyl_align/intermediate_files/*
