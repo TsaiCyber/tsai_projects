@@ -197,11 +197,13 @@
     <form id="alignForm" action="/align_documents" method="post" enctype="multipart/form-data">
         <div class="form-group">
             <label for="english_file">English Document</label>
-            <input type="file" name="english_file" id="english_file" accept=".txt,.doc,.docx,.pdf" required />
+            <!-- <input type="file" name="english_file" id="english_file" accept=".txt,.doc,.docx,.pdf" required /> -->
+            <input type="file" name="english_file" id="english_file" accept=".docx" required />
         </div>
         <div class="form-group">
             <label for="chinese_file">Chinese Document</label>
-            <input type="file" name="chinese_file" id="chinese_file" accept=".txt,.doc,.docx,.pdf" required />
+            <!-- <input type="file" name="chinese_file" id="chinese_file" accept=".txt,.doc,.docx,.pdf" required /> -->
+            <input type="file" name="chinese_file" id="chinese_file" accept=".docx" required />
         </div>
         <div class="form-group" style="margin-top: 30px;">
             <input type="submit" value="Align Files" id="alignButton" />
