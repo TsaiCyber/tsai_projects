@@ -193,6 +193,7 @@
 
     <!-- Section to display files to align -->
     <h2>Documents Alignment Tool</h2>
+
     <form id="alignForm" action="/align_documents" method="post" enctype="multipart/form-data">
         <div class="form-group">
             <label for="english_file">English Document</label>
@@ -206,6 +207,21 @@
             <input type="submit" value="Align Files" id="alignButton" />
         </div>
     </form>
+
+    <!-- 使用说明 -->
+    <div id="instructions" style="margin-top: 30px; padding: 20px; background-color: var(--card-bg); border-radius: 12px; border: 1px solid var(--border-color);">
+        <h3 style="margin-top: 0; color: var(--text-primary);">如何使用此工具</h3>
+        <ol style="padding-left: 20px; color: var(--text-secondary);">
+            <li>使用第一个文件输入框选择一个英文文档</li>
+            <li>使用第二个文件输入框选择对应的中文文档</li>
+            <li>点击【Align Files】按钮处理文档</li>
+            <li>处理完成后，对齐后的文件将出现在下方结果区域</li>
+            <li>点击【Download】下载按钮获取对齐后的文件</li>
+        </ol>
+        <p style="margin-top: 15px; font-size: 14px;"><strong>支持的格式：</strong> .docx</p>
+        <p style="margin-top: 15px; font-size: 14px;">.pdf 文档请手动使用 Adobe Acrobat 等PDF工具转换为 .docx 格式</p>
+        <p style="font-size: 14px;"><strong>注意：</strong> 确保两个文档包含相应的文本段落以便正确对齐。</p>
+    </div>
 
     <!-- Section to display aligned files -->
     <div id="resultsSection" style="display: none; margin-top: 30px;">

@@ -7,91 +7,27 @@ from werkzeug.utils import secure_filename
 import uuid
 from datetime import datetime
 import re
-from extraction.extract_from_docx import extract_docx_content, save_content_to_file, define_save_files_base_name_and_path
-from sentence_tokenizer.sentence_tokenizer import split_sentences_batch
 
-from utils import return_data
+# 导入初始化模块并在应用启动时预加载资源
+from initializer import initialize_resources
+
+from extraction.extract_from_docx import extract_docx_content
+from sentence_tokenizer.sentence_tokenizer import split_sentences_batch
+from translate_batch.translate_batch import get_translated_content_list
+
+from utils import return_data, define_save_files_base_name_and_path, save_content_to_file
 from wdyl_logger.wdyl_logger import logger
 from constants import INTERMEDIATE_FILES_BASE_DIR, ALLOWED_FILE_EXTENSIONS
 
+# 导入BLEU对齐模块
+from bleu_align.bleu_align import align_files_by_bleu, align_texts_by_bleu, save_alignment_to_excel
+
 app = Flask(__name__)
-
-
-# Create uploads directory if it doesn't exist
-os.makedirs(INTERMEDIATE_FILES_BASE_DIR, exist_ok=True)
 
 
 def allowed_file(filename):
     return '.' in filename and \
            filename.rsplit('.', 1)[1].lower() in ALLOWED_FILE_EXTENSIONS
-
-
-# def simple_align_documents(english_text, chinese_text):
-#     """
-#     A simple algorithm to align English and Chinese documents.
-#     This is a basic implementation - in a real application, you'd use
-#     more sophisticated NLP techniques for alignment.
-#     """
-#     # Split documents into paragraphs/sentences
-#     eng_paragraphs = [p.strip() for p in english_text.split('\n') if p.strip()]
-#     chn_paragraphs = [p.strip() for p in chinese_text.split('\n') if p.strip()]
-#
-#     # Simple alignment - pair paragraphs sequentially
-#     # In a real app, you'd implement more sophisticated alignment logic
-#     aligned_pairs = []
-#     min_len = min(len(eng_paragraphs), len(chn_paragraphs))
-#
-#     for i in range(min_len):
-#         aligned_pairs.append({
-#             'english': eng_paragraphs[i],
-#             'chinese': chn_paragraphs[i]
-#         })
-#
-#     # Handle remaining paragraphs if one document is longer
-#     if len(eng_paragraphs) > len(chn_paragraphs):
-#         for i in range(min_len, len(eng_paragraphs)):
-#             aligned_pairs.append({
-#                 'english': eng_paragraphs[i],
-#                 'chinese': ''
-#             })
-#     elif len(chn_paragraphs) > len(eng_paragraphs):
-#         for i in range(min_len, len(chn_paragraphs)):
-#             aligned_pairs.append({
-#                 'english': '',
-#                 'chinese': chn_paragraphs[i]
-#             })
-#
-#     return aligned_pairs
-#
-#
-# def create_aligned_file(aligned_data, output_format='txt'):
-#     """
-#     Create an aligned document in the specified format.
-#     """
-#     if output_format == 'txt':
-#         content = "ENGLISH\tCHINESE\n"
-#         content += "="*50 + "\n"
-#
-#         for pair in aligned_data:
-#             eng_line = pair['english'].replace('\t', ' ').replace('\n', ' ')[:200]
-#             chn_line = pair['chinese'].replace('\t', ' ').replace('\n', ' ')[:200]
-#             content += f"{eng_line}\t{chn_line}\n"
-#
-#     elif output_format == 'csv':
-#         content = "English Text,Chinese Text\n"
-#         for pair in aligned_data:
-#             eng_escaped = pair['english'].replace('"', '""')
-#             chn_escaped = pair['chinese'].replace('"', '""')
-#             content += f'"{eng_escaped}","{chn_escaped}"\n'
-#
-#     else:  # Default to txt
-#         content = "ENGLISH\tCHINESE\n"
-#         content += "="*50 + "\n"
-#         for pair in aligned_data:
-#             content += f"{pair['english']}\n{pair['chinese']}\n\n"
-#
-#     return content
-
 
 @app.route('/')
 def index():
@@ -134,11 +70,14 @@ def align_documents():
         english_filename = secure_filename(english_file.filename)
         chinese_filename = secure_filename(chinese_file.filename)
 
+        # 获取任务 UUID
         align_work_session_uuid = uuid.uuid4()
 
+        # 获取各阶段保存文件路径
         english_file_path, chinese_file_path, \
-            english_txt_file_path, english_translated_txt_file_path, \
-            chinese_txt_file_path, chinese_translated_txt_file_path = \
+            english_txt_file_path, chinese_txt_file_path, \
+            english_translated_txt_file_path, chinese_translated_txt_file_path, \
+            final_aligned_excel_file_path= \
             define_save_files_base_name_and_path(
                 align_work_session_uuid, english_filename, chinese_filename)
 
@@ -154,144 +93,45 @@ def align_documents():
         english_tokenized_sentences_list = split_sentences_batch(english_text_list, lang='en')
         chinese_tokenized_sentences_list = split_sentences_batch(chinese_text_list, lang='zh')
 
-        # 保存提取的内容到新文件
-        # save_content_to_file(english_text_list, english_txt_file_path, english_translated_txt_file_path)
-        # save_content_to_file(chinese_text_list, chinese_txt_file_path)
+        if save_content_to_file(english_tokenized_sentences_list, english_txt_file_path) \
+                and save_content_to_file(chinese_tokenized_sentences_list, chinese_txt_file_path):
+            logger.info("Successfully extracted documents")
+            chinese_tokenized_translated_sentences_list = get_translated_content_list(
+                content_list=chinese_tokenized_sentences_list,
+                language_direction=('zh', 'en'))
 
-        # logger.info('11111111111111111')
-        # for en in english_text_list:
-        #     logger.info(en)
-        # for zh in chinese_text_list:
-        #     logger.info(zh)
+            if save_content_to_file(chinese_tokenized_translated_sentences_list, chinese_translated_txt_file_path):
+                logger.info(f"Successfully translate document {chinese_txt_file_path} to {chinese_translated_txt_file_path}")
 
-        # logger.info('22222222222222222')
-        # for english_tokenized_sentence in english_tokenized_sentences_list:
-        #     logger.info(english_tokenized_sentence)
-        # for chinese_tokenized_sentence in chinese_tokenized_sentences_list:
-        #     logger.info(chinese_tokenized_sentence)
+        # 对齐文档
+        df, matches = align_files_by_bleu(
+            en_file_path=english_txt_file_path,
+            trans_file_path=chinese_translated_txt_file_path,
+            zh_file_path=chinese_txt_file_path,
+            output_file=final_aligned_excel_file_path)
 
-        logger.info('3333333333333333')
-        logger.info(len(english_text_list))
-        logger.info(len(chinese_text_list))
-        logger.info('44444444444444444')
-        logger.info(len(english_tokenized_sentences_list))
-        logger.info(len(chinese_tokenized_sentences_list))
+        # Generate aligned files in different formats
+        output_files = []
+
+        final_aligned_excel_file_name = os.path.basename(final_aligned_excel_file_path)
+        output_files.append({
+            'name': final_aligned_excel_file_name,
+            'size': os.path.getsize(final_aligned_excel_file_path),
+            'download_url': f'/download/{final_aligned_excel_file_name}',
+            'format': 'xlsx',})
+
+        logger.info("Successfully aligned documents")
+
+        return jsonify({
+            'success': True,
+            'message': 'Documents aligned successfully',
+            'files': output_files})
 
     except Exception as e:
         print(f"Error in align_documents: {str(e)}")
-        return jsonify({'error': f'Internal server error: {str(e)}'}), 500
-
-    # try:
-    #     # Check if the post request has the file parts
-    #     if 'english_file' not in request.files or 'chinese_file' not in request.files:
-    #         return return_data(errcode=400, msg="upload files error", data="error: Both English and Chinese files are required")
-    #
-    #     english_file = request.files['english_file']
-    #     chinese_file = request.files['chinese_file']
-    #
-    #     if english_file.filename == '' or chinese_file.filename == '':
-    #         return jsonify({'error': 'Both files must be selected'}), 400
-    #
-    #     if not (allowed_file(english_file.filename) and allowed_file(chinese_file.filename)):
-    #         return jsonify({'error': 'Invalid file types. Allowed: txt, docx, pdf, doc, rtf'}), 400
-    #
-    #     # Save uploaded files temporarily
-    #     english_filename = secure_filename(english_file.filename)
-    #     chinese_filename = secure_filename(chinese_file.filename)
-    #
-    #     english_filepath = os.path.join(INTERMEDIATE_FILES_BASE_DIR, f"eng_{uuid.uuid4()}_{english_filename}")
-    #     chinese_filepath = os.path.join(INTERMEDIATE_FILES_BASE_DIR, f"chn_{uuid.uuid4()}_{chinese_filename}")
-    #
-    #     english_file.save(english_filepath)
-    #     chinese_file.save(chinese_filepath)
-    #
-    #     # Read the content of the files
-    #     def read_file_content(filepath):
-    #         ext = filepath.rsplit('.', 1)[1].lower()
-    #         if ext == 'txt':
-    #             with open(filepath, 'r', encoding='utf-8') as f:
-    #                 return f.read()
-    #         elif ext in ['docx']:
-    #             try:
-    #                 from docx import Document
-    #                 doc = Document(filepath)
-    #                 full_text = []
-    #                 for para in doc.paragraphs:
-    #                     full_text.append(para.text)
-    #                 return '\n'.join(full_text)
-    #             except ImportError:
-    #                 return "Document file detected but docx module not installed"
-    #         elif ext in ['pdf']:
-    #             try:
-    #                 import PyPDF2
-    #                 with open(filepath, 'rb') as f:
-    #                     reader = PyPDF2.PdfReader(f)
-    #                     text = ""
-    #                     for page in reader.pages:
-    #                         text += page.extract_text() + "\n"
-    #                     return text
-    #             except ImportError:
-    #                 return "PDF file detected but PyPDF2 module not installed"
-    #         elif ext in ['doc', 'rtf']:
-    #             # For simplicity, treat as text files
-    #             with open(filepath, 'r', encoding='utf-8', errors='ignore') as f:
-    #                 return f.read()
-    #         else:
-    #             with open(filepath, 'r', encoding='utf-8') as f:
-    #                 return f.read()
-    #
-    #     english_content = read_file_content(english_filepath)
-    #     chinese_content = read_file_content(chinese_filepath)
-    #
-    #     # Perform alignment
-    #     aligned_data = simple_align_documents(english_content, chinese_content)
-    #
-    #     # Generate aligned files in different formats
-    #     output_files = []
-    #
-    #     # Create TXT format
-    #     txt_content = create_aligned_file(aligned_data, 'txt')
-    #     txt_filename = f"aligned_{os.path.splitext(english_filename)[0]}_{os.path.splitext(chinese_filename)[0]}.txt"
-    #     txt_filepath = os.path.join(INTERMEDIATE_FILES_BASE_DIR, txt_filename)
-    #
-    #     with open(txt_filepath, 'w', encoding='utf-8') as f:
-    #         f.write(txt_content)
-    #
-    #     output_files.append({
-    #         'name': txt_filename,
-    #         'size': os.path.getsize(txt_filepath),
-    #         'download_url': f'/download/{txt_filename}',
-    #         'format': 'txt'
-    #     })
-    #
-    #     # Create CSV format
-    #     csv_content = create_aligned_file(aligned_data, 'csv')
-    #     csv_filename = f"aligned_{os.path.splitext(english_filename)[0]}_{os.path.splitext(chinese_filename)[0]}.csv"
-    #     csv_filepath = os.path.join(INTERMEDIATE_FILES_BASE_DIR, csv_filename)
-    #
-    #     with open(csv_filepath, 'w', encoding='utf-8') as f:
-    #         f.write(csv_content)
-    #
-    #     output_files.append({
-    #         'name': csv_filename,
-    #         'size': os.path.getsize(csv_filepath),
-    #         'download_url': f'/download/{csv_filename}',
-    #         'format': 'csv'
-    #     })
-    #
-    #     # Clean up temporary uploaded files
-    #     os.remove(english_filepath)
-    #     os.remove(chinese_filepath)
-    #
-    #     return jsonify({
-    #         'success': True,
-    #         'message': 'Documents aligned successfully',
-    #         'files': output_files
-    #     })
-    #
-    # except Exception as e:
-    #     print(f"Error in align_documents: {str(e)}")
-    #     return jsonify({'error': f'Internal server error: {str(e)}'}), 500
+        return return_data(errcode=500,
+                           msg='Documents alignment error',
+                           data=f'Internal server error: {str(e)}')
 
 
 @app.route('/download/<filename>')
@@ -304,9 +144,13 @@ def download_file(filename):
         if os.path.exists(filepath):
             return send_file(filepath, as_attachment=True)
         else:
-            return jsonify({'error': 'File not found'}), 404
+            return return_data(errcode=404, msg="Download failed", data=f"File {filepath} not found")
     except Exception as e:
-        return jsonify({'error': f'Download failed: {str(e)}'}), 500
+        return return_data(errcode=500, msg="Download failed", data=f"Download failed: {str(e)}")
+
 
 if __name__ == '__main__':
+    # 应用启动时预加载所有必需的资源（NLTK数据包和spaCy模型）
+    initialize_resources()
+
     app.run(debug=True, host='0.0.0.0', port=5000)

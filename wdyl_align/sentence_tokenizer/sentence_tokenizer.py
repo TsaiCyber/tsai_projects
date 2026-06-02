@@ -1,3 +1,5 @@
+# coding: utf-8
+
 import subprocess
 import sys
 import re
@@ -5,6 +7,7 @@ import jieba
 import spacy
 import nltk
 from nltk.tokenize import sent_tokenize
+
 from wdyl_logger.wdyl_logger import logger
 
 
@@ -33,17 +36,38 @@ def load_spacy_model(model_name: str):
             raise e
 
 
-# 首次使用NLTK需要下载punkt数据包
-try:
-    nltk.data.find('tokenizers/punkt')
-except LookupError:
-    nltk.download('punkt')
+# 全局变量用于存储已加载的模型
+_nltk_punkt_loaded = False
+_nlp_models = {}
 
 
-## 加载spaCy英文模型
-# nlp_en = spacy.load("en_core_web_sm")
-# 使用封装好的函数来加载英文模型
-nlp_en = load_spacy_model("en_core_web_sm")
+def _ensure_nltk_punkt():
+    """
+    确保NLTK punkt数据包已加载
+    """
+    global _nltk_punkt_loaded
+    if not _nltk_punkt_loaded:
+        try:
+            nltk.data.find('tokenizers/punkt')
+        except LookupError:
+            logger.info("⚠️ 未找到NLTK punkt数据包，正在下载...")
+            nltk.download('punkt')
+            logger.info("✅ NLTK punkt数据包下载完成")
+        _nltk_punkt_loaded = True
+
+
+def _get_spacy_model(model_name: str):
+    """
+    获取指定的spaCy模型，如果尚未加载则加载它
+    """
+    global _nlp_models
+    if model_name not in _nlp_models:
+        _nlp_models[model_name] = load_spacy_model(model_name)
+    return _nlp_models[model_name]
+
+
+# 预加载英文模型
+nlp_en = _get_spacy_model("en_core_web_sm")
 
 
 # 英文断句：使用 spaCy（工业级，准确度高，速度快）
@@ -54,6 +78,7 @@ def split_english_spacy(text):
 
 # 英文断句：使用 NLTK（学术常用，简单易用）
 def split_english_nltk(text):
+    _ensure_nltk_punkt()  # 确保punkt数据包已加载
     return sent_tokenize(text)
 
 
@@ -88,23 +113,23 @@ def split_chinese_jieba(text):
 
 
 def split_sentences_batch(sentences: list = [], lang='en'):
-    # logger.info(f"split_sentences_batch")
+    logger.info(f"split_sentences_batch : {lang}")
     try:
         if not sentences:
             raise Exception("Input sentences list is empty.")
         split_sentences = []
         if lang == 'en':
-            for s in sentences:
+            for en_s in sentences:
                 # if len(split_english_spacy(s)) > 1:
                 #     logger.info(s)
                 #     logger.info(split_english_spacy(s))
-                split_sentences += split_english_spacy(s)
+                split_sentences += split_english_spacy(en_s)
         elif lang == 'zh':
-            for s in sentences:
+            for zh_s in sentences:
                 # if len(split_chinese_jieba(s)) > 1:
                 #     logger.info(s)
                 #     logger.info(split_chinese_jieba(s))
-                split_sentences += split_chinese_jieba(s)
+                split_sentences += split_chinese_jieba(zh_s)
         else:
             raise ValueError(f"Unsupported language: {lang}")
         return split_sentences
